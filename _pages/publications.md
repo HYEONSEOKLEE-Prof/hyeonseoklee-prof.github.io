@@ -25,7 +25,7 @@ You can also find my articles on my
    *New insights into rice phenology: discovering the effect of insolation on heading response.*  
    **Physiologia Plantarum**, 177(1), e70132.
 
-5. Jo SH, Kim JH, Moon JH, Yang SY, Baek JK, Song YS, Shon JY, et al. (2024).  
+5. Jo SH, Kim JH, Moon JH, Yang SY, Baek JK, Song YS, Shon JY, et al. **Lee HS**, Ha BK (2024).  
    *Effects of mineral fertilization (NPK) on combined high temperature and ozone damage in rice.*  
    **BMC Plant Biology**, 24(1), 974.
 
@@ -37,7 +37,7 @@ You can also find my articles on my
    *Climate Change and an Agronomic Journey from the Past to the Present for the Future (PRICE) Study.*  
    **Agronomy**, 13(11), 2692.
 
-8. Moon CY, Kang BH, Kim WJ, Chowdhury S, Kang S, Lee JD, Kwon SJ, et al. (2023).  
+8. Moon CY, Kang BH, Kim WJ, Chowdhury S, Kang S, Lee JD, Kwon SJ, et al. **Lee HS**, Ha BK (2023).  
    *Morpho-physiological and genetic characteristics of a salt-tolerant mutant line in soybean.*  
    **Theoretical and Applied Genetics**, 136(7), 166.
 
