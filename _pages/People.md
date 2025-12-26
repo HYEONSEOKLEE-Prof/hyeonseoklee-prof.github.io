@@ -9,11 +9,11 @@ author_profile: true
 <div style="display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-top:10px;">
   <div style="text-align:center;">
     <img src="/images/people/hyeonseoklee.jpg" alt="Hyeonseok Lee" style="width:150px;height:160px;object-fit:cover;border-radius:50%;">
-    <div style="margin-top:8px;font-weight:600;">Prof. Hyeonseok Lee</div>
-    <div style="font-size:0.95em;opacity:0.85;">Principal Investigator</div>
+        <div style="margin-top:8px;font-weight:600;">
+      Prof. Hyeonseok Lee <span style="font-weight:400;opacity:0.85;">(Principal Investigator)</span>
+    </div>
   </div>
 </div>
-
 
 **Professional Experience**  
 - Research Scientist, National Institute of Crop Science, Rural Development Administration (Aug 2014–Aug 2025)  
