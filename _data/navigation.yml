@@ -18,7 +18,5 @@ main:
     url: /publications/
   - title: "News"
     url: /year-archive/
-  - title: "Admissions"
-    url: /admissions/
   - title: "Contact"
     url: /contact/
