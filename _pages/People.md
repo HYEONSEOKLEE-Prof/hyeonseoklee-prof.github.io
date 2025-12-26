@@ -14,7 +14,7 @@ author_profile: true
   </div>
 </div>
 
-
+</div>
 **Professional Experience**  
 - Research Scientist, National Institute of Crop Science, Rural Development Administration (Aug 2014–Aug 2025)  
 - Administrative Secretary, The Korean Journal of Crop Science (Sep 2024–Present)  
