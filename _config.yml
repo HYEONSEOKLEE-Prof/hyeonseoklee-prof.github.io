@@ -26,7 +26,7 @@ author:
   avatar           : "lab.jpg"
   name             : "Crop Physiology Lab"
   pronouns         : # example: "she/her"  
-  bio              : "Climate-smart crop production, digital growth indicators, and space agriculture (ratoon rice)"
+  bio              : "Climate-Smart Crop Production, Digital Development Indicators, and Space Crop Production"
   location         : "Daejeon, Republic of Korea"
   employer         : "Department of Crop Science, Chungnam National University"
   uri              : # URL
@@ -35,16 +35,9 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=pU1OIOYAAAAJ&hl=ko"
   inspire-hep      : # URL
-  impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
-  semantic         : # URL
-  ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
+  orcid            : "https://orcid.org/0000-0001-9887-4096"
 
 
   # Repositories and software development
