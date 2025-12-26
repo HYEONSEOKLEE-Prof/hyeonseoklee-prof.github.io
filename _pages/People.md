@@ -15,24 +15,24 @@ author_profile: true
 </div>
 
 ## Ph.D. Students
-- Sohye Jo (Full-time)
-- Juhui Kim (Part-time)
-- Youngseo Song (Part-time)
+- 조소혜
+- 김주희 (Part-time)
+- 송영서 (Part-time)
 
 ## M.S. Students
 - (Add name) — (Full-time/Part-time)
 - (Add name) — (Full-time/Part-time)
 
 ## Undergraduate Researchers
-- Junseop Lee
-- Jinwoo Yang
-- Jiseung Yoo
-- Jungmin Oh
-- Taesu Kim
-- Chaeyu Kang
-- Gyurin Na
-- Yuna Han
-- Hanbin Park
+- 이준섭
+- 양진우
+- 유지승
+- 오정민
+- 강채유
+- 김태수
+- 나규린
+- 한유나
+- 박한빈
 
 ## Alumni
 - (Add name) — (Degree, Year) — (Current affiliation)
