@@ -4,7 +4,10 @@ permalink: /publications/
 author_profile: true
 ---
 
-## SCI(E) Publications
+You can also find my articles on my
+[Google Scholar profile](https://scholar.google.com/citations?user=pU1OIOYAAAAJ&hl=ko).
+
+## SCI(E) Publications (2021~)
 
 1. **Lee HS**, Kim JH, Jo SH, Yang SY, Baek JK, Song YS, Shon J, Chung NJ (2025).  
    *Temperature–Photoperiod Interaction in Rice Phenology for Climate Adaptation: Insights Into Glycerate‐Associated Metabolic Responses.*  
@@ -48,7 +51,7 @@ author_profile: true
 
 ---
 
-## KCI Publications
+## KCI Publications (2021~)
 
 1. Baek J, Yang SY, Mun JH, **Lee HS**, Song YS, Kim JH, Cho SH, Shon J (2024).  
    *Effects of Pre-Harvest Sprouting on the Seed Germination and Seedling Growth of ‘Baromi2’.*  
