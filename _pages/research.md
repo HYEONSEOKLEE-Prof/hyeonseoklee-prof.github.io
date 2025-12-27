@@ -22,15 +22,17 @@ author_profile: true
 </p>
 
 
-## Research Focus
+## Research Areas 
+
+<h3 style="margin-top:0.6rem; margin-bottom:0.3rem; font-weight:800;">
+  Physiological and ecological responses of crops to environmental conditions, from germination to heading, grain filling, and harvest.
+</h3>
+
+## Research Themes
 
 ### Climate-smart crop production
-- Stress mitigation under heat, low light, drought, and salinity
+- Stress mitigation under heat, low light, drought, flooding, and related climate extremes.
 - Biostimulant-based technologies and optimization
-
-### Fundamental crop physiology
-- Phenology and heading regulation
-- Photosynthesis and carbon metabolism
 
 ### Digital growth indicators and modeling
 - Quantitative indicators for growth and development
