@@ -25,7 +25,8 @@ author_profile: true
 ## Research Areas 
 
 <h3 style="margin-top:0.6rem; margin-bottom:0.3rem; font-weight:800;">
-  Physiological and ecological responses of crops to environmental conditions, from germination to heading, grain filling, and harvest.
+  Physiological and ecological responses of crops to environmental conditions,<br>
+  from germination to heading, grain filling, and harvest.
 </h3>
 
 ## Research Themes
