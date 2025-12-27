@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 <div style="margin:24px 0 32px 0; text-align:center;">
-  <img src="/images/Research.png"
+  <img src="/images/Research2.png"
        alt="Crop Physiology Lab Research Vision"
        style="width:720px; max-width:80%; height:auto; border-radius:15px;">
 </div>
