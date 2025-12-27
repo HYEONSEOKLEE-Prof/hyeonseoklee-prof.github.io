@@ -45,4 +45,5 @@ author_profile: true
 - Edible biomass productivity in closed controlled environments
 - Multi-harvest strategies using ratoon rice technologies
 
-### Standardized protocols and technology packages for field application
+### Field Implementation & Standardization
+- Standardized protocols and integrated technology packages for practical field application
