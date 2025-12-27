@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 <div style="margin:24px 0 32px 0; text-align:center;">
-  <img src="/images/Research3.jpg"
+  <img src="/images/research3.jpg"
        alt="Crop Physiology Lab Research Vision"
        style="width:720px; max-width:80%; height:auto; border-radius:15px;">
 </div>
@@ -22,6 +22,8 @@ author_profile: true
 
 ## Research Areas 
 ### Physiological and ecological responses of crops to environmental conditions,<br>from germination to heading, grain filling, and harvest.
+- Multi-disciplinary approach integrating crop physiology, digital data analytics, and advanced cultivation systems
+- Convergence research to bridge fundamental ecophysiological insights with smart agricultural technologies for diverse production environments
 
 <br>
 
