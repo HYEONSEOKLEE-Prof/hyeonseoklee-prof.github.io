@@ -9,7 +9,7 @@ author_profile: true
        alt="Crop Physiology Lab Research Vision"
        style="width:720px; max-width:80%; height:auto; border-radius:15px;">
 </div>
-
+<br>
 
 ## Research Vision
 ### From Ecophysiological Understanding to Novel Agricultural Technologies
@@ -18,9 +18,12 @@ author_profile: true
 - Deep ecophysiological understanding generates new questions and frameworks for applied agricultural technologies
 </p>
 
+<br>
 
 ## Research Areas 
 ### Physiological and ecological responses of crops to environmental conditions,<br>from germination to heading, grain filling, and harvest.
+
+<br>
 
 ## Research Themes
 
