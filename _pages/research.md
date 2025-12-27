@@ -37,7 +37,7 @@ author_profile: true
 - Quantitative indicators for growth and development
 - Predictive models for phenology and productivity
 
-### Space agriculture (controlled environments)
+### Space crop production (controlled environments)
 - Edible biomass productivity in closed controlled environments
 - Multi-harvest strategies using ratoon rice technologies
 
