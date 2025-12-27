@@ -11,12 +11,14 @@ From Ecophysiological Understanding to Novel Agricultural Technologies
 <div style="margin-top:6px; margin-bottom:18px; font-size:1.05rem; opacity:0.85;">
   Deep ecophysiological understanding generates new questions and frameworks for applied agricultural technologies.
 </div>
+<br>
 
 <div style="margin:20px 0 30px 0; text-align:center;">
   <img src="/images/Research.png"
        alt="Crop Physiology Lab Research Vision"
        style="width:800px; max-width:100%; height:auto; border-radius:12px;">
 </div>
+
 ## Research Focus
 
 ### Climate-smart crop production
