@@ -6,13 +6,15 @@ author_profile: true
 
 ## Research Vision
 
-<p style="font-size:1.6em; font-weight:700; margin-top:1.2em;">
-From Ecophysiological Understanding to Novel Agricultural Technologies
-</p>
+<div style="margin-top:1.2em;">
+  <span style="display:block; font-size:2.0rem !important; font-weight:800 !important; line-height:1.25;">
+    From Ecophysiological Understanding to Novel Agricultural Technologies
+  </span>
 
-<p style="font-size:1.05em; font-style:italic; margin-top:0.6em;">
-Deep ecophysiological understanding generates new questions and frameworks for applied agricultural technologies.
-</p>
+  <span style="display:block; margin-top:0.6em; font-size:1.1rem !important; font-style:italic !important; line-height:1.6; opacity:0.95;">
+    Deep ecophysiological understanding generates new questions and frameworks for applied agricultural technologies.
+  </span>
+</div>>
 
 <br>
 
