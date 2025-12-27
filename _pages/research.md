@@ -22,8 +22,8 @@ author_profile: true
 
 ## Research Areas 
 ### Physiological and ecological responses of crops to environmental conditions,<br>from germination to heading, grain filling, and harvest.
-- Multi-disciplinary approach integrating crop physiology, digital data analytics, and advanced cultivation systems
-- Convergence research to bridge fundamental ecophysiological insights with smart agricultural technologies for diverse production environments
+- Integrating ecophysiological insights with smart ag-tech
+- Multi-disciplinary solutions for diverse production environments
 
 <br>
 
