@@ -31,7 +31,8 @@ author_profile: true
 ## Research Themes
 
 ### Climate-smart crop production
-- Stress mitigation under heat, low light, drought, flooding, and related climate extremes.
+- Crop phenological development in response to environmental drivers
+- Stress mitigation under heat, low light, drought, flooding, and related climate extremes
 - Biostimulant-based technologies and optimization
 
 ### Digital growth indicators and modeling
