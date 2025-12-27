@@ -11,6 +11,15 @@ From Ecophysiological Understanding to Novel Agricultural Technologies
 <div style="margin-top:6px; margin-bottom:18px; font-size:1.05rem; opacity:0.85;">
   Deep ecophysiological understanding generates new questions and conceptual frameworks for advanced agricultural technologies.
 </div>
+
+<p style="font-size:1.6em; font-weight:700; margin-top:1.2em;">
+From Ecophysiological Understanding to Novel Agricultural Technologies
+</p>
+
+<p style="font-size:1.05em; font-style:italic; margin-top:0.6em;">
+Deep ecophysiological understanding generates new questions and frameworks for applied agricultural technologies.
+</p>
+
 <br>
 
 <div style="margin:20px 0 30px 0; text-align:center;">
