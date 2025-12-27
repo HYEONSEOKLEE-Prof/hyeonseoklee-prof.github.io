@@ -4,6 +4,13 @@ permalink: /research/
 author_profile: true
 ---
 
+<div style="margin:24px 0 32px 0; text-align:center;">
+  <img src="/images/Research.png"
+       alt="Crop Physiology Lab Research Vision"
+       style="width:720px; max-width:100%; height:auto; border-radius:12px;">
+</div>
+
+
 ## Research Vision
 
 <h3 style="margin-top:0.6rem; margin-bottom:0.3rem; font-weight:800;">
@@ -14,11 +21,6 @@ author_profile: true
   - Deep ecophysiological understanding generates new questions and frameworks for applied agricultural technologies -
 </p>
 
-<div style="margin:24px 0 32px 0; text-align:center;">
-  <img src="/images/Research.png"
-       alt="Crop Physiology Lab Research Vision"
-       style="width:720px; max-width:100%; height:auto; border-radius:12px;">
-</div>
 
 ## Research Focus
 
