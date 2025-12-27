@@ -44,3 +44,5 @@ author_profile: true
 ### Space agriculture (controlled environments)
 - Edible biomass productivity in closed controlled environments
 - Multi-harvest strategies using ratoon rice technologies
+
+### Standardized protocols and technology packages for field application
