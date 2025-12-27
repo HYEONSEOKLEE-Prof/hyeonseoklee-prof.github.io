@@ -4,6 +4,16 @@ permalink: /research/
 author_profile: true
 ---
 
+## Research Vision
+
+*From ecophysiological understanding to novel agricultural technologies*
+
+<div style="margin:20px 0 30px 0; text-align:center;">
+  <img src="/images/Research.png"
+       alt="Crop Physiology Lab Research Vision"
+       style="max-width:100%; height:auto; border-radius:12px;">
+</div>
+
 ## Research Focus
 
 ### Climate-smart crop production
