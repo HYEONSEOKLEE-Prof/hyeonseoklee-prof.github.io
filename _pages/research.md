@@ -9,7 +9,7 @@ author_profile: true
 From Ecophysiological Understanding to Novel Agricultural Technologies
 
 <div style="margin-top:6px; margin-bottom:18px; font-size:1.05rem; opacity:0.85;">
-  Deep ecophysiological understanding generates new questions and frameworks for applied agricultural technologies.
+  Deep ecophysiological understanding generates new questions and conceptual frameworks for advanced agricultural technologies.
 </div>
 <br>
 
