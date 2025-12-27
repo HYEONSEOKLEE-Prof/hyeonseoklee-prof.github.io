@@ -7,21 +7,19 @@ author_profile: true
 ## Research Vision
 
 <div style="margin-top:1.2em;">
-  <span style="display:block; font-size:2.0rem !important; font-weight:800 !important; line-height:1.25;">
+  <div style="font-size:2.0rem; font-weight:800; line-height:1.25; margin-bottom:0.6em;">
     From Ecophysiological Understanding to Novel Agricultural Technologies
-  </span>
+  </div>
 
-  <span style="display:block; margin-top:0.6em; font-size:1.1rem !important; font-style:italic !important; line-height:1.6; opacity:0.95;">
+  <div style="font-size:1.1rem; font-style:italic; line-height:1.6; opacity:0.95;">
     Deep ecophysiological understanding generates new questions and frameworks for applied agricultural technologies.
-  </span>
-</div>>
+  </div>
+</div>
 
-<br>
-
-<div style="margin:20px 0 30px 0; text-align:center;">
+<div style="margin:24px 0 32px 0; text-align:center;">
   <img src="/images/Research.png"
        alt="Crop Physiology Lab Research Vision"
-       style="width:800px; max-width:100%; height:auto; border-radius:12px;">
+       style="width:720px; max-width:100%; height:auto; border-radius:12px;">
 </div>
 
 ## Research Focus
