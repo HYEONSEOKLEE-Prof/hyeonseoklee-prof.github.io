@@ -11,7 +11,7 @@ author_profile: true
 </h3>
 
 <p style="margin-top:0.2rem; margin-bottom:1.2rem; font-style:italic; opacity:0.92;">
-  ➜ Deep ecophysiological understanding generates new questions and frameworks for applied agricultural technologies.
+  - Deep ecophysiological understanding generates new questions and frameworks for applied agricultural technologies.
 </p>
 
 <div style="margin:24px 0 32px 0; text-align:center;">
