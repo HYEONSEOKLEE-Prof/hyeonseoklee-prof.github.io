@@ -12,10 +12,7 @@ author_profile: true
 
 
 ## Research Vision
-
-<h3 style="margin-top:0.6rem; margin-bottom:0.3rem; font-weight:800;">
-  From Ecophysiological Understanding to Novel Agricultural Technologies
-</h3>
+### From Ecophysiological Understanding to Novel Agricultural Technologies
 
 <p style="margin-top:0.2rem; margin-bottom:1.2rem; font-style:italic; opacity:0.92;">
   - Deep ecophysiological understanding generates new questions and frameworks for applied agricultural technologies -
@@ -23,11 +20,7 @@ author_profile: true
 
 
 ## Research Areas 
-
-<h3 style="margin-top:0.6rem; margin-bottom:0.3rem; font-weight:800;">
-  Physiological and ecological responses of crops to environmental conditions,<br>
-  from germination to heading, grain filling, and harvest.
-</h3>
+### Physiological and ecological responses of crops to environmental conditions,<br>from germination to heading, grain filling, and harvest.
 
 ## Research Themes
 
