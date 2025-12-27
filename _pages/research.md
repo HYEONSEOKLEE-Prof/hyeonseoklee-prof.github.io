@@ -34,7 +34,8 @@ author_profile: true
 ### Climate-smart crop production
 - Crop phenological development in response to environmental drivers
 - Stress mitigation under heat, low light, drought, flooding, and related climate extremes
-- Biostimulant-based technologies and optimization
+- Biostimulant-based technologies and treatment optimization
+- Agrivoltaics crop production: optimizing phenology, and productivity under altered light and microclimate conditions.
 
 ### Digital growth indicators and modeling
 - Quantitative indicators for growth and development
