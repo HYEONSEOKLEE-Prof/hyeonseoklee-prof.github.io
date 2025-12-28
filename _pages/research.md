@@ -43,3 +43,10 @@ author_profile: true
 
 ### Field Implementation & Standardization
 - Standardized protocols and integrated technology packages for practical field application
+
+  <div style="margin:24px 0 32px 0; text-align:center;">
+  <img src="/images/research4.png"
+       alt="Crop Physiology Lab Research Vision"
+       style="width:720px; max-width:80%; height:auto; border-radius:15px;">
+</div>
+<br>
