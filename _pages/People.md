@@ -27,8 +27,8 @@ author_profile: true
 - 송영서 (Part-time)
 
 ## M.S. Students
-- (Add name) — (Full-time/Part-time)
-- (Add name) — (Full-time/Part-time)
+- 양진우 — (Full-time)
+- 유지승 — (Full-time)
 
 ## Undergraduate Researchers
 - 이준섭
