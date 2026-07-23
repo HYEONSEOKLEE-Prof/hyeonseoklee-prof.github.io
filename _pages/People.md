@@ -29,17 +29,14 @@ author_profile: true
 ## M.S. Students
 - 양진우 — (Full-time)
 - 유지승 — (Full-time)
+- 오정민 — (Full-time)
 
 ## Undergraduate Researchers
-- 이준섭
-- 양진우
-- 유지승
-- 오정민
-- 강채유
 - 김태수
 - 나규린
 - 한유나
 - 박한빈
+- 강채유
 
 ## Alumni
 - (Add name) — (Degree, Year) — (Current affiliation)
