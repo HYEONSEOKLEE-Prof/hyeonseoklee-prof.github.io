@@ -9,43 +9,51 @@ You can also find my articles on my
 
 ## SCI(E) Publications (2021~)
 
-1. **Lee HS**, Kim JH, Jo SH, Yang SY, Baek JK, Song YS, Shon J, Chung NJ (2025).  
+1. Kim JH, Mun JH, Jo SH, Baek JK, Kim YN, Song YS, Hwang WH, Kim BG, Yang SY, **Lee HS** (2026).  
+   *Evaluation of S7, a synthetic partial abscisic acid agonist, as a potential suppressor of pre-harvest sprouting in rice.*  
+   **BMC Plant Biology**. [https://doi.org/10.1186/s12870-026-09511-9](https://doi.org/10.1186/s12870-026-09511-9)
+
+2. Ban HY, Yang SY, Kim JH, Baek JK, Song YS, Kim YN, Lee KD, et al., **Lee HS** (2026).  
+   *Development of a prototype system for a rice yield prediction using deep learning.*  
+   **Journal of Crop Science and Biotechnology**. [https://doi.org/10.1007/s12892-026-00356-0](https://doi.org/10.1007/s12892-026-00356-0)
+
+3. **Lee HS**, Kim JH, Jo SH, Yang SY, Baek JK, Song YS, Shon J, Chung NJ (2025).  
    *Temperature–Photoperiod Interaction in Rice Phenology for Climate Adaptation: Insights Into Glycerate‐Associated Metabolic Responses.*  
    **Physiologia Plantarum**, 177(4), e70368.
 
-2. **Lee HS**, Jo SH, Kim JH, Yang SY, Baek JK, Song YS, Chung NJ, Kim HY, et al. (2025).  
+4. **Lee HS**, Jo SH, Kim JH, Yang SY, Baek JK, Song YS, Chung NJ, Kim HY, et al. (2025).  
    *Impact of heat and ozone stress on rice growth and productivity: interactive and mitigating effects.*  
    **Science of the Total Environment**, 980, 179471.
 
-3. **Lee HS**, Kim JH, Jo SH, Yang SY, Baek JK, Song YS, Cho JI, Shon J (2025).  
+5. **Lee HS**, Kim JH, Jo SH, Yang SY, Baek JK, Song YS, Cho JI, Shon J (2025).  
    *Physiological factors influencing climate-smart agriculture: Daylength-mediated interaction between tillering and flowering in rice.*  
    **BMC Plant Biology**, 25(1), 400.
 
-4. Kim JH, Jo SH, Moon JH, Yang SY, Baek JK, Song YS, Shon JY, **Lee HS** (2025).  
+6. Kim JH, Jo SH, Moon JH, Yang SY, Baek JK, Song YS, Shon JY, **Lee HS** (2025).  
    *New insights into rice phenology: discovering the effect of insolation on heading response.*  
    **Physiologia Plantarum**, 177(1), e70132.
 
-5. Jo SH, Kim JH, Moon JH, Yang SY, Baek JK, Song YS, Shon JY, et al. **Lee HS**, Ha BK (2024).  
+7. Jo SH, Kim JH, Moon JH, Yang SY, Baek JK, Song YS, Shon JY, et al. **Lee HS**, Ha BK (2024).  
    *Effects of mineral fertilization (NPK) on combined high temperature and ozone damage in rice.*  
    **BMC Plant Biology**, 24(1), 974.
 
-6. Kang BH, Chowdhury S, Kang SH, Shin SY, Lee WH, **Lee HS**, Ha BK (2024).  
+8. Kang BH, Chowdhury S, Kang SH, Shin SY, Lee WH, **Lee HS**, Ha BK (2024).  
    *Transcriptome profiling of a soybean mutant with salt tolerance induced by gamma-ray irradiation.*  
    **Plants**, 13(2), 254.
 
-7. Min H, **Lee HS**, Lee CK, Choi WJ, Ha BK, Lee H, Shin SH, An KN, Kim DK, et al. (2023).  
+9. Min H, **Lee HS**, Lee CK, Choi WJ, Ha BK, Lee H, Shin SH, An KN, Kim DK, et al. (2023).  
    *Climate Change and an Agronomic Journey from the Past to the Present for the Future (PRICE) Study.*  
    **Agronomy**, 13(11), 2692.
 
-8. Moon CY, Kang BH, Kim WJ, Chowdhury S, Kang S, Lee JD, Kwon SJ, et al. **Lee HS**, Ha BK (2023).  
+10. Moon CY, Kang BH, Kim WJ, Chowdhury S, Kang S, Lee JD, Kwon SJ, et al. **Lee HS**, Ha BK (2023).  
    *Morpho-physiological and genetic characteristics of a salt-tolerant mutant line in soybean.*  
    **Theoretical and Applied Genetics**, 136(7), 166.
 
-9. **Lee HS**, Hwang WH, Jeong JH, Yang SY, Jeong NJ, Lee CK, Choi MG (2021).  
-   *Physiological causes of transplantation shock on rice growth inhibition and delayed heading.*  
-   **Scientific Reports**, 11, 16818.
+11. **Lee HS**, Hwang WH, Jeong JH, Yang SY, Jeong NJ, Lee CK, Choi MG (2021).  
+    *Physiological causes of transplantation shock on rice growth inhibition and delayed heading.*  
+    **Scientific Reports**, 11, 16818.
 
-10. **Lee HS**, Choi MG, Hwang WH, Jeong JH, Yang SY, Lee CG (2021).  
+12. **Lee HS**, Choi MG, Hwang WH, Jeong JH, Yang SY, Lee CG (2021).  
     *Occurrence of rice preharvest sprouting varies greatly depending on past weather conditions during grain filling.*  
     **Field Crops Research**, 264, 108087.
 
