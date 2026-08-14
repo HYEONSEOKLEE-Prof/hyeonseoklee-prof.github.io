@@ -1,10 +1,55 @@
 ---
+layout: splash
 permalink: /
-title: "Crop Physiology Lab (CNU)"
-author_profile: true
+title: "CPPL"
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<img src="/images/lab-group-2026.png" alt="Members and research vision of the Crop Physiology Lab at Chungnam National University" style="width:100%;max-width:560px;height:auto;border-radius:16px;display:block;margin:18px 0 0 0;">
+<div class="cppl-shell">
+  <div class="cppl-hero">
+    <img src="/images/cppl-hero-2026.webp" alt="CPPL research team and controlled-environment crop research at Chungnam National University">
+  </div>
+
+  <section class="cppl-intro">
+    <img class="cppl-logo" src="/images/cppl-logo.webp" alt="CPPL logo">
+    <h1>Crop Physiology &amp; Phenomics Laboratory</h1>
+    <div class="cppl-university">Chungnam National University</div>
+    <p>We investigate crop growth, development, and environmental responses and translate physiological understanding into quantitative phenotyping, crop models, and climate-smart production technologies.</p>
+  </section>
+
+  <h2 class="cppl-section-title">Research Areas</h2>
+
+  <div class="cppl-research-grid">
+    <article class="cppl-research-card">
+      <div class="cppl-card-number">01</div>
+      <h3>Crop Physiology</h3>
+      <p>Phenology, photosynthesis, carbon metabolism, and environmental responses</p>
+    </article>
+    <article class="cppl-research-card">
+      <div class="cppl-card-number">02</div>
+      <h3>Climate-Smart Crop Production</h3>
+      <p>Climate stress, biostimulants, resource efficiency, and ratoon multi-harvest systems</p>
+    </article>
+    <article class="cppl-research-card">
+      <div class="cppl-card-number">03</div>
+      <h3>Digital Phenomics &amp; Modeling</h3>
+      <p>Imaging, sensors, artificial intelligence, and crop modeling</p>
+    </article>
+    <article class="cppl-research-card">
+      <div class="cppl-card-number">04</div>
+      <h3>Satellite-Based Crop Monitoring &amp; Modeling</h3>
+      <p>Remote sensing, crop models, growth monitoring, and yield prediction</p>
+    </article>
+  </div>
+
+  <div class="cppl-emerging">Emerging Research · Space Agriculture</div>
+
+  <div class="cppl-home-links">
+    <a href="/research/"><strong>Explore Research →</strong><span>Research vision, approaches, and current themes</span></a>
+    <a href="/members/"><strong>Meet the CPPL Team →</strong><span>Graduate students and undergraduate researchers</span></a>
+    <a href="/opportunities/"><strong>Join CPPL →</strong><span>Graduate and undergraduate research opportunities</span></a>
+  </div>
+</div>
