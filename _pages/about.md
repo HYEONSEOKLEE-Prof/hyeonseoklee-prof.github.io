@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div style="margin:0 0 34px 0;">
-  <img src="/images/lab-group-2026.png" alt="Crop Physiology and Phenomics Laboratory at Chungnam National University" style="width:100%;max-width:1120px;height:auto;border-radius:22px;display:block;margin:0 auto;box-shadow:0 12px 32px rgba(12,49,86,.14);">
+  <img src="/images/cppl-hero-2026.webp" alt="CPPL research team and controlled-environment crop research at Chungnam National University" style="width:100%;max-width:1120px;height:auto;border-radius:22px;display:block;margin:0 auto;box-shadow:0 12px 32px rgba(12,49,86,.14);">
 </div>
 
 <div style="text-align:center;max-width:900px;margin:0 auto 38px auto;">
