@@ -21,34 +21,51 @@ jobs:
           set -euo pipefail
           mkdir -p images/research/recovered
 
-          cat \
-            images/research/source-04.webp \
-            images/research/source-05.webp \
-            images/research/source-06.webp \
-            images/research/source-07.webp \
-            | tr -d '\r\n' \
-            | base64 --decode --ignore-garbage \
-            > images/research/recovered/recovered-a.webp
-
-          cat \
-            images/research/source-08.webp \
-            images/research/source-09.webp \
-            images/research/source-10.webp \
-            images/research/source-11.webp \
-            | tr -d '\r\n' \
-            | base64 --decode --ignore-garbage \
-            > images/research/recovered/recovered-b.webp
-
           python3 - <<'PY'
           from pathlib import Path
-          for p in [
-              Path('images/research/recovered/recovered-a.webp'),
-              Path('images/research/recovered/recovered-b.webp'),
-          ]:
-              data = p.read_bytes()
-              if len(data) < 12 or data[:4] != b'RIFF' or data[8:12] != b'WEBP':
-                  raise SystemExit(f'{p} is not a valid WebP container')
-              print(f'{p}: {len(data)} bytes, valid RIFF/WEBP header')
+          import base64
+          import math
+          import struct
+
+          groups = {
+              'recovered-a.webp': [
+                  'images/research/source-04.webp',
+                  'images/research/source-05.webp',
+                  'images/research/source-06.webp',
+                  'images/research/source-07.webp',
+              ],
+              'recovered-b.webp': [
+                  'images/research/source-08.webp',
+                  'images/research/source-09.webp',
+                  'images/research/source-10.webp',
+                  'images/research/source-11.webp',
+              ],
+          }
+
+          alphabet = set('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=')
+
+          for out_name, parts in groups.items():
+              text = ''.join(Path(p).read_text(encoding='ascii', errors='ignore') for p in parts)
+              text = ''.join(ch for ch in text if ch in alphabet)
+
+              # Decode enough bytes to read the RIFF-declared WebP file size.
+              head = base64.b64decode(text[:64] + '===')
+              if len(head) < 12 or head[:4] != b'RIFF' or head[8:12] != b'WEBP':
+                  raise SystemExit(f'{out_name}: reconstructed stream does not start with RIFF/WEBP')
+
+              total_bytes = struct.unpack('<I', head[4:8])[0] + 8
+              required_chars = 4 * math.ceil(total_bytes / 3)
+              payload = text[:required_chars]
+              payload += '=' * ((4 - len(payload) % 4) % 4)
+              data = base64.b64decode(payload)
+              data = data[:total_bytes]
+
+              if len(data) != total_bytes or data[:4] != b'RIFF' or data[8:12] != b'WEBP':
+                  raise SystemExit(f'{out_name}: invalid reconstructed WebP ({len(data)} / {total_bytes} bytes)')
+
+              out = Path('images/research/recovered') / out_name
+              out.write_bytes(data)
+              print(f'{out}: {len(data)} bytes, valid RIFF/WEBP container')
           PY
 
           file images/research/recovered/recovered-a.webp
