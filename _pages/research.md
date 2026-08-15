@@ -73,9 +73,32 @@ author_profile: false
   </article>
 </div>
 
+<h2 class="cppl-section-title cppl-highlight-title">Selected Research Highlights</h2>
+<div class="cppl-research-visuals">
+  <article class="cppl-visual-card">
+    <div class="cppl-visual-heading"><span>01</span><h3>Crop Physiology</h3></div>
+    <img src="/images/research/research-crop-physiology.webp" alt="Rice crop physiology research on photo-thermal responses, glycerate metabolism, and transcriptomics">
+    <p class="cppl-figure-caption">Photo-thermal regulation, carbon metabolism, and transcriptomic responses in rice.</p>
+  </article>
+
+  <article class="cppl-visual-card">
+    <div class="cppl-visual-heading"><span>02</span><h3>Climate-Smart Crop Production</h3></div>
+    <img src="/images/research/research-climate-smart.webp" alt="Rice climate stress and biostimulant research under heat, ozone, and pre-harvest sprouting conditions">
+    <p class="cppl-figure-caption">Environmental stress physiology and biostimulant-based resilience strategies.</p>
+  </article>
+
+  <article class="cppl-visual-card">
+    <div class="cppl-visual-heading"><span>03</span><h3>Digital Phenomics &amp; Modeling</h3></div>
+    <img src="/images/research/research-digital-phenomics.webp" alt="Digital phenotyping, image analysis, and data-driven crop modeling research">
+    <p class="cppl-figure-caption">Imaging, phenotyping, and data-driven models for crop growth and yield.</p>
+  </article>
+
+  <article class="cppl-visual-card">
+    <div class="cppl-visual-heading"><span>04</span><h3>Satellite-Based Crop Monitoring &amp; Modeling</h3></div>
+    <img src="/images/research/research-satellite-modeling.webp" alt="Regional crop monitoring, climate indicators, and scenario-based yield modeling">
+    <p class="cppl-figure-caption">Climate indicators, regional monitoring, and scenario-based yield prediction.</p>
+  </article>
+</div>
+
 <div class="cppl-emerging">Emerging Research · Space Agriculture</div>
 <p class="cppl-emerging-copy">Long-term expansion toward crop production research for space and closed environments, building on crop physiology, resource efficiency, phenomics, and multi-harvest concepts.</p>
-
-<div class="cppl-research-image">
-  <img src="/images/research-tools-2026.webp" alt="Research and analysis tools used at CPPL">
-</div>
