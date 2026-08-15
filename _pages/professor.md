@@ -37,6 +37,7 @@ author_profile: false
     <h2>Professional Experience</h2>
     <ul>
       <li><strong>Assistant Professor</strong>, Chungnam National University (Sep 2025–Present)</li>
+      <li><strong>Editorial Board Member</strong>, BMC Plant Biology (Feb 2026–Present)</li>
       <li><strong>Research Scientist</strong>, National Institute of Crop Science, Rural Development Administration (Aug 2014–Aug 2025)</li>
       <li><strong>Administrative Secretary</strong>, The Korean Journal of Crop Science (Sep 2024–Present)</li>
     </ul>
