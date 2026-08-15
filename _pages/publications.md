@@ -135,3 +135,12 @@ author_profile: false
 16. **Lee HS**, Hwang WH, Jeong JH, Yang SY, Lim YH, Choi MG, Jeong NJ, et al. (2019).  
     [*Studies on the temperature response and critical day-length affecting the heading date of major cultivating rice varieties in recent Korean paddy field.*](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=pU1OIOYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=pU1OIOYAAAAJ:YsMSGLbcyi4C)  
     **The Korean Journal of Crop Science**, 64(4), 323–335.
+
+
+17. **Lee HS**, Hwang WH, Jeong JH, Ahn SH, Baek JS, Jeong HY, Kim DW, Yun JT, Lee GH, Choi KJ (2017).  
+    [*The Change of Yield, Quality and Growth Properties in Barley by High Temperature During the Winter Period and Spring Sowing.*](https://db.koreascholar.com/Article/Detail/338945)  
+    **The Journal of the Korean Society of International Agriculture**, 29(3), 262–270.
+
+18. **Lee HS**, Hwang WH, Kim DW, Jeong JH, Ahn SH, Baek JS, Jeong HY, Yun JT, Lee GH, Choi KJ (2017).  
+    [*Changes in Starch Synthesis and the Characteristics of Photosynthate Translocation at High Temperature during the Ripening Stage in Barley.*](https://db.koreascholar.com/Article/Detail/330966)  
+    **The Korean Journal of Crop Science**, 62(2), 124–133.
