@@ -347,3 +347,162 @@
     overflow-wrap: anywhere;
   }
 }
+\n/* CPPL editorial navy system · 2026-08-15 */
+:root {
+  --cppl-deep:#071a2b; --cppl-deep-2:#0d2b3b; --cppl-paper:#f4f6f3;
+  --cppl-surface:#fff; --cppl-text:#172630; --cppl-rule:#d8e0e2;
+  --cppl-leaf:#769b4a; --cppl-leaf-soft:#edf3e8;
+}
+html { background:var(--cppl-deep); }
+body { background:var(--cppl-paper); color:var(--cppl-text); }
+.initial-content,#main { background:transparent; }
+
+/* Dark academic navigation */
+.masthead {
+  background:var(--cppl-deep);
+  border-bottom:1px solid rgba(255,255,255,.12);
+  box-shadow:0 8px 26px rgba(3,18,29,.12);
+}
+.greedy-nav { background:var(--cppl-deep); }
+.greedy-nav .site-title,.greedy-nav .visible-links a,.greedy-nav button { color:#f5f8f9; }
+.greedy-nav .site-title { letter-spacing:.08em; }
+.greedy-nav .visible-links a::before { height:2px; background:var(--cppl-leaf); }
+.greedy-nav .visible-links a:hover { color:#bcd79f; }
+.greedy-nav .hidden-links {
+  background:var(--cppl-deep-2); border:1px solid rgba(255,255,255,.12);
+  box-shadow:0 18px 42px rgba(0,0,0,.24);
+}
+.greedy-nav .hidden-links a { color:#f5f8f9; }
+
+/* Editorial rhythm */
+.cppl-shell { max-width:1180px; }
+.cppl-home-kicker {
+  display:inline-block; margin-bottom:15px; color:var(--cppl-leaf);
+  font-size:.76rem; font-weight:850; letter-spacing:.13em; text-transform:uppercase;
+}
+.cppl-intro { max-width:780px; margin-bottom:58px; }
+.cppl-intro h1,.cppl-page-intro h1,.cppl-section-title { color:var(--cppl-deep); }
+.cppl-section-title,.cppl-member-section-title {
+  display:flex; align-items:center; gap:18px; text-align:left;
+  color:var(--cppl-deep); letter-spacing:-.025em;
+}
+.cppl-section-title::after,.cppl-member-section-title::after {
+  content:""; flex:1; height:1px; background:var(--cppl-rule);
+}
+.cppl-member-section-title { margin-top:48px; font-size:1.22rem; }
+.cppl-page-intro {
+  max-width:900px; margin:12px 0 44px; padding-left:24px;
+  border-left:3px solid var(--cppl-leaf); text-align:left;
+}
+.cppl-page-intro p { max-width:760px; margin-bottom:0; }
+
+/* Framed high-resolution homepage hero */
+.cppl-hero {
+  padding:7px; border-radius:16px; background:var(--cppl-deep);
+  box-shadow:0 22px 52px rgba(7,26,43,.18);
+}
+.cppl-hero img { border-radius:10px; }
+
+/* Restrained cards and separators */
+.cppl-research-card,.cppl-panel,.cppl-home-links a,.cppl-member-card,.cppl-visual-card {
+  border:1px solid var(--cppl-rule); border-radius:12px;
+  background:var(--cppl-surface); box-shadow:none;
+}
+.cppl-research-card { border-top:3px solid var(--cppl-leaf); }
+.cppl-research-card:nth-child(even) { border-top-color:#2d7088; }
+.cppl-research-card:hover,.cppl-home-links a:hover,.cppl-member-card:hover {
+  transform:translateY(-2px); border-color:#becbce;
+  box-shadow:0 12px 30px rgba(7,26,43,.08);
+}
+.cppl-card-number { margin-bottom:13px; color:var(--cppl-leaf); }
+.cppl-research-card h3,.cppl-panel h2 { color:var(--cppl-deep); }
+.cppl-panel { border-top:3px solid #c9d7d9; }
+.cppl-panel h2 { padding-bottom:13px; border-bottom:1px solid #e7ecec; }
+
+/* Neutral scientific figure treatment */
+.cppl-visual-card { border-top:3px solid var(--cppl-leaf); }
+.cppl-visual-heading { background:#f0f3ef; border-bottom-color:var(--cppl-rule); }
+.cppl-visual-gallery { background:#f7f8f6; }
+.cppl-visual-figure { border-color:#dfe5e5; border-radius:8px; box-shadow:none; }
+.cppl-figure-caption { border-top-color:var(--cppl-rule); background:#fbfcfa; }
+.cppl-visual-figure:hover img { transform:scale(1.006); }
+
+/* Selective dark feature panels */
+.cppl-profile-card,.cppl-members-hero {
+  border:0; border-radius:16px;
+  background:linear-gradient(135deg,var(--cppl-deep),var(--cppl-deep-2));
+  box-shadow:0 20px 44px rgba(7,26,43,.16);
+}
+.cppl-profile-copy h1,.cppl-members-hero h1 { color:#fff; }
+.cppl-profile-role,.cppl-profile-card .cppl-eyebrow,.cppl-members-hero .cppl-eyebrow { color:#b8d78f; }
+.cppl-profile-affiliation,.cppl-profile-copy p,.cppl-members-hero p { color:#c9d4d9; }
+.cppl-profile-card > img {
+  border:1px solid rgba(255,255,255,.28); border-radius:14px;
+  box-shadow:0 12px 30px rgba(0,0,0,.22);
+}
+.cppl-profile-links a {
+  border-color:rgba(255,255,255,.25); background:rgba(255,255,255,.07);
+  color:#f5f8f9!important;
+}
+.cppl-profile-links a:hover { background:rgba(255,255,255,.14); }
+
+/* Homepage calls to action */
+.cppl-home-links { gap:12px; margin-top:48px; }
+.cppl-home-links a {
+  position:relative; overflow:hidden; border-color:transparent;
+  background:var(--cppl-deep-2);
+}
+.cppl-home-links a::before {
+  content:""; position:absolute; inset:0 auto 0 0; width:3px; background:var(--cppl-leaf);
+}
+.cppl-home-links strong { color:#fff; }
+.cppl-home-links span { color:#bfcbd0; }
+.cppl-emerging {
+  border-color:#cfddc4; border-radius:8px; background:var(--cppl-leaf-soft);
+  color:#456b2f; letter-spacing:.02em;
+}
+
+/* Members and footer */
+.cppl-member-character,.cppl-member-grid-compact .cppl-member-character { border-radius:12px; }
+.cppl-member-card { transition:transform 180ms ease,box-shadow 180ms ease,border-color 180ms ease; }
+.cppl-member-email { color:#486171!important; }
+.page__footer {
+  margin-top:5rem; padding-top:2.2rem; padding-bottom:2.2rem;
+  border-top:3px solid var(--cppl-leaf); background:var(--cppl-deep); color:#bdc9cf;
+}
+.page__footer a,.page__footer-follow .social-icons a,.page__footer-copyright { color:#bdc9cf; }
+.page__footer a:hover { color:#fff; }
+
+/* Optional dark mode */
+html[data-theme="dark"] body,html[data-theme="dark"] .initial-content { background:#07131c; color:#dbe4e8; }
+html[data-theme="dark"] .cppl-intro h1,
+html[data-theme="dark"] .cppl-page-intro h1,
+html[data-theme="dark"] .cppl-section-title,
+html[data-theme="dark"] .cppl-member-section-title { color:#f3f7f8; }
+html[data-theme="dark"] .cppl-intro p,
+html[data-theme="dark"] .cppl-page-intro p,
+html[data-theme="dark"] .cppl-university,
+html[data-theme="dark"] .cppl-research-card p,
+html[data-theme="dark"] .cppl-research-card li,
+html[data-theme="dark"] .cppl-panel li,
+html[data-theme="dark"] .cppl-panel p,
+html[data-theme="dark"] .cppl-member-card p { color:#afbec5; }
+html[data-theme="dark"] .cppl-research-card,
+html[data-theme="dark"] .cppl-panel,
+html[data-theme="dark"] .cppl-member-card { border-color:#29404a; background:#0c202b; }
+html[data-theme="dark"] .cppl-research-card h3,
+html[data-theme="dark"] .cppl-panel h2,
+html[data-theme="dark"] .cppl-member-card h3 { color:#f0f5f6; }
+html[data-theme="dark"] .cppl-section-title::after,
+html[data-theme="dark"] .cppl-member-section-title::after { background:#29404a; }
+html[data-theme="dark"] .cppl-panel h2 { border-bottom-color:#29404a; }
+html[data-theme="dark"] .cppl-member-email { color:#a9c4cf!important; }
+
+@media (max-width:620px) {
+  .cppl-page-intro { padding-left:16px; }
+  .cppl-section-title,.cppl-member-section-title { gap:12px; }
+  .cppl-hero { padding:4px; border-radius:12px; }
+  .cppl-hero img { border-radius:8px; }
+  .cppl-profile-card,.cppl-members-hero { border-radius:12px; }
+}
+
