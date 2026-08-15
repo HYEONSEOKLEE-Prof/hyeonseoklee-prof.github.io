@@ -14,7 +14,7 @@ redirect_from:
   </div>
 
   <section class="cppl-intro">
-    <img class="cppl-logo" src="/images/cppl-logo.webp" alt="CPPL logo">
+    <div class="cppl-home-kicker">CPPL · Chungnam National University</div>
     <h1>Crop Physiology &amp; Phenomics Laboratory</h1>
     <div class="cppl-university">Chungnam National University</div>
     <p>We investigate crop growth, development, and environmental responses and translate physiological understanding into quantitative phenotyping, crop models, and climate-smart production technologies.</p>
