@@ -179,3 +179,36 @@
     min-height: 0;
   }
 }
+
+
+/* Research gallery proportional image sizing */
+.cppl-research-visuals-source {
+  align-items: start;
+}
+
+.cppl-visual-card-source {
+  min-height: 0;
+}
+
+.cppl-visual-card-source .cppl-visual-gallery {
+  flex: none;
+  align-content: start;
+}
+
+.cppl-visual-card-source .cppl-figure-caption {
+  margin-top: 0;
+}
+
+.cppl-visual-card-source .cppl-visual-figure a {
+  height: auto;
+}
+
+.cppl-visual-card-source .cppl-visual-figure img,
+.cppl-visual-card-source .cppl-visual-primary img,
+.cppl-visual-card-source .cppl-gallery-two .cppl-visual-figure img {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  max-height: none;
+  object-fit: contain;
+}
