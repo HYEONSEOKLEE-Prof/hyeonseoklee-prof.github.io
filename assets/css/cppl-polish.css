@@ -506,3 +506,70 @@ html[data-theme="dark"] .cppl-member-email { color:#a9c4cf!important; }
   .cppl-profile-card,.cppl-members-hero { border-radius:12px; }
 }
 
+
+
+/* Shared treatment for publications, news, opportunities and archive pages */
+.page__title {
+  margin-bottom:1.25rem;
+  padding-bottom:.7rem;
+  border-bottom:1px solid var(--cppl-rule);
+  color:var(--cppl-deep);
+  font-size:clamp(1.8rem,3vw,2.5rem);
+  letter-spacing:-.035em;
+}
+.page__content h2:not(.cppl-section-title):not(.cppl-member-section-title) {
+  margin-top:2.25em;
+  padding-bottom:.55rem;
+  border-bottom:1px solid var(--cppl-rule);
+  color:var(--cppl-deep);
+  letter-spacing:-.025em;
+}
+.page__content h3 { color:#26465a; letter-spacing:-.015em; }
+.page__content p,.page__content li { line-height:1.72; }
+.page__content a {
+  color:#17627f;
+  text-decoration-color:rgba(23,98,127,.35);
+  text-decoration-thickness:1px;
+  text-underline-offset:3px;
+}
+.page__content a:hover { color:#0b3767; text-decoration-color:var(--cppl-leaf); }
+.page__content blockquote {
+  margin-left:0;
+  padding:1rem 1.2rem;
+  border-left:3px solid var(--cppl-leaf);
+  background:#edf2ed;
+  color:#4e6069;
+}
+.archive__subtitle {
+  padding-bottom:.65rem;
+  border-bottom:1px solid var(--cppl-rule);
+  color:var(--cppl-deep);
+}
+.list__item { padding-bottom:1.2rem; border-bottom:1px solid var(--cppl-rule); }
+.archive__item-title a { color:var(--cppl-deep); }
+.btn {
+  border-radius:8px;
+  background:var(--cppl-deep);
+  box-shadow:none;
+}
+.sidebar .author__avatar img {
+  border:1px solid var(--cppl-rule);
+  border-radius:14px;
+  box-shadow:none;
+}
+.sidebar .author__name { color:var(--cppl-deep); }
+.sidebar .author__bio,.sidebar .author__urls { color:#5f707a; }
+
+html[data-theme="dark"] .page__title,
+html[data-theme="dark"] .page__content h2:not(.cppl-section-title):not(.cppl-member-section-title),
+html[data-theme="dark"] .page__content h3,
+html[data-theme="dark"] .archive__subtitle,
+html[data-theme="dark"] .archive__item-title a,
+html[data-theme="dark"] .sidebar .author__name { color:#f0f5f6; }
+html[data-theme="dark"] .page__title,
+html[data-theme="dark"] .page__content h2:not(.cppl-section-title):not(.cppl-member-section-title),
+html[data-theme="dark"] .archive__subtitle,
+html[data-theme="dark"] .list__item { border-color:#29404a; }
+html[data-theme="dark"] .page__content blockquote { background:#0c202b; color:#afbec5; }
+html[data-theme="dark"] .sidebar .author__bio,
+html[data-theme="dark"] .sidebar .author__urls { color:#afbec5; }
