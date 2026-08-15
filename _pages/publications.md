@@ -12,7 +12,7 @@ author_profile: false
   </nav>
 </div>
 
-<h2 id="science-indexed">SCI(E) Publications (2021–)</h2>
+<h2 id="science-indexed">SCI(E) Publications</h2>
 
 1. Kim JH, Mun JH, Jo SH, Baek JK, Kim YN, Song YS, Hwang WH, Kim BG, Yang SY, **Lee HS** (2026).  
    *Evaluation of S7, a synthetic partial abscisic acid agonist, as a potential suppressor of pre-harvest sprouting in rice.*  
@@ -64,7 +64,7 @@ author_profile: false
 
 ---
 
-<h2 id="kci-publications">KCI Publications (2021–)</h2>
+<h2 id="kci-publications">KCI Publications</h2>
 
 1. Baek J, Yang SY, Mun JH, **Lee HS**, Song YS, Kim JH, Cho SH, Shon J (2024).  
    *Effects of Pre-Harvest Sprouting on the Seed Germination and Seedling Growth of ‘Baromi2’.*  
@@ -93,3 +93,40 @@ author_profile: false
 7. Yang SY, Hwang WH, Jeong JH, **Lee HS**, Lee CG (2021).  
    *Changes in growth and yield of rice varieties under different planting densities.*  
    **The Korean Journal of Crop Science**, 66(4), 279–288.
+
+
+8. Yang SY, Hwang WH, Jeong JH, **Lee HS**, Lee CG, Choi MG (2021).  
+   [*Effects of temperature on grain filling properties of rice flour varieties during the ripening stage.*](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=pU1OIOYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=pU1OIOYAAAAJ:u5HHmVD_uO8C)  
+   **The Korean Journal of Crop Science**, 66(1), 1–7.
+
+9. Ban HY, Jeong JH, Hwang WH, **Lee HS**, Yang SY, Choi MG, Lee CK, et al. (2020).  
+   [*Predicting the Pre-Harvest Sprouting Rate in Rice Using Machine Learning.*](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=pU1OIOYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=pU1OIOYAAAAJ:YFjsv_pBGBYC)  
+   **Korean Journal of Agricultural and Forest Meteorology**, 22(4), 239–249.
+
+10. Ban HY, Jeong JH, Hwang WH, **Lee HS**, Yang SY, Choi MG, Lee CK (2020).  
+    [*Evaluating cultivation environment and rice productivity under different types of agrivoltaics.*](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=pU1OIOYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=pU1OIOYAAAAJ:zYLM7Y9cAGgC)  
+    **Korean Journal of Agricultural and Forest Meteorology**, 22(4), 258–267.
+
+11. Choi MG, Jeong JH, **Lee HS**, Yang SY, Lee CG, Hwang WH (2020).  
+    [*Changes in the growth of young rice seedlings in the root extension stage under different growth conditions.*](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=pU1OIOYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=pU1OIOYAAAAJ:YOwf2qJgpHMC)  
+    **The Korean Journal of Crop Science**, 65(3), 192–198.
+
+12. Thuy TL, Lee CK, Jeong JH, **Lee HS**, Yang SY, Im YH, Hwang WH (2020).  
+    [*Impact of heat stress on pollen fertility rate at the flowering stage in Korean rice (Oryza sativa L.) cultivars.*](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=pU1OIOYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=pU1OIOYAAAAJ:hqOjcs7Dif8C)  
+    **The Korean Journal of Crop Science**, 65(1), 22–29.
+
+13. Choi MG, **Lee HS**, Hwang WH, Yang SY, Lee YH, Lee C, Yun SJ, et al. (2020).  
+    [*Analysis of Varietal Differences in Pre-harvest Sprouting of Rice using RNA-Sequencing.*](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=pU1OIOYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=pU1OIOYAAAAJ:5nxA0vEk-isC)  
+    **The Korean Journal of Crop Science**, 65(4), 274–283.
+
+14. **Lee HS**, Lee YH, Hwang WH, Jeong JH, Yang SY, Lee CG, Choi MG (2020).  
+    [*Investigation of changes in grain quality and physicochemical properties of rice according to the temperature during the ripening stage and preharvest sprouting.*](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=pU1OIOYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=pU1OIOYAAAAJ:_FxGoFyzp5QC)  
+    **The Korean Journal of Crop Science**, 65(4), 294–302.
+
+15. **Lee HS**, Choi MG, Lee YH, Hwang WH, Jeong JH, Yang SY, Lim YH, et al. (2019).  
+    [*Temperature-dependent differences in heading response at different growth stages of rice.*](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=pU1OIOYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=pU1OIOYAAAAJ:u-x6o8ySG0sC)  
+    **The Korean Journal of Crop Science**, 64(3), 213–224.
+
+16. **Lee HS**, Hwang WH, Jeong JH, Yang SY, Lim YH, Choi MG, Jeong NJ, et al. (2019).  
+    [*Studies on the temperature response and critical day-length affecting the heading date of major cultivating rice varieties in recent Korean paddy field.*](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=pU1OIOYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=pU1OIOYAAAAJ:YsMSGLbcyi4C)  
+    **The Korean Journal of Crop Science**, 64(4), 323–335.
