@@ -50,3 +50,49 @@ author_profile: false
     </ul>
   </section>
 </div>
+
+<section class="cppl-projects-section" aria-labelledby="pi-projects-title">
+  <div class="cppl-projects-heading">
+    <div>
+      <span class="cppl-projects-kicker">Research Leadership</span>
+      <h2 id="pi-projects-title">Principal Investigator Projects</h2>
+    </div>
+    <p>Research programs led across crop physiology, climate resilience, crop modeling, field phenotyping, and satellite-based agricultural monitoring.</p>
+  </div>
+
+  <div class="cppl-project-columns">
+    <section class="cppl-project-group cppl-project-group-current">
+      <h3>Ongoing Projects</h3>
+      <ol class="cppl-project-list">
+        <li><time>2026–2030</time><span>AI-Based Intelligent Field-Operation Decision-Support System for Food Crops</span></li>
+        <li><time>2026–2030</time><span>Development and Advancement of Agricultural-Satellite Observation Technologies for Major Crops</span></li>
+        <li><time>2026</time><span>Climate-Specific Performance Analysis of Rice Crop-Condition Forecasting Models and Strategies for Using Yield Maps <em>Research contract</em></span></li>
+        <li><time>2026</time><span>Economic Impact and Optimal Supply-Rate Analysis of Government-Certified Seed <em>Research contract</em></span></li>
+        <li><time>2025–2029</time><span>Technologies for Scaling Up Production and Improving Yield Stability of Korean Japonica Rice</span></li>
+        <li><time>2025–2029</time><span>Field Surveys and Crop-Condition Assessment to Build Big Data on Regional Rice Growth and Yield</span></li>
+        <li><time>2025–2027</time><span>WUR International Collaboration: Development and Implementation of a Daylength- and Temperature-Driven Growth-Stage Transition Module for ORYZA2000</span></li>
+        <li><time>2024–2027</time><span>Advanced Crop Modeling for Improved Rice Yield Forecasting Using AI, Multi-Model Ensembles, and Extreme-Climate Scenarios</span></li>
+        <li><time>2024–2027</time><span>Assessment of Climate-Disaster Damage and Development of Disaster-Specific Mitigation Technologies for Major Food Crops, Phase II</span></li>
+      </ol>
+    </section>
+
+    <section class="cppl-project-group">
+      <h3>Completed Projects</h3>
+      <ol class="cppl-project-list">
+        <li><time>2023–2025</time><span>Effects of Extreme Weather—Low Solar Radiation and High Temperature—on Rice Heading and Grain-Filling Characteristics</span></li>
+        <li><time>2021–2024</time><span>Field Surveys and Crop-Condition Assessment for a Regional Database of Rice Growth and Yield</span></li>
+        <li><time>2021–2023</time><span>Development of Models for Forecasting National Rice and Barley Production</span></li>
+        <li><time>2020–2023</time><span>Assessment of Climate-Disaster Damage and Development of Disaster-Specific Mitigation Technologies for Major Food Crops, Phase I</span></li>
+        <li><time>2020–2022</time><span>Effects of High-Temperature-Induced Metabolic Changes on Rice Quality and Developmental-Stage Transitions</span></li>
+        <li><time>2019–2022</time><span>Korea–UAE Joint Research: Integrated Technologies for Sustainable Rice Cultivation in Desert Environments</span></li>
+        <li><time>2019–2021</time><span>Food-Crop Production under Agrivoltaic Systems: Environmental Assessment and Cultivation-Method Development</span></li>
+        <li><time>2018–2020</time><span>Effects of Lodging Severity on Grain Yield and Quality in Major Cereal Crops</span></li>
+        <li><time>2017–2019</time><span>Temperature and Photoperiod Effects on Heading-Date Variation in Major Rice Cultivars</span></li>
+        <li><time>2017–2018</time><span>Functional Food Components and Productivity Improvement in Domestically Bred Oat Cultivars for Dementia Prevention</span></li>
+        <li><time>2015–2017</time><span>Characterization of Weather-Disaster Damage and Establishment of Damage Thresholds for Major Food Crops: Rice Lodging</span></li>
+        <li><time>2015–2016</time><span>Effects of High Temperature at Different Growth Stages on Barley Yield and Grain Quality</span></li>
+      </ol>
+    </section>
+  </div>
+</section>
+
