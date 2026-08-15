@@ -111,9 +111,75 @@
   padding: 20px 21px 22px;
 }
 
+.cppl-member-profile-card {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 16px;
+  align-items: center;
+  min-height: 166px;
+}
+
+.cppl-member-grid-compact .cppl-member-profile-card {
+  grid-template-columns: 76px minmax(0, 1fr);
+  gap: 13px;
+  padding: 17px;
+}
+
+.cppl-member-character {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 92px;
+  height: 112px;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #f1f7fa, #f4f8f2);
+  border: 1px solid #e3ebef;
+  font-size: 3.25rem;
+  line-height: 1;
+  user-select: none;
+}
+
+.cppl-member-grid-compact .cppl-member-character {
+  width: 76px;
+  height: 96px;
+  font-size: 2.7rem;
+}
+
+.cppl-member-info {
+  min-width: 0;
+}
+
+.cppl-member-info h3 {
+  margin: 0 0 5px;
+}
+
+.cppl-member-info p {
+  margin: 0;
+}
+
+.cppl-member-email {
+  display: block;
+  margin-top: 10px;
+  color: #344f64 !important;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  text-decoration: none !important;
+  overflow-wrap: anywhere;
+}
+
+.cppl-member-email:hover {
+  color: #0b3767 !important;
+  text-decoration: underline !important;
+}
+
 .cppl-member-parttime {
   background: linear-gradient(145deg, #ffffff, #fbfaf7);
   border-color: #e7dfcf;
+}
+
+.cppl-member-muted {
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-color: #e1e5e8;
 }
 
 .cppl-status {
@@ -139,6 +205,18 @@
   border: 1px solid #eadfbe;
 }
 
+.cppl-status-track {
+  color: #245e74;
+  background: #edf6f9;
+  border: 1px solid #d2e6ed;
+}
+
+.cppl-status-leave {
+  color: #626d78;
+  background: #f2f4f5;
+  border: 1px solid #dfe3e6;
+}
+
 /* Mobile refinements */
 @media (max-width: 900px) {
   .masthead__inner-wrap {
@@ -154,6 +232,18 @@
   .cppl-members-hero {
     text-align: center;
   }
+
+  .cppl-member-profile-card,
+  .cppl-member-grid-compact .cppl-member-profile-card {
+    grid-template-columns: 82px minmax(0, 1fr);
+  }
+
+  .cppl-member-character,
+  .cppl-member-grid-compact .cppl-member-character {
+    width: 82px;
+    height: 102px;
+    font-size: 2.9rem;
+  }
 }
 
 @media (max-width: 620px) {
@@ -168,5 +258,18 @@
 
   .cppl-research-card {
     min-height: 0;
+  }
+
+  .cppl-member-profile-card,
+  .cppl-member-grid-compact .cppl-member-profile-card {
+    grid-template-columns: 72px minmax(0, 1fr);
+    padding: 17px;
+  }
+
+  .cppl-member-character,
+  .cppl-member-grid-compact .cppl-member-character {
+    width: 72px;
+    height: 88px;
+    font-size: 2.5rem;
   }
 }
