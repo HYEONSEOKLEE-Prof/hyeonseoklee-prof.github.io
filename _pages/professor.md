@@ -8,7 +8,7 @@ author_profile: false
   <img src="/images/people/hyeonseoklee.jpg" alt="Hyeonseok Lee">
   <div class="cppl-profile-copy">
     <div class="cppl-eyebrow">Principal Investigator</div>
-    <h1>Hyeonseok Lee, Ph.D.</h1>
+    <h2>Hyeonseok Lee, Ph.D.</h2>
     <div class="cppl-profile-role">Assistant Professor · Department of Crop Science</div>
     <div class="cppl-profile-affiliation">Chungnam National University</div>
     <p>My research focuses on crop physiological ecology and climate-smart crop production, integrating physiological responses, phenomics, crop modeling, remote sensing, and stress-mitigation technologies.</p>
