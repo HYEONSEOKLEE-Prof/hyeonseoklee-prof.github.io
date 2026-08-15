@@ -1,13 +1,18 @@
 ---
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
-You can also find my articles on my
-[Google Scholar profile](https://scholar.google.com/citations?user=pU1OIOYAAAAJ&hl=ko).
+<div class="cppl-publication-intro">
+  <p>Browse CPPL publications below or view the complete citation record on <a href="https://scholar.google.com/citations?user=pU1OIOYAAAAJ&hl=ko">Google Scholar</a>.</p>
+  <nav class="cppl-publication-jumps" aria-label="Publication sections">
+    <a href="#science-indexed">SCI(E)</a>
+    <a href="#kci-publications">KCI</a>
+  </nav>
+</div>
 
-## SCI(E) Publications (2021~)
+<h2 id="science-indexed">SCI(E) Publications (2021–)</h2>
 
 1. Kim JH, Mun JH, Jo SH, Baek JK, Kim YN, Song YS, Hwang WH, Kim BG, Yang SY, **Lee HS** (2026).  
    *Evaluation of S7, a synthetic partial abscisic acid agonist, as a potential suppressor of pre-harvest sprouting in rice.*  
@@ -59,7 +64,7 @@ You can also find my articles on my
 
 ---
 
-## KCI Publications (2021~)
+<h2 id="kci-publications">KCI Publications (2021–)</h2>
 
 1. Baek J, Yang SY, Mun JH, **Lee HS**, Song YS, Kim JH, Cho SH, Shon J (2024).  
    *Effects of Pre-Harvest Sprouting on the Seed Germination and Seedling Growth of ‘Baromi2’.*  
