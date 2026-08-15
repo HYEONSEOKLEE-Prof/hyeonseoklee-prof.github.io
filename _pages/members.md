@@ -18,17 +18,17 @@ author_profile: false
   box-shadow:0 8px 22px rgba(7,26,43,.12);
 }
 .cppl-webtoon .cppl-avatar-ill { display:none!important; }
-.cppl-webtoon-01 { background-position:0% 0%; }
-.cppl-webtoon-02 { background-position:33.333% 0%; }
-.cppl-webtoon-03 { background-position:66.667% 0%; }
-.cppl-webtoon-04 { background-position:100% 0%; }
-.cppl-webtoon-05 { background-position:0% 50%; }
-.cppl-webtoon-06 { background-position:33.333% 50%; }
-.cppl-webtoon-07 { background-position:66.667% 50%; }
-.cppl-webtoon-08 { background-position:100% 50%; }
-.cppl-webtoon-09 { background-position:0% 100%; }
-.cppl-webtoon-10 { background-position:33.333% 100%; }
-.cppl-webtoon-11 { background-position:66.667% 100%; }
+.cppl-webtoon-01 { background-position:0% 0%!important; }
+.cppl-webtoon-02 { background-position:33.333% 0%!important; }
+.cppl-webtoon-03 { background-position:66.667% 0%!important; }
+.cppl-webtoon-04 { background-position:100% 0%!important; }
+.cppl-webtoon-05 { background-position:0% 50%!important; }
+.cppl-webtoon-06 { background-position:33.333% 50%!important; }
+.cppl-webtoon-07 { background-position:66.667% 50%!important; }
+.cppl-webtoon-08 { background-position:100% 50%!important; }
+.cppl-webtoon-09 { background-position:0% 100%!important; }
+.cppl-webtoon-10 { background-position:33.333% 100%!important; }
+.cppl-webtoon-11 { background-position:66.667% 100%!important; }
 .cppl-member-profile-card,
 .cppl-member-grid-compact .cppl-member-profile-card {
   grid-template-columns:112px minmax(0,1fr);
