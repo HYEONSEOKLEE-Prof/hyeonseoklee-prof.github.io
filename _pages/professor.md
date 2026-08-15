@@ -68,17 +68,17 @@ author_profile: false
         <li><time>2026–2030</time><span>Development and Advancement of Agricultural-Satellite Observation Technologies for Major Crops</span></li>
         <li><time>2026</time><span>Climate-Specific Performance Analysis of Rice Crop-Condition Forecasting Models and Strategies for Using Yield Maps <em>Research contract</em></span></li>
         <li><time>2026</time><span>Economic Impact and Optimal Supply-Rate Analysis of Government-Certified Seed <em>Research contract</em></span></li>
-        <li><time>2025–2029</time><span>Technologies for Scaling Up Production and Improving Yield Stability of Korean Japonica Rice</span></li>
-        <li><time>2025–2029</time><span>Field Surveys and Crop-Condition Assessment to Build Big Data on Regional Rice Growth and Yield</span></li>
-        <li><time>2025–2027</time><span>WUR International Collaboration: Development and Implementation of a Daylength- and Temperature-Driven Growth-Stage Transition Module for ORYZA2000</span></li>
-        <li><time>2024–2027</time><span>Advanced Crop Modeling for Improved Rice Yield Forecasting Using AI, Multi-Model Ensembles, and Extreme-Climate Scenarios</span></li>
-        <li><time>2024–2027</time><span>Assessment of Climate-Disaster Damage and Development of Disaster-Specific Mitigation Technologies for Major Food Crops, Phase II</span></li>
       </ol>
     </section>
 
     <section class="cppl-project-group">
       <h3>Completed Projects</h3>
       <ol class="cppl-project-list">
+        <li><time>2025</time><span>Technologies for Scaling Up Production and Improving Yield Stability of Korean Japonica Rice</span></li>
+        <li><time>2025</time><span>Field Surveys and Crop-Condition Assessment to Build Big Data on Regional Rice Growth and Yield</span></li>
+        <li><time>2025</time><span>WUR International Collaboration: Development and Implementation of a Daylength- and Temperature-Driven Growth-Stage Transition Module for ORYZA2000</span></li>
+        <li><time>2024–2025</time><span>Advanced Crop Modeling for Improved Rice Yield Forecasting Using AI, Multi-Model Ensembles, and Extreme-Climate Scenarios</span></li>
+        <li><time>2024–2025</time><span>Assessment of Climate-Disaster Damage and Development of Disaster-Specific Mitigation Technologies for Major Food Crops, Phase II</span></li>
         <li><time>2023–2025</time><span>Effects of Extreme Weather—Low Solar Radiation and High Temperature—on Rice Heading and Grain-Filling Characteristics</span></li>
         <li><time>2021–2024</time><span>Field Surveys and Crop-Condition Assessment for a Regional Database of Rice Growth and Yield</span></li>
         <li><time>2021–2023</time><span>Development of Models for Forecasting National Rice and Barley Production</span></li>
