@@ -4,19 +4,19 @@ permalink: /opportunities/
 author_profile: false
 ---
 
-<div style="max-width:820px;">
+<div class="cppl-opportunities">
   <h2>Join CPPL</h2>
-  <p style="font-size:1.05rem;line-height:1.75;color:#566777;">We welcome motivated students interested in crop physiology, climate-smart crop production, phenomics, crop modeling, remote sensing, and related interdisciplinary research.</p>
+  <p>We welcome motivated students interested in crop physiology, climate-smart crop production, phenomics, crop modeling, remote sensing, and related interdisciplinary research.</p>
 
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin:28px 0;">
-    <div style="padding:24px;border:1px solid #e1e8ee;border-radius:15px;background:#fff;">
-      <h3 style="margin-top:0;color:#174f73;">Graduate Students</h3>
-      <p>M.S. and Ph.D. applicants can develop research topics connecting crop physiology with quantitative and predictive approaches.</p>
-    </div>
-    <div style="padding:24px;border:1px solid #e1e8ee;border-radius:15px;background:#fff;">
-      <h3 style="margin-top:0;color:#174f73;">Undergraduate Researchers</h3>
+  <div class="cppl-opportunity-grid">
+    <section class="cppl-opportunity-card">
+      <h3>Graduate Students</h3>
+      <p>M.S. and Ph.D. applicants can develop research topics connecting crop physiology with quantitative phenotyping and predictive approaches.</p>
+    </section>
+    <section class="cppl-opportunity-card">
+      <h3>Undergraduate Researchers</h3>
       <p>Undergraduate students can participate in laboratory, controlled-environment, field, and data-analysis research activities.</p>
-    </div>
+    </section>
   </div>
 
   <h3>Research Areas</h3>
@@ -27,6 +27,9 @@ author_profile: false
     <li>Satellite-based crop monitoring and yield prediction</li>
   </ul>
 
-  <h3>How to Contact Us</h3>
-  <p>Please send a brief introduction, your curriculum vitae, and your research interests to <strong>hslee1029@cnu.ac.kr</strong>.</p>
+  <section class="cppl-apply-panel">
+    <h3>How to Apply</h3>
+    <p>Please send a brief introduction, your curriculum vitae, and a short description of your research interests. Prospective students are welcome to ask about current projects and available positions.</p>
+    <a class="cppl-primary-button" href="mailto:hslee1029@cnu.ac.kr?subject=CPPL%20Research%20Opportunity">Email CPPL</a>
+  </section>
 </div>
