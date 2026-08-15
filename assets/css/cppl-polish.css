@@ -347,7 +347,8 @@
     overflow-wrap: anywhere;
   }
 }
-\n/* CPPL editorial navy system · 2026-08-15 */
+
+/* CPPL editorial navy system · 2026-08-15 */
 :root {
   --cppl-deep:#071a2b; --cppl-deep-2:#0d2b3b; --cppl-paper:#f4f6f3;
   --cppl-surface:#fff; --cppl-text:#172630; --cppl-rule:#d8e0e2;
