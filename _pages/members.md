@@ -61,7 +61,7 @@ author_profile: false
 </style>
 
 <div class="cppl-members-hero" style="background:linear-gradient(135deg,#071a2b,#0d2b3b)!important;color:#f7fafb!important;">
-  <div class="cppl-members-hero-visual"><img data-members-hero-version="vision-2026" src="/images/members/cppl-members-vision-2026.jpg" width="1400" height="933" loading="eager" decoding="async" alt="CPPL members and crop physiology laboratory research vision" style="width:100%;height:auto;max-height:none!important;object-fit:contain!important;display:block;border-radius:12px;"></div>
+  <div class="cppl-members-hero-visual"><img data-members-hero-version="vision-2026" src="/images/members/cppl-members-vision-2026.jpg?v=2" width="1400" height="933" loading="eager" decoding="async" alt="CPPL members and crop physiology laboratory research vision" style="width:100%;height:auto;max-height:none!important;object-fit:contain!important;display:block;border-radius:12px;"></div>
   <div>
     <div class="cppl-eyebrow">Our Team</div>
     <h2>People at CPPL</h2>
