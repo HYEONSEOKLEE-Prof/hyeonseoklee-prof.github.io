@@ -1,0 +1,172 @@
+/* Final CPPL visual polish */
+
+/* Navigation: tighter, cleaner academic header */
+.masthead {
+  border-bottom: 1px solid #e7edf2;
+  box-shadow: 0 2px 12px rgba(20, 58, 90, 0.035);
+}
+
+.masthead__inner-wrap {
+  padding-top: 0.58em;
+  padding-bottom: 0.58em;
+}
+
+.greedy-nav {
+  min-height: 2.6rem;
+  align-items: center;
+}
+
+.greedy-nav .site-title {
+  color: #0b3767;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.greedy-nav .visible-links a {
+  font-size: 0.92rem;
+  font-weight: 650;
+  color: #344f64;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.greedy-nav .visible-links a:hover {
+  color: #0b3767;
+}
+
+/* Homepage hero: slightly shorter, with visual focus toward people/chamber */
+.cppl-hero {
+  border-radius: 22px;
+  margin-top: 0;
+  margin-bottom: 34px;
+}
+
+.cppl-hero img {
+  height: clamp(285px, 39vw, 455px);
+  object-position: 52% 48%;
+}
+
+/* Logo: visible but subordinate to hero */
+.cppl-logo {
+  width: min(245px, 48vw);
+  margin-bottom: 14px;
+}
+
+.cppl-intro h1 {
+  font-size: clamp(1.75rem, 3.2vw, 2.45rem);
+}
+
+.cppl-intro {
+  margin-bottom: 44px;
+}
+
+/* Research cards: stronger alignment and rhythm */
+.cppl-research-grid {
+  gap: 18px;
+}
+
+.cppl-research-card {
+  min-height: 168px;
+  padding: 25px 26px 24px;
+}
+
+.cppl-research-grid-detail .cppl-research-card {
+  min-height: 292px;
+}
+
+.cppl-research-card h3 {
+  font-size: 1.12rem;
+}
+
+/* Professor profile */
+.cppl-profile-card {
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: 36px;
+  padding: 30px 32px;
+}
+
+.cppl-profile-card > img {
+  width: 205px;
+}
+
+.cppl-profile-copy h1 {
+  font-size: clamp(1.6rem, 2.7vw, 2.1rem);
+}
+
+/* Members */
+.cppl-members-hero {
+  grid-template-columns: minmax(300px, 1.2fr) 0.9fr;
+  gap: 30px;
+  padding: 22px;
+}
+
+.cppl-members-hero img {
+  max-height: 360px;
+  object-position: center 44%;
+}
+
+.cppl-member-card {
+  position: relative;
+  min-height: 150px;
+  padding: 20px 21px 22px;
+}
+
+.cppl-member-parttime {
+  background: linear-gradient(145deg, #ffffff, #fbfaf7);
+  border-color: #e7dfcf;
+}
+
+.cppl-status {
+  display: inline-block;
+  margin-top: 13px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.cppl-status-full {
+  color: #236448;
+  background: #edf7f1;
+  border: 1px solid #d5eadf;
+}
+
+.cppl-status-part {
+  color: #765b27;
+  background: #faf5e9;
+  border: 1px solid #eadfbe;
+}
+
+/* Mobile refinements */
+@media (max-width: 900px) {
+  .masthead__inner-wrap {
+    padding-top: 0.48em;
+    padding-bottom: 0.48em;
+  }
+
+  .cppl-profile-card,
+  .cppl-members-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .cppl-members-hero {
+    text-align: center;
+  }
+}
+
+@media (max-width: 620px) {
+  .cppl-hero img {
+    height: 245px;
+    object-position: 55% 50%;
+  }
+
+  .cppl-logo {
+    width: min(205px, 54vw);
+  }
+
+  .cppl-research-card {
+    min-height: 0;
+  }
+}
