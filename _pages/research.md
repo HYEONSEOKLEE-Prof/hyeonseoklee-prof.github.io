@@ -139,12 +139,12 @@ author_profile: false
           <img class="cppl-research-inline-image" src="{{ '/images/research/research-satellite-regional-dashboard.png' | relative_url }}" loading="lazy" decoding="async" alt="Regional dashboard of climate-driven changes in rice productivity and optimal transplanting dates">
         </a>
       </figure>
-      <figure class="cppl-visual-figure">
+      <figure class="cppl-visual-figure cppl-visual-wide">
         <a href="{{ '/images/research/research-satellite-yield-scenarios-clean.png' | relative_url }}" aria-label="Open the full-resolution yield scenario dashboard">
           <img class="cppl-research-inline-image" src="{{ '/images/research/research-satellite-yield-scenarios-clean.png' | relative_url }}" loading="lazy" decoding="async" alt="Rice yield observations and scenario-based prediction distributions">
         </a>
       </figure>
-      <figure class="cppl-visual-figure">
+      <figure class="cppl-visual-figure cppl-visual-centered">
         <a href="{{ '/images/research/research-satellite-oni-yield-clean.png' | relative_url }}" aria-label="Open the full-resolution ONI and rice yield figure">
           <img class="cppl-research-inline-image" src="{{ '/images/research/research-satellite-oni-yield-clean.png' | relative_url }}" loading="lazy" decoding="async" alt="Relationship between the Oceanic Niño Index and detrended rice yield">
         </a>
