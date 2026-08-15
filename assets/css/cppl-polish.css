@@ -777,3 +777,11 @@ html[data-theme="dark"] .cppl-publication-intro {
   background: transparent !important;
   background-color: transparent !important;
 }
+
+
+/* Professor name contrast fix · 2026-08-15 */
+.page__content .cppl-profile-card .cppl-profile-copy h2,
+html[data-theme="dark"] .page__content .cppl-profile-card .cppl-profile-copy h2 {
+  color:#f7fafb !important;
+  text-shadow:0 1px 2px rgba(0,0,0,.18);
+}
