@@ -132,17 +132,41 @@
 
 .cppl-member-character,
 .cppl-member-grid-compact .cppl-member-character {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100px;
   height: 122px;
+  overflow: hidden;
   border-radius: 16px;
   background: linear-gradient(145deg, #f1f7fa, #f4f8f2);
   border: 1px solid #e3ebef;
   font-size: 3.35rem;
   line-height: 1;
   user-select: none;
+}
+
+.cppl-avatar-ill {
+  display: block;
+  width: 94px;
+  height: 112px;
+}
+
+.cppl-avatar-badge {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.9);
+  box-shadow: 0 2px 7px rgba(30,55,75,.12);
+  font-size: .82rem;
+  z-index: 4;
 }
 
 .cppl-member-info {
@@ -219,6 +243,21 @@
   border: 1px solid #dfe3e6;
 }
 
+/* Glasses: You Jiseung, Park Hanbin, and Kim Taesu */
+.cppl-member-section-title:nth-of-type(3) + .cppl-member-grid .cppl-member-character::after,
+.cppl-member-section-title:nth-of-type(4) + .cppl-member-grid article:nth-child(4) .cppl-member-character::after,
+.cppl-member-section-title:nth-of-type(5) + .cppl-member-grid article:nth-child(1) .cppl-member-character::after {
+  content: "👓";
+  position: absolute;
+  left: 50%;
+  top: 47%;
+  transform: translate(-50%, -50%);
+  font-size: 1.55rem;
+  line-height: 1;
+  z-index: 3;
+  pointer-events: none;
+}
+
 /* Mobile refinements */
 @media (max-width: 900px) {
   .masthead__inner-wrap {
@@ -246,6 +285,11 @@
     width: 82px;
     height: 102px;
     font-size: 2.9rem;
+  }
+
+  .cppl-avatar-ill {
+    width: 78px;
+    height: 94px;
   }
 
   .cppl-member-email {
@@ -285,6 +329,17 @@
     width: 72px;
     height: 88px;
     font-size: 2.5rem;
+  }
+
+  .cppl-avatar-ill {
+    width: 68px;
+    height: 82px;
+  }
+
+  .cppl-member-section-title:nth-of-type(3) + .cppl-member-grid .cppl-member-character::after,
+  .cppl-member-section-title:nth-of-type(4) + .cppl-member-grid article:nth-child(4) .cppl-member-character::after,
+  .cppl-member-section-title:nth-of-type(5) + .cppl-member-grid article:nth-child(1) .cppl-member-character::after {
+    font-size: 1.25rem;
   }
 
   .cppl-member-email {
