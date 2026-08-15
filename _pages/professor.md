@@ -55,14 +55,14 @@ author_profile: false
   <div class="cppl-projects-heading">
     <div>
       <span class="cppl-projects-kicker">Research Leadership</span>
-      <h2 id="pi-projects-title">Principal Investigator Projects</h2>
+      <h2 id="pi-projects-title">Research Projects &amp; Leadership</h2>
     </div>
-    <p>Research programs led across crop physiology, climate resilience, crop modeling, field phenotyping, and satellite-based agricultural monitoring.</p>
+    <p>Projects currently led or completed as principal investigator, together with selected collaborative research conducted as a participating researcher.</p>
   </div>
 
   <div class="cppl-project-columns">
     <section class="cppl-project-group cppl-project-group-current">
-      <h3>Ongoing Projects</h3>
+      <h3>Current Projects</h3>
       <ol class="cppl-project-list">
         <li><time>2026–2030</time><span>AI-Based Intelligent Field-Operation Decision-Support System for Food Crops</span></li>
         <li><time>2026–2030</time><span>Development and Advancement of Agricultural-Satellite Observation Technologies for Major Crops</span></li>
@@ -94,5 +94,12 @@ author_profile: false
       </ol>
     </section>
   </div>
+
+  <section class="cppl-project-group cppl-project-group-collaborative">
+    <h3>Collaborative Research</h3>
+    <ol class="cppl-project-list">
+      <li><time>Additional</time><span>Collaborative research on sparse-transplanting rice cultivation, floury rice cultivation, and direct-seeded rice production technologies <em>Participating researcher</em></span></li>
+    </ol>
+  </section>
 </section>
 
