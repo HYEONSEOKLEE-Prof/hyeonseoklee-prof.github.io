@@ -140,8 +140,8 @@ author_profile: false
         </a>
       </figure>
       <figure class="cppl-visual-figure cppl-visual-wide">
-        <a href="{{ '/images/research/research-satellite-model-correlation-heatmap.png' | relative_url }}" aria-label="Open the full-resolution model-component correlation heatmap">
-          <img class="cppl-research-inline-image" src="{{ '/images/research/research-satellite-model-correlation-heatmap.png' | relative_url }}" loading="lazy" decoding="async" alt="Correlation heatmap showing how yield model outputs move with weather and crop-growth components">
+        <a href="{{ '/images/research/research-satellite-yield-analysis-dashboard.png' | relative_url }}" aria-label="Open the full-resolution four-panel rice yield analysis dashboard">
+          <img class="cppl-research-inline-image" src="{{ '/images/research/research-satellite-yield-analysis-dashboard.png' | relative_url }}" loading="lazy" decoding="async" alt="Four-panel rice yield analysis showing observed trends, scenario distributions, model-component correlations, and scenario-selection comparisons">
         </a>
       </figure>
       <figure class="cppl-visual-figure cppl-visual-centered">
