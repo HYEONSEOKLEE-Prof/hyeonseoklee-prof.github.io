@@ -92,7 +92,7 @@ author_profile: false
    **Korean Journal of Agricultural and Forest Meteorology**, 25(2), 108–116.
 
 6. Jeong JH, Hwang WH, **Lee HS**, Yang SY, Choi MG, Kim JH, Jung KH, et al. (2022).  
-   *Characteristics of cultivation period and yield of rice in the desert environment of the UAE.*  
+   [*Study on the Characteristics of Cultivation Period, Adaptive Genetic Resources, and Quantity for Cultivation of Rice in the Desert Environment of United Arab Emirates.*](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=pU1OIOYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=pU1OIOYAAAAJ:e5wmG9Sq2KIC)  
    **Korean Journal of Agricultural and Forest Meteorology**, 24(3), 133–144.
 
 7. Yang SY, Hwang WH, Jeong JH, **Lee HS**, Lee CG (2021).  
