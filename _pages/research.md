@@ -79,13 +79,13 @@ author_profile: false
     <div class="cppl-visual-heading"><span>01</span><h3>Crop Physiology</h3></div>
     <div class="cppl-visual-gallery cppl-gallery-two">
       <figure class="cppl-visual-figure cppl-visual-primary">
-        <a href="{{ '/images/research/research-crop-physiology-figure7.png' | relative_url }}" aria-label="Open the full-resolution photo-thermal response figure">
-          <img class="cppl-research-inline-image" src="{{ '/images/research/research-crop-physiology-figure7.png' | relative_url }}" loading="lazy" decoding="async" alt="Conceptual summary of photoperiod-temperature interaction and glycerate-associated heading response in rice">
+        <a href="{{ '/images/research/research-crop-physiology-figure7-clean.png' | relative_url }}" aria-label="Open the full-resolution photo-thermal response figure">
+          <img class="cppl-research-inline-image" src="{{ '/images/research/research-crop-physiology-figure7-clean.png' | relative_url }}" loading="lazy" decoding="async" alt="Conceptual summary of photoperiod-temperature interaction and glycerate-associated heading response in rice">
         </a>
       </figure>
       <figure class="cppl-visual-figure">
-        <a href="{{ '/images/research/research-crop-physiology-kegg.png' | relative_url }}" aria-label="Open the full-resolution KEGG pathway figure">
-          <img class="cppl-research-inline-image" src="{{ '/images/research/research-crop-physiology-kegg.png' | relative_url }}" loading="lazy" decoding="async" alt="KEGG pathway enrichment and photosynthesis-related gene expression patterns in rice">
+        <a href="{{ '/images/research/research-crop-physiology-kegg-clean.png' | relative_url }}" aria-label="Open the full-resolution KEGG pathway figure">
+          <img class="cppl-research-inline-image" src="{{ '/images/research/research-crop-physiology-kegg-clean.png' | relative_url }}" loading="lazy" decoding="async" alt="KEGG pathway enrichment and photosynthesis-related gene expression patterns in rice">
         </a>
       </figure>
     </div>
@@ -101,8 +101,8 @@ author_profile: false
         </a>
       </figure>
       <figure class="cppl-visual-figure">
-        <a href="{{ '/images/research/research-climate-s7-sprouting.png' | relative_url }}" aria-label="Open the full-resolution S7 treatment figure">
-          <img class="cppl-research-inline-image" src="{{ '/images/research/research-climate-s7-sprouting.png' | relative_url }}" loading="lazy" decoding="async" alt="Effect of S7 treatment on pre-harvest sprouting in rice under field conditions">
+        <a href="{{ '/images/research/research-climate-s7-sprouting-clean.png' | relative_url }}" aria-label="Open the full-resolution S7 treatment figure">
+          <img class="cppl-research-inline-image" src="{{ '/images/research/research-climate-s7-sprouting-clean.png' | relative_url }}" loading="lazy" decoding="async" alt="Effect of S7 treatment on pre-harvest sprouting in rice under field conditions">
         </a>
       </figure>
     </div>
@@ -113,8 +113,8 @@ author_profile: false
     <div class="cppl-visual-heading"><span>03</span><h3>Digital Phenomics &amp; Modeling</h3></div>
     <div class="cppl-visual-gallery cppl-gallery-three">
       <figure class="cppl-visual-figure cppl-visual-primary">
-        <a href="{{ '/images/research/research-digital-field-phenotyping.png' | relative_url }}" aria-label="Open the full-resolution field phenotyping image">
-          <img class="cppl-research-inline-image" src="{{ '/images/research/research-digital-field-phenotyping.png' | relative_url }}" loading="lazy" decoding="async" alt="Image-based rice leaf detection and field phenotyping at early and late growth stages">
+        <a href="{{ '/images/research/research-digital-field-phenotyping-full.png' | relative_url }}" aria-label="Open the full-resolution field phenotyping image">
+          <img class="cppl-research-inline-image" src="{{ '/images/research/research-digital-field-phenotyping-full.png' | relative_url }}" loading="lazy" decoding="async" alt="Image-based rice leaf detection and field phenotyping at early and late growth stages">
         </a>
       </figure>
       <figure class="cppl-visual-figure">
@@ -123,8 +123,8 @@ author_profile: false
         </a>
       </figure>
       <figure class="cppl-visual-figure">
-        <a href="{{ '/images/research/research-digital-gru-model.png' | relative_url }}" aria-label="Open the full-resolution GRU model diagram">
-          <img class="cppl-research-inline-image" src="{{ '/images/research/research-digital-gru-model.png' | relative_url }}" loading="lazy" decoding="async" alt="Gated recurrent unit architecture for rice yield prediction">
+        <a href="{{ '/images/research/research-digital-gru-model-clean.png' | relative_url }}" aria-label="Open the full-resolution GRU model diagram">
+          <img class="cppl-research-inline-image" src="{{ '/images/research/research-digital-gru-model-clean.png' | relative_url }}" loading="lazy" decoding="async" alt="Gated recurrent unit architecture for rice yield prediction">
         </a>
       </figure>
     </div>
@@ -140,13 +140,13 @@ author_profile: false
         </a>
       </figure>
       <figure class="cppl-visual-figure">
-        <a href="{{ '/images/research/research-satellite-yield-scenarios.png' | relative_url }}" aria-label="Open the full-resolution yield scenario dashboard">
-          <img class="cppl-research-inline-image" src="{{ '/images/research/research-satellite-yield-scenarios.png' | relative_url }}" loading="lazy" decoding="async" alt="Rice yield observations and scenario-based prediction distributions">
+        <a href="{{ '/images/research/research-satellite-yield-scenarios-clean.png' | relative_url }}" aria-label="Open the full-resolution yield scenario dashboard">
+          <img class="cppl-research-inline-image" src="{{ '/images/research/research-satellite-yield-scenarios-clean.png' | relative_url }}" loading="lazy" decoding="async" alt="Rice yield observations and scenario-based prediction distributions">
         </a>
       </figure>
       <figure class="cppl-visual-figure">
-        <a href="{{ '/images/research/research-satellite-oni-yield.png' | relative_url }}" aria-label="Open the full-resolution ONI and rice yield figure">
-          <img class="cppl-research-inline-image" src="{{ '/images/research/research-satellite-oni-yield.png' | relative_url }}" loading="lazy" decoding="async" alt="Relationship between the Oceanic Niño Index and detrended rice yield">
+        <a href="{{ '/images/research/research-satellite-oni-yield-clean.png' | relative_url }}" aria-label="Open the full-resolution ONI and rice yield figure">
+          <img class="cppl-research-inline-image" src="{{ '/images/research/research-satellite-oni-yield-clean.png' | relative_url }}" loading="lazy" decoding="async" alt="Relationship between the Oceanic Niño Index and detrended rice yield">
         </a>
       </figure>
     </div>
