@@ -15,16 +15,16 @@ author_profile: false
 
 <h2>Ph.D. Students</h2>
 <div class="cppl-member-grid">
-  <article class="cppl-member-card"><div class="cppl-member-avatar">조</div><h3>조소혜</h3><p>Ph.D. Student</p><span class="cppl-status cppl-status-full">Full-time</span></article>
+  <article class="cppl-member-card"><div class="cppl-member-avatar">조</div><h3>조소혜</h3><p>Ph.D. Student</p></article>
   <article class="cppl-member-card cppl-member-parttime"><div class="cppl-member-avatar">김</div><h3>김주희</h3><p>Ph.D. Student</p><span class="cppl-status cppl-status-part">Part-time</span></article>
   <article class="cppl-member-card cppl-member-parttime"><div class="cppl-member-avatar">송</div><h3>송영서</h3><p>Ph.D. Student</p><span class="cppl-status cppl-status-part">Part-time</span></article>
 </div>
 
 <h2>M.S. Students</h2>
 <div class="cppl-member-grid">
-  <article class="cppl-member-card"><div class="cppl-member-avatar">양</div><h3>양진우</h3><p>M.S. Student</p><span class="cppl-status cppl-status-full">Full-time</span></article>
-  <article class="cppl-member-card"><div class="cppl-member-avatar">유</div><h3>유지승</h3><p>M.S. Student</p><span class="cppl-status cppl-status-full">Full-time</span></article>
-  <article class="cppl-member-card"><div class="cppl-member-avatar">오</div><h3>오정민</h3><p>M.S. Student</p><span class="cppl-status cppl-status-full">Full-time</span></article>
+  <article class="cppl-member-card"><div class="cppl-member-avatar">양</div><h3>양진우</h3><p>M.S. Student</p></article>
+  <article class="cppl-member-card"><div class="cppl-member-avatar">유</div><h3>유지승</h3><p>M.S. Student</p></article>
+  <article class="cppl-member-card"><div class="cppl-member-avatar">오</div><h3>오정민</h3><p>M.S. Student</p></article>
 </div>
 
 <h2>Undergraduate Researchers</h2>
