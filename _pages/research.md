@@ -79,7 +79,7 @@ author_profile: false
     <div class="cppl-visual-heading"><span>01</span><h3>Crop Physiology</h3></div>
     <div class="cppl-visual-gallery cppl-gallery-single">
       <figure class="cppl-visual-figure cppl-visual-primary">
-        <a href="/images/research/research-crop-physiology.webp" target="_blank" rel="noopener"><img src="/images/research/research-crop-physiology.webp" loading="lazy" alt="Rice crop physiology research on photo-thermal responses, glycerate metabolism, and transcriptomics"></a>
+        <img class="cppl-research-inline-image" src="data:image/webp;base64,{% include research_b64/research-crop-physiology-00.b64 %}{% include research_b64/research-crop-physiology-01.b64 %}{% include research_b64/research-crop-physiology-02.b64 %}" loading="lazy" alt="Photoperiod-temperature and glycerate-associated heading responses with transcriptomic pathway analysis in rice">
       </figure>
     </div>
     <p class="cppl-figure-caption">Photo-thermal regulation, carbon metabolism, and transcriptomic responses in rice.</p>
@@ -89,7 +89,7 @@ author_profile: false
     <div class="cppl-visual-heading"><span>02</span><h3>Climate-Smart Crop Production</h3></div>
     <div class="cppl-visual-gallery cppl-gallery-single">
       <figure class="cppl-visual-figure cppl-visual-primary">
-        <a href="/images/research/research-climate-smart.webp" target="_blank" rel="noopener"><img src="/images/research/research-climate-smart.webp" loading="lazy" alt="Rice climate stress and biostimulant research under heat, ozone, and pre-harvest sprouting conditions"></a>
+        <img class="cppl-research-inline-image" src="data:image/webp;base64,{% include research_b64/research-climate-smart-00.b64 %}{% include research_b64/research-climate-smart-01.b64 %}" loading="lazy" alt="Heat and ozone stress physiology with S7 treatment and pre-harvest sprouting responses in rice">
       </figure>
     </div>
     <p class="cppl-figure-caption">Environmental stress physiology and biostimulant-based resilience strategies.</p>
@@ -99,7 +99,7 @@ author_profile: false
     <div class="cppl-visual-heading"><span>03</span><h3>Digital Phenomics &amp; Modeling</h3></div>
     <div class="cppl-visual-gallery cppl-gallery-single">
       <figure class="cppl-visual-figure cppl-visual-primary">
-        <a href="/images/research/research-digital-phenomics.webp" target="_blank" rel="noopener"><img src="/images/research/research-digital-phenomics.webp" loading="lazy" alt="Digital phenotyping, image analysis, and data-driven crop modeling research"></a>
+        <img class="cppl-research-inline-image" src="data:image/webp;base64,{% include research_b64/research-digital-phenomics-00.b64 %}{% include research_b64/research-digital-phenomics-01.b64 %}{% include research_b64/research-digital-phenomics-02.b64 %}" loading="lazy" alt="Rice image phenotyping, experimental tray design, and gated recurrent unit crop modeling">
       </figure>
     </div>
     <p class="cppl-figure-caption">Imaging, phenotyping, and data-driven models for crop growth and yield.</p>
@@ -107,12 +107,9 @@ author_profile: false
 
   <article class="cppl-visual-card cppl-visual-card-source">
     <div class="cppl-visual-heading"><span>04</span><h3>Satellite-Based Crop Monitoring &amp; Modeling</h3></div>
-    <div class="cppl-visual-gallery cppl-gallery-two cppl-gallery-satellite">
+    <div class="cppl-visual-gallery cppl-gallery-single">
       <figure class="cppl-visual-figure cppl-visual-primary">
-        <a href="/images/research/source-02.webp" target="_blank" rel="noopener"><img src="/images/research/source-02.webp" loading="lazy" alt="Regional crop monitoring dashboard and map for rice production"></a>
-      </figure>
-      <figure class="cppl-visual-figure">
-        <a href="/images/research/source-03.webp" target="_blank" rel="noopener"><img src="/images/research/source-03.webp" loading="lazy" alt="Regional and scenario-based rice yield prediction charts"></a>
+        <img class="cppl-research-inline-image" src="data:image/webp;base64,{% include research_b64/research-satellite-modeling-00.b64 %}" loading="lazy" alt="Regional rice monitoring dashboard, yield prediction scenarios, and climate-yield relationships">
       </figure>
     </div>
     <p class="cppl-figure-caption">Climate indicators, regional monitoring, and scenario-based yield prediction.</p>
