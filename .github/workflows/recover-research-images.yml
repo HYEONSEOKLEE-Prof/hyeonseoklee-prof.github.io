@@ -1,0 +1,69 @@
+name: Recover research image assets
+
+on:
+  push:
+    paths:
+      - '.github/workflows/recover-research-images.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Reconstruct split WebP assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p images/research/recovered
+
+          cat \
+            images/research/source-04.webp \
+            images/research/source-05.webp \
+            images/research/source-06.webp \
+            images/research/source-07.webp \
+            | tr -d '\r\n' \
+            | base64 --decode --ignore-garbage \
+            > images/research/recovered/recovered-a.webp
+
+          cat \
+            images/research/source-08.webp \
+            images/research/source-09.webp \
+            images/research/source-10.webp \
+            images/research/source-11.webp \
+            | tr -d '\r\n' \
+            | base64 --decode --ignore-garbage \
+            > images/research/recovered/recovered-b.webp
+
+          python3 - <<'PY'
+          from pathlib import Path
+          for p in [
+              Path('images/research/recovered/recovered-a.webp'),
+              Path('images/research/recovered/recovered-b.webp'),
+          ]:
+              data = p.read_bytes()
+              if len(data) < 12 or data[:4] != b'RIFF' or data[8:12] != b'WEBP':
+                  raise SystemExit(f'{p} is not a valid WebP container')
+              print(f'{p}: {len(data)} bytes, valid RIFF/WEBP header')
+          PY
+
+          file images/research/recovered/recovered-a.webp
+          file images/research/recovered/recovered-b.webp
+
+      - name: Commit recovered assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add images/research/recovered/recovered-a.webp images/research/recovered/recovered-b.webp
+          if git diff --cached --quiet; then
+            echo 'No recovered asset changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Recover research image assets'
+          git push origin HEAD:master
