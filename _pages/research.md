@@ -77,12 +77,9 @@ author_profile: false
 <div class="cppl-research-visuals cppl-research-visuals-source">
   <article class="cppl-visual-card cppl-visual-card-source">
     <div class="cppl-visual-heading"><span>01</span><h3>Crop Physiology</h3></div>
-    <div class="cppl-visual-gallery cppl-gallery-two">
+    <div class="cppl-visual-gallery cppl-gallery-single">
       <figure class="cppl-visual-figure cppl-visual-primary">
-        <a href="/images/research/source-10.webp" target="_blank" rel="noopener"><img src="/images/research/source-10.webp" loading="lazy" alt="Conceptual summary of photoperiod and temperature interaction with glycerate-associated heading responses in rice"></a>
-      </figure>
-      <figure class="cppl-visual-figure">
-        <a href="/images/research/source-09.webp" target="_blank" rel="noopener"><img src="/images/research/source-09.webp" loading="lazy" alt="Transcriptomic and pathway analysis related to photosynthesis and carbon metabolism in rice"></a>
+        <a href="/images/research/research-crop-physiology.webp" target="_blank" rel="noopener"><img src="/images/research/research-crop-physiology.webp" loading="lazy" alt="Rice crop physiology research on photo-thermal responses, glycerate metabolism, and transcriptomics"></a>
       </figure>
     </div>
     <p class="cppl-figure-caption">Photo-thermal regulation, carbon metabolism, and transcriptomic responses in rice.</p>
@@ -90,12 +87,9 @@ author_profile: false
 
   <article class="cppl-visual-card cppl-visual-card-source">
     <div class="cppl-visual-heading"><span>02</span><h3>Climate-Smart Crop Production</h3></div>
-    <div class="cppl-visual-gallery cppl-gallery-two">
+    <div class="cppl-visual-gallery cppl-gallery-single">
       <figure class="cppl-visual-figure cppl-visual-primary">
-        <a href="/images/research/source-11.webp" target="_blank" rel="noopener"><img src="/images/research/source-11.webp" loading="lazy" alt="Conceptual figure of interactive heat and ozone stress effects on rice"></a>
-      </figure>
-      <figure class="cppl-visual-figure">
-        <a href="/images/research/source-08.webp" target="_blank" rel="noopener"><img src="/images/research/source-08.webp" loading="lazy" alt="S7 treatment responses related to pre-harvest sprouting and stress mitigation in rice"></a>
+        <a href="/images/research/research-climate-smart.webp" target="_blank" rel="noopener"><img src="/images/research/research-climate-smart.webp" loading="lazy" alt="Rice climate stress and biostimulant research under heat, ozone, and pre-harvest sprouting conditions"></a>
       </figure>
     </div>
     <p class="cppl-figure-caption">Environmental stress physiology and biostimulant-based resilience strategies.</p>
@@ -103,15 +97,9 @@ author_profile: false
 
   <article class="cppl-visual-card cppl-visual-card-source">
     <div class="cppl-visual-heading"><span>03</span><h3>Digital Phenomics &amp; Modeling</h3></div>
-    <div class="cppl-visual-gallery cppl-gallery-three">
+    <div class="cppl-visual-gallery cppl-gallery-single">
       <figure class="cppl-visual-figure cppl-visual-primary">
-        <a href="/images/research/source-04.webp" target="_blank" rel="noopener"><img src="/images/research/source-04.webp" loading="lazy" alt="Image-based rice phenotyping with field and plant-level detection"></a>
-      </figure>
-      <figure class="cppl-visual-figure">
-        <a href="/images/research/source-05.webp" target="_blank" rel="noopener"><img src="/images/research/source-05.webp" loading="lazy" alt="Phenotyping tray layout and sampling design"></a>
-      </figure>
-      <figure class="cppl-visual-figure">
-        <a href="/images/research/source-07.webp" target="_blank" rel="noopener"><img src="/images/research/source-07.webp" loading="lazy" alt="Gated recurrent unit model structure for crop prediction"></a>
+        <a href="/images/research/research-digital-phenomics.webp" target="_blank" rel="noopener"><img src="/images/research/research-digital-phenomics.webp" loading="lazy" alt="Digital phenotyping, image analysis, and data-driven crop modeling research"></a>
       </figure>
     </div>
     <p class="cppl-figure-caption">Imaging, phenotyping, and data-driven models for crop growth and yield.</p>
@@ -119,15 +107,12 @@ author_profile: false
 
   <article class="cppl-visual-card cppl-visual-card-source">
     <div class="cppl-visual-heading"><span>04</span><h3>Satellite-Based Crop Monitoring &amp; Modeling</h3></div>
-    <div class="cppl-visual-gallery cppl-gallery-three">
+    <div class="cppl-visual-gallery cppl-gallery-two cppl-gallery-satellite">
       <figure class="cppl-visual-figure cppl-visual-primary">
         <a href="/images/research/source-02.webp" target="_blank" rel="noopener"><img src="/images/research/source-02.webp" loading="lazy" alt="Regional crop monitoring dashboard and map for rice production"></a>
       </figure>
       <figure class="cppl-visual-figure">
         <a href="/images/research/source-03.webp" target="_blank" rel="noopener"><img src="/images/research/source-03.webp" loading="lazy" alt="Regional and scenario-based rice yield prediction charts"></a>
-      </figure>
-      <figure class="cppl-visual-figure">
-        <a href="/images/research/source-06.webp" target="_blank" rel="noopener"><img src="/images/research/source-06.webp" loading="lazy" alt="Oceanic climate index and detrended rice yield relationship"></a>
       </figure>
     </div>
     <p class="cppl-figure-caption">Climate indicators, regional monitoring, and scenario-based yield prediction.</p>
