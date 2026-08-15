@@ -62,6 +62,11 @@ author_profile: false
     *Occurrence of rice preharvest sprouting varies greatly depending on past weather conditions during grain filling.*  
     **Field Crops Research**, 264, 108087.
 
+
+13. **Lee HS**, Hwang WH, Jeong JH, Ahn SH, Baek JS, Jeong HY, Park HK, et al. (2019).  
+    [*Analysis of the distribution of assimilation products and the characteristics of transcriptomes in rice by submergence during the ripening stage.*](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=pU1OIOYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=pU1OIOYAAAAJ:ufrVoPGSRksC)  
+    **BMC Genomics**, 20(1), 18.
+
 ---
 
 <h2 id="kci-publications">KCI Publications</h2>
