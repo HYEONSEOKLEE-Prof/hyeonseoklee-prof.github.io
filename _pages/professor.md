@@ -4,7 +4,7 @@ permalink: /professor/
 author_profile: false
 ---
 
-<div class="cppl-profile-card">
+<div class="cppl-profile-card" style="background:linear-gradient(135deg,#071a2b,#0d2b3b)!important;color:#f7fafb!important;">
   <img src="/images/people/hyeonseoklee.jpg" alt="Hyeonseok Lee">
   <div class="cppl-profile-copy">
     <div class="cppl-eyebrow">Principal Investigator</div>
