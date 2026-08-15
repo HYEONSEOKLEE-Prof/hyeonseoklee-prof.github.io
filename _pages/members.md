@@ -23,20 +23,28 @@ author_profile: false
 <h2>M.S. Students</h2>
 <div class="cppl-member-grid">
   <article class="cppl-member-card"><div class="cppl-member-avatar">양</div><h3>양진우</h3><p>M.S. Student</p></article>
-  <article class="cppl-member-card"><div class="cppl-member-avatar">유</div><h3>유지승</h3><p>M.S. Student</p></article>
-  <article class="cppl-member-card"><div class="cppl-member-avatar">오</div><h3>오정민</h3><p>M.S. Student</p></article>
+</div>
+
+<h2>B.S.–M.S. Integrated Program</h2>
+<div class="cppl-member-grid">
+  <article class="cppl-member-card"><div class="cppl-member-avatar">유</div><h3>유지승</h3><p>B.S.–M.S. Integrated Program Student</p><span class="cppl-status cppl-status-track">Integrated Program</span></article>
 </div>
 
 <h2>Undergraduate Researchers</h2>
 <div class="cppl-member-grid cppl-member-grid-compact">
-  <article class="cppl-member-card"><div class="cppl-member-avatar">김</div><h3>김태수</h3><p>Undergraduate Researcher</p></article>
+  <article class="cppl-member-card"><div class="cppl-member-avatar">오</div><h3>오정민</h3><p>Undergraduate Researcher</p><span class="cppl-status cppl-status-track">Prospective M.S.</span></article>
   <article class="cppl-member-card"><div class="cppl-member-avatar">나</div><h3>나규린</h3><p>Undergraduate Researcher</p></article>
   <article class="cppl-member-card"><div class="cppl-member-avatar">한</div><h3>한유나</h3><p>Undergraduate Researcher</p></article>
   <article class="cppl-member-card"><div class="cppl-member-avatar">박</div><h3>박한빈</h3><p>Undergraduate Researcher</p></article>
-  <article class="cppl-member-card"><div class="cppl-member-avatar">강</div><h3>강채유</h3><p>Undergraduate Researcher</p></article>
+</div>
+
+<h2>Members on Leave</h2>
+<div class="cppl-member-grid">
+  <article class="cppl-member-card cppl-member-muted"><div class="cppl-member-avatar">김</div><h3>김태수</h3><p>Undergraduate Researcher</p><span class="cppl-status cppl-status-leave">Military Service</span></article>
+  <article class="cppl-member-card cppl-member-muted"><div class="cppl-member-avatar">강</div><h3>강채유</h3><p>Undergraduate Researcher</p><span class="cppl-status cppl-status-leave">On Leave</span></article>
 </div>
 
 <section class="cppl-panel cppl-alumni">
-  <h2>Alumni</h2>
-  <p>Alumni profiles will be added as CPPL grows.</p>
+  <h2>Former Members</h2>
+  <p>Former member profiles will be added as the roster is finalized.</p>
 </section>
