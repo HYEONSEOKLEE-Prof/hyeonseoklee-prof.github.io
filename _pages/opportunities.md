@@ -30,6 +30,6 @@ author_profile: false
   <section class="cppl-apply-panel">
     <h3>How to Apply</h3>
     <p>Please send a brief introduction, your curriculum vitae, and a short description of your research interests. Prospective students are welcome to ask about current projects and available positions.</p>
-    <a class="cppl-primary-button" href="mailto:hslee1029@cnu.ac.kr?subject=CPPL%20Research%20Opportunity">Email CPPL</a>
+    <a class="cppl-primary-button" href="mailto:hslee1029@cnu.ac.kr?subject=CPPL%20Research%20Opportunity">hslee1029@cnu.ac.kr</a>
   </section>
 </div>
