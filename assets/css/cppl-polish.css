@@ -767,3 +767,13 @@ html[data-theme="dark"] .cppl-publication-intro {
   .cppl-footer-grid { flex-direction:column; }
   .greedy-nav .visible-links a.is-current::after { display:none; }
 }
+
+
+/* CPPL unified nav surface · 2026-08-15 */
+.greedy-nav .visible-links,
+.greedy-nav .visible-links li,
+.greedy-nav .visible-links li:hover,
+.greedy-nav .visible-links li:focus-within {
+  background: transparent !important;
+  background-color: transparent !important;
+}
