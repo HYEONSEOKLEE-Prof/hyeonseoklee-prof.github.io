@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="cppl-shell">
   <div class="cppl-hero">
-    <img src="/images/cppl-hero-2026.webp" alt="CPPL research team and controlled-environment crop research at Chungnam National University">
+    <img src="/images/cppl-hero-2026-highres.png" width="1672" height="941" loading="eager" fetchpriority="high" decoding="async" alt="CPPL research team and controlled-environment crop research at Chungnam National University">
   </div>
 
   <section class="cppl-intro">
