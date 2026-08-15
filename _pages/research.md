@@ -76,11 +76,6 @@ author_profile: false
 <div class="cppl-emerging">Emerging Research · Space Agriculture</div>
 <p class="cppl-emerging-copy">Long-term expansion toward crop production research for space and closed environments, building on crop physiology, resource efficiency, phenomics, and multi-harvest concepts.</p>
 
-<h2 class="cppl-section-title">Crop-Model Integration</h2>
-<div class="cppl-model-flow">
-  <span>Weather &amp; Environment</span><b>→</b><span>Crop Model</span><b>→</b><span>Growth &amp; Yield Prediction</span>
-</div>
-
 <div class="cppl-research-image">
   <img src="/images/research-tools-2026.webp" alt="Research and analysis tools used at CPPL">
 </div>
