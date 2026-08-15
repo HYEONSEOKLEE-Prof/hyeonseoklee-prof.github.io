@@ -5,7 +5,12 @@ author_profile: false
 ---
 
 <div class="cppl-members-hero">
-  <img src="/images/lab-group-2026.png" alt="CPPL members">
+  <div style="position:relative; width:100%;">
+    <img src="/images/lab-group-2026.png" alt="CPPL members" style="width:100%; height:auto; max-height:none; object-fit:contain; display:block;">
+    <div style="position:absolute; left:61%; right:2%; bottom:1.8%; background:#fff; color:#8f5bb7; text-align:center; font-weight:700; font-size:clamp(.7rem,1.45vw,1rem); line-height:1.2; padding:.5% 0 1%;">
+      생산환경 및<br>공간 스케일 확장
+    </div>
+  </div>
   <div>
     <div class="cppl-eyebrow">Our Team</div>
     <h1>People at CPPL</h1>
