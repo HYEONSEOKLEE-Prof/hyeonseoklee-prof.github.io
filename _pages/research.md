@@ -6,7 +6,7 @@ author_profile: false
 
 <div class="cppl-page-intro">
   <div class="cppl-eyebrow">Research at CPPL</div>
-  <h1>From Crop Ecophysiology to Predictive and Deployable Technologies</h1>
+  <h2>From Crop Ecophysiology to Predictive and Deployable Technologies</h2>
   <p>We connect crop physiology with phenomics, crop modeling, remote sensing, and deployable production technologies.</p>
 </div>
 
@@ -89,7 +89,7 @@ author_profile: false
         </a>
       </figure>
     </div>
-    <p class="cppl-figure-caption">Photo-thermal regulation, carbon metabolism, and transcriptomic responses in rice.</p>
+    <p class="cppl-figure-caption">Photo-thermal regulation, carbon metabolism, and transcriptomic responses in rice. <a class="cppl-source-link" href="/publications/">Related publications →</a></p>
   </article>
 
   <article class="cppl-visual-card cppl-visual-card-source">
@@ -106,7 +106,7 @@ author_profile: false
         </a>
       </figure>
     </div>
-    <p class="cppl-figure-caption">Environmental stress physiology and biostimulant-based resilience strategies.</p>
+    <p class="cppl-figure-caption">Environmental stress physiology and biostimulant-based resilience strategies. <a class="cppl-source-link" href="/publications/">Related publications →</a></p>
   </article>
 
   <article class="cppl-visual-card cppl-visual-card-source">
@@ -128,7 +128,7 @@ author_profile: false
         </a>
       </figure>
     </div>
-    <p class="cppl-figure-caption">Imaging, phenotyping, and data-driven models for crop growth and yield.</p>
+    <p class="cppl-figure-caption">Imaging, phenotyping, and data-driven models for crop growth and yield. <a class="cppl-source-link" href="/publications/">Related publications →</a></p>
   </article>
 
   <article class="cppl-visual-card cppl-visual-card-source">
@@ -150,7 +150,7 @@ author_profile: false
         </a>
       </figure>
     </div>
-    <p class="cppl-figure-caption">Climate indicators, regional monitoring, and scenario-based yield prediction.</p>
+    <p class="cppl-figure-caption">Climate indicators, regional monitoring, and scenario-based yield prediction. <a class="cppl-source-link" href="/publications/">Related publications →</a></p>
   </article>
 </div>
 
