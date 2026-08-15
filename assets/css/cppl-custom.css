@@ -122,3 +122,60 @@
   .cppl-gallery-three .cppl-visual-primary { grid-row:auto; }
   .cppl-visual-primary img, .cppl-visual-figure img { min-height:0; height:auto; }
 }
+
+
+/* High-resolution research highlight gallery */
+.cppl-gallery-two {
+  grid-template-columns: 1fr;
+}
+
+.cppl-gallery-three {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.cppl-gallery-three .cppl-visual-primary {
+  grid-column: 1 / -1;
+  grid-row: auto;
+}
+
+.cppl-visual-figure a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.cppl-visual-figure img {
+  height: 170px;
+  min-height: 170px;
+  object-fit: contain;
+  image-rendering: auto;
+}
+
+.cppl-visual-primary img {
+  height: 260px;
+  min-height: 260px;
+}
+
+.cppl-gallery-two .cppl-visual-figure img {
+  height: 240px;
+  min-height: 240px;
+}
+
+@media (max-width: 620px) {
+  .cppl-gallery-three {
+    grid-template-columns: 1fr;
+  }
+
+  .cppl-gallery-three .cppl-visual-primary {
+    grid-column: auto;
+  }
+
+  .cppl-gallery-two .cppl-visual-figure img,
+  .cppl-gallery-three .cppl-visual-figure img {
+    height: auto;
+    min-height: 0;
+  }
+}
