@@ -793,3 +793,24 @@ html[data-theme="dark"] .page__content .cppl-members-hero h2 {
   color:#f7fafb !important;
   text-shadow:0 1px 2px rgba(0,0,0,.18);
 }
+
+
+/* Wide satellite figure layout · 2026-08-15 */
+.cppl-visual-card-source .cppl-gallery-three .cppl-visual-wide {
+  grid-column:1 / -1;
+}
+.cppl-visual-card-source .cppl-gallery-three .cppl-visual-wide img {
+  width:100%;
+  height:auto;
+  min-height:0;
+  object-fit:contain;
+  padding:12px;
+}
+.cppl-visual-card-source .cppl-gallery-three .cppl-visual-centered {
+  grid-column:1 / -1;
+  width:min(62%,360px);
+  justify-self:center;
+}
+@media (max-width:620px) {
+  .cppl-visual-card-source .cppl-gallery-three .cppl-visual-centered { width:100%; }
+}
