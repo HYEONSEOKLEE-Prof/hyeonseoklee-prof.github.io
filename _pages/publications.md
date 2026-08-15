@@ -144,3 +144,7 @@ author_profile: false
 18. **Lee HS**, Hwang WH, Kim DW, Jeong JH, Ahn SH, Baek JS, Jeong HY, Yun JT, Lee GH, Choi KJ (2017).  
     [*Changes in Starch Synthesis and the Characteristics of Photosynthate Translocation at High Temperature during the Ripening Stage in Barley.*](https://db.koreascholar.com/Article/Detail/330966)  
     **The Korean Journal of Crop Science**, 62(2), 124–133.
+
+19. **Lee HS**, Hwang WH, Jeong JH, Ahn SH, Baek J, Jeong HY, Park H, Ku B, et al. (2017).  
+    [*Change in yield and quality characteristics of rice by flooding during the ripening stage.*](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=pU1OIOYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=pU1OIOYAAAAJ:Y0pCki6q_DkC)  
+    **The Korean Journal of Crop Science**, 62(2), 87–95.
