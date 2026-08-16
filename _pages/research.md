@@ -6,7 +6,7 @@ author_profile: false
 
 <div class="cppl-page-intro">
   <div class="cppl-eyebrow">Research at CPPL</div>
-  <h2>From Crop Ecophysiology to Predictive and Deployable Technologies</h2>
+  <h2>From Crop Ecophysiology to Predictive and Deployable AgTech</h2>
   <p>We connect crop physiology with phenomics, crop modeling, remote sensing, and deployable production technologies.</p>
 </div>
 
