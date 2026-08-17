@@ -994,3 +994,50 @@ html[data-theme="dark"] .cppl-project-group-current .cppl-project-list time { ba
     color:#f5f8f9 !important;
   }
 }
+
+
+/* English-Korean language toggle · 2026-08-17 */
+.greedy-nav .masthead__language-item {
+  display:flex;
+  align-items:center;
+  background:transparent !important;
+}
+.greedy-nav .cppl-lang-toggle {
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  align-self:center;
+  min-width:3.5rem;
+  height:2rem;
+  margin:.35rem 0 .35rem .45rem;
+  padding:.2rem .72rem;
+  border:1px solid rgba(255,255,255,.4);
+  border-radius:999px;
+  background:rgba(255,255,255,.06) !important;
+  color:#f5f8f9 !important;
+  font-family:inherit;
+  font-size:.72rem;
+  font-weight:800;
+  line-height:1;
+  letter-spacing:.02em;
+  cursor:pointer;
+}
+.greedy-nav .cppl-lang-toggle:hover,
+.greedy-nav .cppl-lang-toggle:focus {
+  border-color:#b8d78f;
+  background:rgba(184,215,143,.12) !important;
+  color:#d9edbd !important;
+}
+.greedy-nav .cppl-lang-toggle:focus-visible {
+  outline:3px solid #b8d78f;
+  outline-offset:2px;
+}
+@media (max-width:700px) {
+  .greedy-nav .cppl-lang-toggle {
+    min-width:3rem;
+    margin-left:.2rem;
+    padding:.2rem .55rem;
+    font-size:.68rem;
+  }
+}
