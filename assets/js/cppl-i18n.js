@@ -175,7 +175,7 @@
     var lang = language === "ko" ? "ko" : "en";
     document.documentElement.lang = lang;
 
-    var roots = document.querySelectorAll(".masthead, main, .page__footer, footer");
+    var roots = [document.body];
     roots.forEach(function (root) {
       var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
       var node;
