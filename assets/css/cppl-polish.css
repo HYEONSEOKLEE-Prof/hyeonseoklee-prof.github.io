@@ -951,3 +951,46 @@ html[data-theme="dark"] .cppl-project-group-current .cppl-project-list time { ba
   .cppl-project-list li { grid-template-columns:76px minmax(0,1fr); gap:10px; }
 }
 
+
+
+/* Mobile navigation contrast hardening · 2026-08-17 */
+@media (max-width: 64em) {
+  .masthead,
+  .masthead__inner-wrap,
+  .greedy-nav {
+    background-color:#071a2b !important;
+  }
+
+  .greedy-nav .hidden-links,
+  .greedy-nav .hidden-links li,
+  .greedy-nav .hidden-links li:hover,
+  .greedy-nav .hidden-links li:focus-within {
+    background:#0d2b3b !important;
+    background-color:#0d2b3b !important;
+    color:#f5f8f9 !important;
+  }
+
+  .greedy-nav .hidden-links {
+    border:1px solid rgba(255,255,255,.16) !important;
+    box-shadow:0 18px 42px rgba(0,0,0,.28) !important;
+  }
+
+  .greedy-nav .hidden-links a,
+  .greedy-nav .hidden-links a:visited {
+    background:#0d2b3b !important;
+    color:#f5f8f9 !important;
+  }
+
+  .greedy-nav .hidden-links a:hover,
+  .greedy-nav .hidden-links a:focus {
+    background:#16394b !important;
+    color:#b8d78f !important;
+  }
+
+  .greedy-nav button,
+  .greedy-nav button:hover,
+  .greedy-nav button:focus {
+    background:transparent !important;
+    color:#f5f8f9 !important;
+  }
+}
