@@ -53,8 +53,8 @@ author_profile: false
         <span class="cppl-lang-en">Sohye Jo Selected for the 2026 KOSAF Doctoral Excellence Scholarship</span>
         <span class="cppl-lang-ko" lang="ko">조소혜 학생, 2026년 한국장학재단 박사우수장학금(이공계) 선정</span>
       </h3>
-      <p class="cppl-lang-en">Sohye Jo, an incoming Ph.D. student at CPPL, has been selected for the 2026 Korea Student Aid Foundation Doctoral Excellence Scholarship in Science and Engineering. Congratulations on this outstanding achievement.</p>
-      <p class="cppl-lang-ko" lang="ko">CPPL 박사과정 신입생 조소혜 학생이 2026년 한국장학재단 박사우수장학금(이공계) 신규장학생으로 선정되었습니다. 진심으로 축하합니다.</p>
+      <p class="cppl-lang-en">Sohye Jo, an incoming Ph.D. student at CPPL, has been selected for the 2026 Korea Student Aid Foundation Doctoral Excellence Scholarship in Science and Engineering. She also received a scholarship certificate and medal from the Deputy Prime Minister and Minister of Science and ICT. Congratulations on this outstanding achievement.</p>
+      <p class="cppl-lang-ko" lang="ko">CPPL 박사과정 신입생 조소혜 학생이 2026년 한국장학재단 박사우수장학금(이공계) 신규장학생으로 선정되었으며, 부총리 겸 과학기술정보통신부 장관 명의의 장학증서와 메달을 받았습니다. 진심으로 축하합니다.</p>
     </div>
   </article>
 
