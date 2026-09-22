@@ -136,7 +136,7 @@
     "Undergraduate Researchers":"학부연구생",
     "Undergraduate Researcher":"학부연구생",
     "Prospective M.S.":"석사과정 진학 예정",
-    "Part-time":"시간제",
+    "Part-time":"비전일제",
     "Members on Leave & Alumni":"휴학 및 졸업 구성원",
     "Military Service":"군복무",
     "On Leave":"휴학",
