@@ -1041,3 +1041,16 @@ html[data-theme="dark"] .cppl-project-group-current .cppl-project-list time { ba
     font-size:.68rem;
   }
 }
+
+
+/* Current affiliation for non-full-time graduate students */
+.cppl-member-org {
+  margin-top:5px!important;
+  color:#6b7d87!important;
+  font-size:.72rem;
+  line-height:1.45!important;
+}
+
+html[data-theme="dark"] .cppl-member-org {
+  color:#9aadb6!important;
+}
