@@ -175,3 +175,56 @@ html[data-theme="dark"] .cppl-news-meta {
     object-position:center 20%;
   }
 }
+
+/* Featured conference award */
+.cppl-news-card-featured {
+  grid-template-columns:minmax(280px,.9fr) minmax(0,1.45fr);
+  border-top-color:#c58a2b;
+}
+
+.cppl-news-card-featured .cppl-news-tag {
+  color:#7a541b;
+  background:#fbf2df;
+}
+
+.cppl-news-photo-pair {
+  display:grid;
+  grid-template-columns:1.08fr .92fr;
+  gap:2px;
+  height:300px;
+  min-height:300px;
+  background:#dfe5e2;
+}
+
+.cppl-news-photo-pair img {
+  width:100%;
+  height:100%;
+  min-height:0;
+  object-fit:cover;
+}
+
+.cppl-news-photo-pair img:first-child {
+  object-position:center center;
+}
+
+.cppl-news-photo-pair img:last-child {
+  object-position:center center;
+}
+
+@media (max-width:700px) {
+  .cppl-news-card-featured {
+    grid-template-columns:1fr;
+  }
+
+  .cppl-news-photo-pair {
+    height:250px;
+    min-height:250px;
+  }
+}
+
+@media (max-width:480px) {
+  .cppl-news-photo-pair {
+    height:225px;
+    min-height:225px;
+  }
+}
