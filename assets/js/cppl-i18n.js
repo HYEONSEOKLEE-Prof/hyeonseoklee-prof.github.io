@@ -137,6 +137,7 @@
     "Undergraduate Researcher":"학부연구생",
     "Prospective M.S.":"석사과정 진학 예정",
     "Part-time":"비전일제",
+    "Crop Cultivation & Physiology Division · National Institute of Crop Science, RDA":"국립식량과학원 재배생리과",
     "Members on Leave & Alumni":"휴학 및 졸업 구성원",
     "Military Service":"군복무",
     "On Leave":"휴학",
