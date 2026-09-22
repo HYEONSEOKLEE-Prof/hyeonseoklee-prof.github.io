@@ -26,7 +26,7 @@ author_profile: false
           <span class="cppl-lang-en">Award</span>
           <span class="cppl-lang-ko" lang="ko">수상</span>
         </span>
-        <span>Sep 9–11, 2026</span>
+        <span class="cppl-lang-en">Sep 9–11, 2026</span><span class="cppl-lang-ko" lang="ko">2026.09.09.–11.</span>
       </div>
       <h3>
         <span class="cppl-lang-en">Sohye Jo Receives Best Presentation Award at the 2026 Korean Society of Crop Science Conference</span>
