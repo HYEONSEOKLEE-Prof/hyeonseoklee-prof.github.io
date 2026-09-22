@@ -15,6 +15,28 @@ author_profile: false
 </h2>
 
 <div class="cppl-news-grid">
+  <article class="cppl-news-card cppl-news-card-featured">
+    <div class="cppl-news-photo cppl-news-photo-pair">
+      <img src="{{ base_path }}/images/news/2026-crop-science-award-ceremony.jpg" alt="Sohye Jo receiving the Best Presentation Award" loading="eager">
+      <img src="{{ base_path }}/images/news/2026-crop-science-best-presentation-award.jpg" alt="Best Presentation Award certificate" loading="lazy">
+    </div>
+    <div class="cppl-news-copy">
+      <div class="cppl-news-meta">
+        <span class="cppl-news-tag">
+          <span class="cppl-lang-en">Award</span>
+          <span class="cppl-lang-ko" lang="ko">수상</span>
+        </span>
+        <span>Sep 9–11, 2026</span>
+      </div>
+      <h3>
+        <span class="cppl-lang-en">Sohye Jo Receives Best Presentation Award at the 2026 Korean Society of Crop Science Conference</span>
+        <span class="cppl-lang-ko" lang="ko">조소혜 학생, 2026년 한국작물학회 학술대회 우수발표상 수상</span>
+      </h3>
+      <p class="cppl-lang-en">Sohye Jo received the Best Presentation Award at the 2026 Korean Society of Crop Science Conference for her presentation, “Effects of Ozone Concentration on Heat-Stress Mitigation and Physiological and Transcriptomic Responses in Rice.” Congratulations!</p>
+      <p class="cppl-lang-ko" lang="ko">조소혜 학생이 2026년 9월 9일부터 11일까지 열린 한국작물학회 학술대회에서 “오존 농도에 따른 벼 고온 스트레스 저감과 생리·전사체 반응” 연구로 우수발표상을 수상했습니다. 진심으로 축하합니다.</p>
+    </div>
+  </article>
+
   <article class="cppl-news-card">
     <div class="cppl-news-photo">
       <img src="{{ base_path }}/images/members/jo-sohye.jpg" alt="Sohye Jo" loading="lazy">
