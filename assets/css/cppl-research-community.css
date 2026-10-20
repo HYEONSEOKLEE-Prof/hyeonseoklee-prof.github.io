@@ -1,0 +1,62 @@
+/* Bilingual research-flow summary and lab culture, shared by Home and Research. */
+.cppl-research-closing { margin: 3rem 0; scroll-margin-top: 95px; }
+.cppl-workflow { padding: 28px; border: 1px solid #234454; border-radius: 12px; background: #071d2b; color: #f5f9fb; }
+.cppl-workflow-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 28px; margin-bottom: 26px; }
+.page__content .cppl-workflow .cppl-workflow-heading h2 {
+  flex: 0 0 auto; margin: 0; padding: 0; border: 0; color: #fff;
+  font-size: 1.45rem; line-height: 1.3; letter-spacing: -.025em;
+}
+.cppl-workflow .cppl-workflow-heading p { max-width: 650px; margin: 0; color: #b8d6cf; font-size: .78rem; line-height: 1.6; }
+.cppl-workflow .cppl-workflow-steps { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 28px; margin: 0; padding: 0; list-style: none; }
+.cppl-workflow .cppl-workflow-steps > li { position: relative; display: flex; align-items: flex-start; gap: 10px; min-width: 0; margin: 0; padding: 0; }
+.cppl-workflow-steps > li:not(:last-child)::after { content: "→"; position: absolute; right: -23px; top: 9px; color: #8cbeb5; font-size: 1.15rem; }
+.cppl-flow-number {
+  display: flex; flex: 0 0 38px; width: 38px; height: 38px; align-items: center; justify-content: center;
+  border: 1px solid #d6ede4; border-radius: 50%; background: #b8dbce; color: #123443;
+  font-size: .73rem; font-weight: 800; line-height: 1;
+}
+.cppl-workflow-steps > li:nth-child(2) .cppl-flow-number { background: #abd4c9; }
+.cppl-workflow-steps > li:nth-child(3) .cppl-flow-number { background: #98c8bf; }
+.cppl-workflow-steps > li:nth-child(4) .cppl-flow-number { background: #88beb6; }
+.cppl-workflow-steps > li:nth-child(5) .cppl-flow-number { background: #7eb6af; }
+.page__content .cppl-workflow .cppl-workflow-steps h3 { margin: 0; color: #f5f9fb; font-size: .83rem; line-height: 1.5; letter-spacing: -.015em; }
+.cppl-workflow-steps h3 span { display: block; }
+.cppl-workflow-steps h3 span + span { margin-top: .35rem; color: #c3d8df; font-size: .77rem; font-weight: 500; }
+.cppl-community { display: grid; grid-template-columns: 1.15fr 1.8fr .48fr; gap: 22px; align-items: stretch; margin-top: 28px; padding-top: 28px; border-top: 1px solid #cbdad3; }
+.cppl-community-message { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 26px; border: 1px solid #d8e1e2; border-radius: 12px; background: #fff; }
+.cppl-community .cppl-community-kicker { margin: 0 0 14px; color: #557c58; font-size: .72rem; font-weight: 800; letter-spacing: .11em; text-transform: uppercase; }
+.page__content .cppl-community .cppl-community-message h2 { margin: 0; padding: 0; border: 0; color: #244f6b; font-size: clamp(1.15rem,1.65vw,1.5rem); line-height: 1.6; font-weight: 650; letter-spacing: -.025em; }
+.cppl-community-message h2 span { display: block; }
+.page__content .cppl-community-message a { display: inline-block; margin-top: 22px; padding: 6px 0; color: #365e46; font-size: .82rem; font-weight: 700; text-underline-offset: 4px; }
+.cppl-community .cppl-community-photo { display: block; min-width: 0; margin: 0; border-radius: 12px; overflow: hidden; background: #eaf0e6; }
+.cppl-community-photo a { display: block; width: 100%; height: 100%; }
+.cppl-community-photo img { display: block; width: 100%; height: 100%; min-height: 280px; max-height: 330px; margin: 0; object-fit: cover; object-position: center 32%; }
+.cppl-community-mascot { display: block; align-self: center; width: 100%; height: auto; max-height: 250px; margin: 0; object-fit: contain; }
+.cppl-community a:focus-visible { outline: 3px solid #8baf5b; outline-offset: 4px; }
+html[lang="ko"] .cppl-research-closing, html[lang="ko"] .cppl-intro { word-break: keep-all; overflow-wrap: anywhere; }
+html[lang="ko"] .cppl-intro h1 { font-size: clamp(1.65rem,3vw,2.45rem); line-height: 1.35; text-wrap: balance; }
+@media (max-width: 1100px) {
+  .cppl-workflow-heading { display: block; }
+  .cppl-workflow .cppl-workflow-heading p { margin-top: 10px; }
+  .cppl-workflow .cppl-workflow-steps { grid-template-columns: 1fr; gap: 27px; }
+  .cppl-workflow .cppl-workflow-steps > li { align-items: center; gap: 16px; }
+  .cppl-workflow-steps > li:not(:last-child)::after { content: "↓"; right: auto; left: 12px; top: calc(100% + 1px); font-size: 1rem; }
+  .page__content .cppl-workflow .cppl-workflow-steps h3 { font-size: 1rem; }
+  .cppl-workflow-steps h3 span + span { margin-top: 0; font-size: .9rem; }
+  .cppl-community { grid-template-columns: 1fr 1.65fr; gap: 18px; }
+  .cppl-community-mascot { display: none; }
+}
+@media (max-width: 600px) {
+  .cppl-workflow { padding: 24px 20px; }
+  .cppl-community { grid-template-columns: 1fr minmax(66px,.3fr); gap: 16px; padding-top: 22px; }
+  .cppl-community-message { grid-column: 1; padding: 24px 20px; }
+  .cppl-community .cppl-community-message h2 { font-size: 1.2rem; line-height: 1.6; }
+  .cppl-community-message a { font-size: .88rem; margin-top: 14px; }
+  .cppl-community-mascot { display: block; grid-column: 2; grid-row: 1; }
+  .cppl-community .cppl-community-photo { grid-column: 1 / -1; }
+  .cppl-community-photo img { height: auto; min-height: 0; max-height: none; object-fit: contain; }
+}
+html[data-theme="dark"] .cppl-community-message { border-color: #35505f; background: #102735; }
+html[data-theme="dark"] .cppl-community .cppl-community-message h2 { color: #dcecf5; }
+html[data-theme="dark"] .cppl-community .cppl-community-kicker,
+html[data-theme="dark"] .page__content .cppl-community-message a { color: #bbd5ad; }
