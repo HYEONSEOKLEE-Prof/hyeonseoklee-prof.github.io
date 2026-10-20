@@ -69,6 +69,9 @@
     "Long-term expansion toward crop production research for space and closed environments, building on crop physiology, resource efficiency, phenomics, and multi-harvest concepts.":"작물생리, 자원이용 효율, 표현체학 및 다회수확 개념을 바탕으로 우주·폐쇄환경 작물생산 연구로 장기 확장합니다.",
 
     "Our research, connected":"연결되는 CPPL 연구",
+    "Combined heat–ozone responses":"고온·오존 복합 환경스트레스 반응",
+    "Digital crop monitoring: images, weather, and growth indicators":"영상·기상·생육지표를 연결하는 디지털 작황관제",
+    "Illustrative yield map — synthetic data, not an actual prediction.":"수량 분포 형식 예시 · 합성 자료이며 실제 예측 결과가 아닙니다.",
     "From understanding crops to better field decisions":"작물의 이해에서 현장 의사결정까지",
     "We connect physiological mechanisms, quantitative crop information, and predictive tools to develop climate-smart production technologies.":"생리·생태 기작과 정량적 생육정보, 예측도구를 연결하여 기후스마트 작물생산기술을 개발합니다.",
     "Understand":"이해",

@@ -58,6 +58,11 @@ author_profile: false
     <div class="cppl-visual-heading"><span>03</span><h3>Digital Phenomics Analysis</h3></div>
     <p class="cppl-highlight-context">Imaging, sensors, and artificial intelligence quantify growth; physiological measurements support interpretation and validation.</p>
     <div class="cppl-visual-gallery cppl-gallery-three">
+      <figure class="cppl-visual-figure cppl-visual-wide">
+        <a href="{{ '/images/research/research-digital-crop-monitoring-dashboard.png' | relative_url }}" aria-label="Open the full-resolution digital crop monitoring dashboard">
+          <img class="cppl-research-inline-image" src="{{ '/images/research/research-digital-crop-monitoring-dashboard.png' | relative_url }}" loading="lazy" decoding="async" alt="Digital rice monitoring dashboard combining field camera images, regional locations, canopy height, canopy cover, and tiller counts">
+        </a>
+      </figure>
       <figure class="cppl-visual-figure cppl-visual-primary">
         <a href="{{ '/images/research/research-digital-field-phenotyping-full.png' | relative_url }}" aria-label="Open the full-resolution field phenotyping image">
           <img class="cppl-research-inline-image" src="{{ '/images/research/research-digital-field-phenotyping-full.png' | relative_url }}" loading="lazy" decoding="async" alt="Image-based rice leaf detection and field phenotyping at early and late growth stages">

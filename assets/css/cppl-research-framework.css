@@ -50,8 +50,15 @@
   margin: .65rem 0 0; color: var(--framework-muted); font-size: .76rem; line-height: 1.55;
 }
 .cppl-axis-body { display: flex; flex: 1; flex-direction: column; gap: 18px; min-width: 0; padding: 18px; }
-.cppl-framework .cppl-axis-image { margin: 0; background: #fff; border: 1px solid #e4e9eb; border-radius: 6px; overflow: hidden; }
-.cppl-axis-image img { display: block; width: 100%; height: 142px; object-fit: contain; padding: 6px; box-sizing: border-box; }
+.cppl-framework .cppl-axis-image { display: block; margin: 0; background: #fff; border: 1px solid #e4e9eb; border-radius: 6px; overflow: hidden; }
+.cppl-axis-image img { display: block; width: 100%; height: 142px; object-fit: contain; padding: 6px; margin: 0; box-sizing: border-box; }
+.cppl-framework .cppl-axis-evidence a { display: block; width: 100%; }
+.cppl-framework .cppl-axis-evidence img { width: 100%; height: auto; max-height: none; object-fit: contain; }
+.cppl-framework .cppl-axis-evidence figcaption {
+  width: 100%; box-sizing: border-box; margin: 0; padding: 10px 12px; border-top: 1px solid var(--framework-rule);
+  color: var(--framework-muted); background: #f8fafb; font-family: inherit; font-size: .78rem; line-height: 1.6;
+}
+.cppl-framework .cppl-axis-evidence--dashboard { border-color: #b9d2e1; }
 .cppl-framework .cppl-axis-topics { display: grid; gap: 16px; list-style: none; margin: 0; padding: 0; }
 .cppl-framework .cppl-axis-topics li { margin: 0; padding: 0; line-height: 1.5; }
 .cppl-axis-topics strong { display: block; color: var(--framework-ink); font-size: .9rem; line-height: 1.45; }
@@ -125,6 +132,7 @@ html[lang="ko"] .cppl-research-intro { word-break: keep-all; overflow-wrap: anyw
   .cppl-method-branches::after { top: -18px; height: 18px; }
   .cppl-method { position: relative; padding: 18px; }
   .cppl-framework .cppl-method p, .cppl-framework .cppl-method li { font-size: .94rem; }
+  .cppl-framework .cppl-axis-evidence figcaption { font-size: .88rem; }
   .cppl-method::before { content: ""; position: absolute; left: -13px; top: 30px; width: 12px; border-top: 1px solid #93b3c7; }
   .cppl-framework .cppl-data-foundation h4 { font-size: 1.05rem; }
   .cppl-framework .cppl-data-foundation p { font-size: .8rem; }
@@ -139,6 +147,7 @@ html[data-theme="dark"] .cppl-research-axis { background: #102735; }
 html[data-theme="dark"] .cppl-axis-header { background: #17323e; }
 html[data-theme="dark"] .cppl-data-foundation { background: #15374b; border-color: #4c7187; }
 html[data-theme="dark"] .cppl-method { background: #102c3c; border-color: #3e6176; }
+html[data-theme="dark"] .cppl-framework .cppl-axis-evidence figcaption { background: #17323e; }
 html[data-theme="dark"] .cppl-framework .cppl-data-foundation h4,
 html[data-theme="dark"] .cppl-framework .cppl-data-foundation p,
 html[data-theme="dark"] .cppl-framework .cppl-method h4 { color: #d5e8f4; }
