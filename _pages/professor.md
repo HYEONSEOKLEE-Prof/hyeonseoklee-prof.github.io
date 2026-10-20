@@ -44,6 +44,7 @@ author_profile: false
   <section class="cppl-panel">
     <h2>Professional Service &amp; Leadership</h2>
     <ul>
+      <li><strong>Honorary Field Researcher</strong>, National Institute of Crop Science, Rural Development Administration (2026–Present)</li>
       <li><strong>Chair, Food Crops Division</strong>, AIRISE Project Group, Rural Development Administration (Jun 2026–Present)</li>
       <li><strong>Editorial Board Member</strong>, BMC Plant Biology (Feb 2026–Present)</li>
       <li><strong>Administrative Secretary</strong>, The Korean Journal of Crop Science (Sep 2024–Present)</li>
