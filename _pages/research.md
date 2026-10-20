@@ -55,7 +55,7 @@ author_profile: false
   </article>
 
   <article id="research-digital-phenomics" class="cppl-visual-card cppl-visual-card-source">
-    <div class="cppl-visual-heading"><span>03</span><h3>Digital Phenomics Analysis</h3></div>
+    <div class="cppl-visual-heading"><span>03</span><h3>Digital Phenotyping</h3></div>
     <p class="cppl-highlight-context">Imaging, sensors, and artificial intelligence quantify growth; physiological measurements support interpretation and validation.</p>
     <div class="cppl-visual-gallery cppl-gallery-three">
       <figure class="cppl-visual-figure cppl-visual-wide">
