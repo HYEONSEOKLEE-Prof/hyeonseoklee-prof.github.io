@@ -127,6 +127,16 @@ author_profile: false
           <img class="cppl-research-inline-image" src="{{ '/images/research/research-digital-gru-model-clean.png' | relative_url }}" loading="lazy" decoding="async" alt="Gated recurrent unit architecture for rice yield prediction">
         </a>
       </figure>
+      <figure class="cppl-visual-figure">
+        <a href="{{ '/images/research/research-digital-field-monitoring.webp' | relative_url }}" aria-label="Open the full-resolution field monitoring system photo">
+          <img class="cppl-research-inline-image" src="{{ '/images/research/research-digital-field-monitoring.webp' | relative_url }}" loading="lazy" decoding="async" alt="Field monitoring system installed above irrigated rice plots">
+        </a>
+      </figure>
+      <figure class="cppl-visual-figure">
+        <a href="{{ '/images/research/research-digital-field-experiment.webp' | relative_url }}" aria-label="Open the full-resolution rice field experiment photo">
+          <img class="cppl-research-inline-image" src="{{ '/images/research/research-digital-field-experiment.webp' | relative_url }}" loading="lazy" decoding="async" alt="Rice field experiment equipped with sensor frames for crop and environmental monitoring">
+        </a>
+      </figure>
     </div>
     <p class="cppl-figure-caption">Imaging, phenotyping, and data-driven models for crop growth and yield. <a class="cppl-source-link" href="/publications/">Related publications →</a></p>
   </article>
