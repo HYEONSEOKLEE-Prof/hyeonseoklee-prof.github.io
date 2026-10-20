@@ -17,12 +17,12 @@ redirect_from:
     <div class="cppl-home-kicker">CPPL · Chungnam National University</div>
     <h1>Crop Physiology &amp; Phenomics Laboratory</h1>
     <div class="cppl-university">Chungnam National University</div>
-    <p>We investigate crop growth, development, and environmental responses and translate physiological understanding into quantitative phenotyping, crop models, and climate-smart production technologies.</p>
+    <p>We study crop development and environmental responses, connecting ecophysiological mechanisms with digital phenomics, crop models, and climate-smart production technologies.</p>
   </section>
 
   {% include cppl-research-framework.html compact=true %}
 
-  <div class="cppl-emerging">Emerging Research · Space Agriculture</div>
+  {% include cppl-research-community.html %}
 
   <div class="cppl-home-links">
     <a href="/research/"><strong>Explore Research →</strong><span>Research vision, approaches, and current themes</span></a>

@@ -126,8 +126,7 @@ author_profile: false
   </article>
 </div>
 
-<div class="cppl-emerging">Emerging Research · Space Agriculture</div>
-<p class="cppl-emerging-copy">Long-term expansion toward crop production research for space and closed environments, building on crop physiology, resource efficiency, phenomics, and multi-harvest concepts.</p>
+{% include cppl-research-community.html %}
 
 <!-- research highlights build trigger: 2026-08-15 -->
 </div>
