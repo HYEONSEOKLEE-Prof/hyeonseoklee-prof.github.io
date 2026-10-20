@@ -12,11 +12,11 @@
     "Opportunities":"참여 안내",
     "Email":"이메일",
     "Join CPPL":"연구실 지원",
-    "Crop Physiology & Phenomics Laboratory · Chungnam National University":"작물생리·생태 및 표현체 분석 연구실 · 충남대학교",
+    "Crop Physiology & Phenomics Laboratory · Chungnam National University":"작물생리·표현체 연구실 · 충남대학교",
     "© 2026 CPPL · Department of Crop Science, Chungnam National University":"© 2026 CPPL · 충남대학교 식물자원학과",
 
     "CPPL · Chungnam National University":"CPPL · 충남대학교",
-    "Crop Physiology & Phenomics Laboratory":"작물생리·생태 및 표현체 분석 연구실",
+    "Crop Physiology & Phenomics Laboratory":"작물생리·표현체 연구실",
     "Chungnam National University":"충남대학교",
     "We study crop development and environmental responses, connecting ecophysiological mechanisms with digital phenomics, crop models, and climate-smart production technologies.":"작물의 발육과 환경반응을 연구하고, 생리·생태 기작을 디지털 표현체 분석·작물모형·기후스마트 생산기술로 연결합니다.",
     "Research Areas":"연구 분야",
