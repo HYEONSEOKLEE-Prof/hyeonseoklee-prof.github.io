@@ -20,8 +20,6 @@ redirect_from:
     <p>We study crop development and environmental responses, connecting ecophysiological mechanisms with digital phenomics, crop models, and climate-smart production technologies.</p>
   </section>
 
-  {% include cppl-research-framework.html compact=true %}
-
   {% include cppl-research-community.html %}
 
   <div class="cppl-home-links">

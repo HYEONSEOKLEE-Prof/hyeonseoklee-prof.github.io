@@ -126,7 +126,5 @@ author_profile: false
   </article>
 </div>
 
-{% include cppl-research-community.html %}
-
 <!-- research highlights build trigger: 2026-08-15 -->
 </div>
