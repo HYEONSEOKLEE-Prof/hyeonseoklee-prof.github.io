@@ -20,30 +20,7 @@ redirect_from:
     <p>We investigate crop growth, development, and environmental responses and translate physiological understanding into quantitative phenotyping, crop models, and climate-smart production technologies.</p>
   </section>
 
-  <h2 class="cppl-section-title">Research Areas</h2>
-
-  <div class="cppl-research-grid">
-    <article class="cppl-research-card">
-      <div class="cppl-card-number">01</div>
-      <h3>Crop Physiology</h3>
-      <p>Phenology, photosynthesis, carbon metabolism, and environmental responses</p>
-    </article>
-    <article class="cppl-research-card">
-      <div class="cppl-card-number">02</div>
-      <h3>Climate-Smart Crop Production</h3>
-      <p>Climate stress, biostimulants, resource efficiency, and ratoon multi-harvest systems</p>
-    </article>
-    <article class="cppl-research-card">
-      <div class="cppl-card-number">03</div>
-      <h3>Digital Phenomics &amp; Modeling</h3>
-      <p>Imaging, sensors, artificial intelligence, and crop modeling</p>
-    </article>
-    <article class="cppl-research-card">
-      <div class="cppl-card-number">04</div>
-      <h3>Satellite-Based Crop Monitoring &amp; Modeling</h3>
-      <p>Remote sensing, crop models, growth monitoring, and yield prediction</p>
-    </article>
-  </div>
+  {% include cppl-research-framework.html compact=true %}
 
   <div class="cppl-emerging">Emerging Research · Space Agriculture</div>
 

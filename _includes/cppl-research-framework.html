@@ -1,0 +1,97 @@
+{% comment %}Shared Home / Research narrative. The two methods are parallel, not sequential.{% endcomment %}
+<section id="research-framework" class="cppl-framework{% if include.compact %} cppl-framework--compact{% endif %}">
+  <header class="cppl-framework-intro">
+    <p class="cppl-framework-kicker">Our research, connected</p>
+    <h2>From understanding crops to better field decisions</h2>
+    <p>We connect physiological mechanisms, quantitative crop information, and predictive tools to develop climate-smart production technologies.</p>
+  </header>
+
+  <div class="cppl-framework-grid">
+    <article class="cppl-research-axis cppl-research-axis--physiology">
+      <header class="cppl-axis-header">
+        <span class="cppl-axis-label">Understand</span>
+        <h3>Crop Ecophysiology &amp; Environmental Responses</h3>
+        <p>Observe crops, explain mechanisms, quantify responses.</p>
+      </header>
+      <div class="cppl-axis-body">
+        <figure class="cppl-axis-image">
+          <img src="{{ '/images/research/research-crop-physiology-figure7-clean.png' | relative_url }}" loading="lazy" decoding="async" alt="Photoperiod and temperature responses linked to physiological and metabolic mechanisms in rice">
+        </figure>
+        <ul class="cppl-axis-topics">
+          <li><strong>Development &amp; phenology</strong><span>Development and heading responses to photoperiod and temperature</span></li>
+          <li><strong>Combined environmental stresses</strong><span>Physiological interactions under heat, ozone, and other environmental conditions</span></li>
+          <li><strong>Physiological &amp; ecotypic variation and recovery</strong><span>Photosynthesis, carbon metabolism, and cultivar-specific responses</span></li>
+        </ul>
+        {% unless include.compact %}<p class="cppl-axis-detail">Field and controlled-environment experiments connect physiological measurements with molecular, transcriptomic, and metabolic analyses.</p>{% endunless %}
+        <a class="cppl-axis-link" href="{{ '/research/' | relative_url }}#research-ecophysiology">Explore physiological research →</a>
+      </div>
+    </article>
+
+    <article id="research-data-hub" class="cppl-research-axis cppl-research-axis--integration">
+      <header class="cppl-axis-header">
+        <span class="cppl-axis-label">Connect</span>
+        <h3>Physiology-Informed Modeling &amp; Phenomics</h3>
+        <p>One shared data foundation, two complementary approaches.</p>
+      </header>
+      <div class="cppl-axis-body">
+        <div class="cppl-data-foundation">
+          <span class="cppl-data-label">Common foundation</span>
+          <h4>Shared physiological data</h4>
+          <p>Developmental stages · Photosynthesis · Water status · Stress responses</p>
+        </div>
+        <div class="cppl-method-branches">
+          <section class="cppl-method">
+            <span class="cppl-method-letter" aria-hidden="true">A</span>
+            <h4>Crop Model Advancement</h4>
+            <p>Connect mechanisms to model parameters and response functions.</p>
+            {% unless include.compact %}
+            <ul>
+              <li>Developmental-stage transitions and stress-response functions</li>
+              <li>Weather and satellite data integration and model validation</li>
+            </ul>
+            {% endunless %}
+            <a class="cppl-axis-link" href="{{ '/research/' | relative_url }}#research-crop-modeling">Explore crop modeling →</a>
+          </section>
+          <section class="cppl-method">
+            <span class="cppl-method-letter" aria-hidden="true">B</span>
+            <h4>Digital Phenomics Analysis</h4>
+            <p>Interpret visible growth changes as meaningful physiological information.</p>
+            {% unless include.compact %}
+            <ul>
+              <li>Physiological interpretation of RGB and multispectral image indicators</li>
+              <li>Validation of diagnostic criteria and transfer across environments</li>
+            </ul>
+            {% endunless %}
+            <a class="cppl-axis-link" href="{{ '/research/' | relative_url }}#research-digital-phenomics">Explore digital phenomics →</a>
+          </section>
+        </div>
+        <p class="cppl-integration-outcome">Accuracy · Biological validity · Interpretability</p>
+      </div>
+    </article>
+
+    <article class="cppl-research-axis cppl-research-axis--application">
+      <header class="cppl-axis-header">
+        <span class="cppl-axis-label">Apply</span>
+        <h3>Climate-Smart Production &amp; Field Applications</h3>
+        <p>Turn diagnosis and prediction into cultivation strategies.</p>
+      </header>
+      <div class="cppl-axis-body">
+        <figure class="cppl-axis-image">
+          <img src="{{ '/images/research/research-satellite-data-assimilation.webp' | relative_url }}" loading="lazy" decoding="async" alt="Satellite observations integrated with crop models through data assimilation to support growth and yield prediction">
+        </figure>
+        <ul class="cppl-axis-topics">
+          <li><strong>Growth &amp; yield prediction</strong><span>Heading dates, developmental stages, and regional crop conditions</span></li>
+          <li><strong>Climate-smart cultivation</strong><span>Stress mitigation, resource efficiency, and field management</span></li>
+          <li><strong>Field validation &amp; feedback</strong><span>Use field observations to refine diagnosis and prediction</span></li>
+        </ul>
+        {% unless include.compact %}<p class="cppl-axis-detail">Applications include biostimulants, ratoon multi-harvest systems, agrivoltaics, and smart open-field cultivation.</p>{% endunless %}
+        <a class="cppl-axis-link" href="{{ '/research/' | relative_url }}#research-climate-smart">Explore production research →</a>
+      </div>
+    </article>
+  </div>
+
+  <div class="cppl-research-feedback">
+    <span class="cppl-feedback-arrow" aria-hidden="true">↶</span>
+    <p><strong>Field observations feed back into research.</strong><span>New evidence refines physiological understanding, phenotyping, and crop models.</span></p>
+  </div>
+</section>
