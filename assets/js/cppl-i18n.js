@@ -85,6 +85,8 @@
     ", Chungnam National University (Sep 2025–Present)":", 충남대학교 (2025년 9월–현재)",
     ", National Institute of Crop Science, Rural Development Administration (Aug 2014–Aug 2025)":", 농촌진흥청 국립식량과학원 (2014년 8월–2025년 8월)",
     "Professional Service & Leadership":"학술활동 및 리더십",
+    "Honorary Field Researcher":"현장명예연구관",
+    ", National Institute of Crop Science, Rural Development Administration (2026–Present)":", 농촌진흥청 국립식량과학원 (2026년–현재)",
     "Chair, Food Crops Division":"식량작물분과장",
     "Editorial Board Member":"편집위원",
     "Administrative Secretary":"편집간사",
