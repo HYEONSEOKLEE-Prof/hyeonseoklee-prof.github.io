@@ -144,9 +144,14 @@ author_profile: false
           <img class="cppl-research-inline-image" src="{{ '/images/research/research-satellite-yield-analysis-dashboard.png' | relative_url }}" loading="lazy" decoding="async" alt="Four-panel rice yield analysis showing observed trends, scenario distributions, model-component correlations, and scenario-selection comparisons">
         </a>
       </figure>
-      <figure class="cppl-visual-figure cppl-visual-centered">
-        <a href="{{ '/images/research/research-satellite-oni-yield-clean.png' | relative_url }}" aria-label="Open the full-resolution ONI and rice yield figure">
-          <img class="cppl-research-inline-image" src="{{ '/images/research/research-satellite-oni-yield-clean.png' | relative_url }}" loading="lazy" decoding="async" alt="Relationship between the Oceanic Niño Index and detrended rice yield">
+      <figure class="cppl-visual-figure cppl-visual-wide">
+        <a href="{{ '/images/research/research-satellite-data-assimilation.webp' | relative_url }}" aria-label="Open the full-resolution satellite data assimilation framework">
+          <img class="cppl-research-inline-image" src="{{ '/images/research/research-satellite-data-assimilation.webp' | relative_url }}" loading="lazy" decoding="async" alt="Satellite observation and crop-model data assimilation framework for updating leaf area index, growth stages, and yield prediction">
+        </a>
+      </figure>
+      <figure class="cppl-visual-figure cppl-visual-wide">
+        <a href="{{ '/images/research/research-satellite-regional-yield-map.webp' | relative_url }}" aria-label="Open the full-resolution regional rice yield map example">
+          <img class="cppl-research-inline-image" src="{{ '/images/research/research-satellite-regional-yield-map.webp' | relative_url }}" loading="lazy" decoding="async" alt="Example gridded rice-yield distribution across South Korea with an enlarged view of the Chungnam region">
         </a>
       </figure>
     </div>
