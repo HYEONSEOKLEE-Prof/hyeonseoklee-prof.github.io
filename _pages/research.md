@@ -89,8 +89,8 @@ author_profile: false
         </a>
       </figure>
       <figure class="cppl-visual-figure cppl-visual-wide">
-        <a href="{{ '/images/research/research-digital-agrivoltaics-system.webp' | relative_url }}" aria-label="Open the full-resolution integrated agrivoltaics crop production system diagram">
-          <img class="cppl-research-inline-image" src="{{ '/images/research/research-digital-agrivoltaics-system.webp' | relative_url }}" loading="lazy" decoding="async" alt="Integrated agrivoltaics-based climate-smart open-field crop production system linking phenology regulation, RGB camera monitoring, digital decision support, precision actions, and water management">
+        <a href="{{ '/images/research/research-digital-agrivoltaics-system-no-night-label.webp' | relative_url }}" aria-label="Open the full-resolution integrated agrivoltaics crop production system diagram">
+          <img class="cppl-research-inline-image" src="{{ '/images/research/research-digital-agrivoltaics-system-no-night-label.webp' | relative_url }}" loading="lazy" decoding="async" alt="Integrated agrivoltaics-based climate-smart open-field crop production system linking phenology regulation, RGB camera monitoring, digital decision support, precision actions, and water management">
         </a>
       </figure>
     </div>
