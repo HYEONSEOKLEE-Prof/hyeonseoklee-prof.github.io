@@ -126,7 +126,7 @@ author_profile: false
   </article>
   <article id="member-son-chaeeun" class="cppl-member-card cppl-member-profile-card" data-member="son-chaeeun">
     <div class="cppl-member-character cppl-webtoon" data-member-character="손채은" role="img" aria-label="손채은" style="background-image:url('/images/members/son-chaeeun.jpg')!important;background-size:cover!important;background-position:center 14%!important;background-repeat:no-repeat!important;"><span class="cppl-avatar-badge" aria-hidden="true">🌱</span></div>
-    <div class="cppl-member-info"><h3>손채은</h3><p>Undergraduate Researcher</p></div>
+    <div class="cppl-member-info"><h3>손채은</h3><p>Undergraduate Researcher</p><a class="cppl-member-email" href="mailto:topokki1206@cropcnu.com">✉ topokki1206@cropcnu.com</a></div>
   </article>
 </div>
 
