@@ -124,6 +124,10 @@ author_profile: false
     <div class="cppl-member-character cppl-webtoon cppl-webtoon-09" data-member-character="박한빈" style="background-image:url('/images/members/park-hanbin.jpg')!important;background-size:cover!important;background-position:center 14%!important;background-repeat:no-repeat!important;"><svg class="cppl-avatar-ill" viewBox="0 0 120 140" aria-hidden="true"><circle cx="60" cy="70" r="54" fill="var(--avatar-bg)"/><path d="M26 118c7-23 61-23 68 0v16H26z" fill="var(--avatar-shirt)"/><circle cx="60" cy="65" r="29" fill="#f2d2bd"/><path d="M31 63c0-29 18-43 31-43 20 0 30 17 28 43-8-14-18-20-31-20-12 0-21 6-28 20z" fill="var(--avatar-hair)"/><circle cx="49" cy="66" r="3" fill="#26333d"/><circle cx="72" cy="66" r="3" fill="#26333d"/><path d="M54 79c4 4 9 4 13 0" fill="none" stroke="#b66f69" stroke-width="2.5" stroke-linecap="round"/><circle cx="42" cy="76" r="4" fill="#efb7ad" opacity=".55"/><circle cx="78" cy="76" r="4" fill="#efb7ad" opacity=".55"/></svg><span class="cppl-avatar-badge">🌾</span></div>
     <div class="cppl-member-info"><h3>박한빈</h3><p>Undergraduate Researcher</p><a class="cppl-member-email" href="mailto:parkhb602@cropcnu.com">✉ parkhb602@cropcnu.com</a></div>
   </article>
+  <article id="member-son-chaeeun" class="cppl-member-card cppl-member-profile-card" data-member="son-chaeeun">
+    <div class="cppl-member-character cppl-webtoon" data-member-character="손채은" role="img" aria-label="손채은" style="background-image:url('/images/members/son-chaeeun.jpg')!important;background-size:cover!important;background-position:center 14%!important;background-repeat:no-repeat!important;"><span class="cppl-avatar-badge" aria-hidden="true">🌱</span></div>
+    <div class="cppl-member-info"><h3>손채은</h3><p>Undergraduate Researcher</p></div>
+  </article>
 </div>
 
 <h2 class="cppl-member-section-title">Members on Leave &amp; Alumni</h2>
