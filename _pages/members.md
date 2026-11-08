@@ -172,11 +172,6 @@ html[data-theme="dark"] .cppl-former-members .cppl-member-years { color:#a8bbc8;
 
 <h2 id="former-undergraduate-researchers" class="cppl-member-section-title">Former Undergraduate Researchers</h2>
 <ul class="cppl-former-members">
-  <li><strong>박민영, 송영호, 장래찬</strong><span class="cppl-member-years">(2020–2021)</span></li>
-  <li><strong>김은영, 송화섭, 정효경</strong><span class="cppl-member-years">(2021–2022)</span></li>
-  <li><strong>김지민, 이예빈, 한지윤</strong><span class="cppl-member-years">(2022–2023)</span></li>
-  <li><strong>공윤희, 김다은, 이상훈</strong><span class="cppl-member-years">(2023–2024)</span></li>
-  <li><strong>문상윤, 신재효, 최효리</strong><span class="cppl-member-years">(2024–2025)</span></li>
-  <li><strong>이준섭</strong></li>
+  <li><strong>이준섭</strong><span class="cppl-member-years">(2026)</span></li>
 </ul>
 
