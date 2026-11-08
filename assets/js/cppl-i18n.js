@@ -207,6 +207,8 @@
     "Part-time":"비전일제",
     "Crop Cultivation & Physiology Division · National Institute of Crop Science, RDA":"국립식량과학원 재배생리과",
     "Members on Leave & Alumni":"휴학 및 졸업 구성원",
+    "Members on Leave":"휴학·군복무 중인 구성원",
+    "Former Undergraduate Researchers":"이전 학부연구생",
     "Military Service":"군복무",
     "On Leave":"휴학",
     "Former Undergraduate Researcher":"전 학부연구생",

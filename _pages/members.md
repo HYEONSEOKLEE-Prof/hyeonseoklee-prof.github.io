@@ -58,6 +58,32 @@ author_profile: false
   }
 }
 [data-member-character]::after{content:none!important;display:none!important;}
+.cppl-former-members {
+  margin:0;
+  padding:8px 24px;
+  list-style:none;
+  border:1px solid #d8e0e4;
+  border-radius:14px;
+  background:#fff;
+}
+.page__content .cppl-former-members li {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:baseline;
+  gap:4px 20px;
+  margin:0;
+  padding:16px 0;
+  line-height:1.65;
+}
+.cppl-former-members li + li { border-top:1px solid #e5eaed; }
+.cppl-former-members strong { font-weight:600; }
+.cppl-former-members .cppl-member-years { color:#647587; font-size:.88em; white-space:nowrap; }
+html[data-theme="dark"] .cppl-former-members { background:#10212c; border-color:#29404a; }
+html[data-theme="dark"] .cppl-former-members li + li { border-color:#29404a; }
+html[data-theme="dark"] .cppl-former-members .cppl-member-years { color:#a8bbc8; }
+@media (max-width:620px) {
+  .cppl-former-members { padding:6px 18px; }
+}
 </style>
 
 <div class="cppl-members-hero" style="background:linear-gradient(135deg,#071a2b,#0d2b3b)!important;color:#f7fafb!important;">
@@ -130,7 +156,7 @@ author_profile: false
   </article>
 </div>
 
-<h2 class="cppl-member-section-title">Members on Leave &amp; Alumni</h2>
+<h2 class="cppl-member-section-title">Members on Leave</h2>
 <div class="cppl-member-grid">
   <article class="cppl-member-card cppl-member-profile-card cppl-member-muted">
     <div class="cppl-member-character cppl-webtoon cppl-webtoon-10" data-member-character="김태수" style="background-image:url('/images/members/kim-taesu.jpg')!important;background-size:cover!important;background-position:center 14%!important;background-repeat:no-repeat!important;"><svg class="cppl-avatar-ill" viewBox="0 0 120 140" aria-hidden="true"><circle cx="60" cy="70" r="54" fill="var(--avatar-bg)"/><path d="M26 118c7-23 61-23 68 0v16H26z" fill="var(--avatar-shirt)"/><circle cx="60" cy="65" r="29" fill="#f2d2bd"/><path d="M31 63c0-29 18-43 31-43 20 0 30 17 28 43-8-14-18-20-31-20-12 0-21 6-28 20z" fill="var(--avatar-hair)"/><circle cx="49" cy="66" r="3" fill="#26333d"/><circle cx="72" cy="66" r="3" fill="#26333d"/><path d="M54 79c4 4 9 4 13 0" fill="none" stroke="#b66f69" stroke-width="2.5" stroke-linecap="round"/><circle cx="42" cy="76" r="4" fill="#efb7ad" opacity=".55"/><circle cx="78" cy="76" r="4" fill="#efb7ad" opacity=".55"/></svg><span class="cppl-avatar-badge">🎖️</span></div>
@@ -142,10 +168,15 @@ author_profile: false
     <div class="cppl-member-info"><h3>강채유</h3><p>Undergraduate Researcher</p><span class="cppl-status cppl-status-leave">On Leave</span></div>
   </article>
 
-  <article class="cppl-member-card cppl-member-profile-card cppl-member-muted">
-    <div class="cppl-member-character cppl-webtoon" data-member-character="이준섭" style="background-image:url('/images/members/lee-junseop.jpg')!important;background-size:cover!important;background-position:center 14%!important;background-repeat:no-repeat!important;"><span class="cppl-avatar-badge">🌱</span></div>
-    <div class="cppl-member-info"><h3>이준섭</h3><p>Former Undergraduate Researcher</p><span class="cppl-status cppl-status-leave">Alumni</span></div>
-  </article>
 </div>
 
+<h2 id="former-undergraduate-researchers" class="cppl-member-section-title">Former Undergraduate Researchers</h2>
+<ul class="cppl-former-members">
+  <li><strong>박민영, 송영호, 장래찬</strong><span class="cppl-member-years">(2020–2021)</span></li>
+  <li><strong>김은영, 송화섭, 정효경</strong><span class="cppl-member-years">(2021–2022)</span></li>
+  <li><strong>김지민, 이예빈, 한지윤</strong><span class="cppl-member-years">(2022–2023)</span></li>
+  <li><strong>공윤희, 김다은, 이상훈</strong><span class="cppl-member-years">(2023–2024)</span></li>
+  <li><strong>문상윤, 신재효, 최효리</strong><span class="cppl-member-years">(2024–2025)</span></li>
+  <li><strong>이준섭</strong></li>
+</ul>
 
