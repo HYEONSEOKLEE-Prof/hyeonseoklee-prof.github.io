@@ -65,6 +65,7 @@ author_profile: false
     <section class="cppl-project-group cppl-project-group-current">
       <h3>Current Projects</h3>
       <ol class="cppl-project-list">
+        <li id="project-uzbekistan-oda"><time style="white-space:normal">2026.11–<wbr>2028.12</time><span>Joint Research with Tashkent State Agrarian University under the Uzbekistan ODA Project: Development and Transfer of a Rice Growth and Yield Prediction System Combining a Crop Model and Satellite Imagery</span></li>
         <li><time>2026–2030</time><span>AI-Based Intelligent Field-Operation Decision-Support System for Food Crops</span></li>
         <li><time>2026–2030</time><span>Development and Advancement of Agricultural-Satellite Observation Technologies for Major Crops</span></li>
         <li><time>2026</time><span>Climate-Specific Performance Analysis of Rice Crop-Condition Forecasting Models and Strategies for Using Yield Maps <em>Research contract</em></span></li>

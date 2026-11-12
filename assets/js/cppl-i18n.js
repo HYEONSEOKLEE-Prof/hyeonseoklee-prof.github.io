@@ -163,6 +163,7 @@
     "Research Projects & Leadership":"연구과제 및 리더십",
     "Projects currently led or completed as principal investigator, together with selected collaborative research conducted as a participating researcher.":"연구책임자로 수행 중이거나 완료한 과제와 참여연구원으로 수행한 주요 협력연구를 정리했습니다.",
     "Current Projects":"수행 중인 과제",
+    "Joint Research with Tashkent State Agrarian University under the Uzbekistan ODA Project: Development and Transfer of a Rice Growth and Yield Prediction System Combining a Crop Model and Satellite Imagery":"우즈베키스탄 ODA 연계 현지 대학 공동연구: 작물모형과 위성영상을 결합한 벼 생육·생산량 예측 체계 구축 및 기술이전",
     "Completed Projects":"완료 과제",
     "Collaborative Research":"협력 연구",
     "AI-Based Intelligent Field-Operation Decision-Support System for Food Crops":"AI 기반 노지 식량작물 지능형 농작업 의사결정지원 시스템 개발",
