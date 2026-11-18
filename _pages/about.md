@@ -17,7 +17,8 @@ redirect_from:
     <div class="cppl-home-kicker">CPPL · Chungnam National University</div>
     <h1>Crop Physiology &amp; Phenomics Laboratory</h1>
     <div class="cppl-university">Chungnam National University</div>
-    <p>We study crop development and environmental responses, connecting ecophysiological mechanisms with digital phenomics, crop models, and climate-smart production technologies.</p>
+    <p class="cppl-home-philosophy">We find new research directions through understanding crops.</p>
+    <a class="cppl-philosophy-link" href="/research/#research-philosophy">Our research philosophy →</a>
   </section>
 
   {% include cppl-research-community.html %}
