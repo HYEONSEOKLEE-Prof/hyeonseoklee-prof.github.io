@@ -46,6 +46,22 @@ author_profile: false
     </div>
   </article>
 
+
+  <article id="news-2026-09-29-expert-lecture" class="cppl-news-card cppl-news-card-gallery" style="scroll-margin-top:95px;">
+    <div class="cppl-news-copy">
+      <div class="cppl-news-meta">
+        <span class="cppl-news-tag"><span class="cppl-lang-en">Expert Lecture &amp; Consultation</span><span class="cppl-lang-ko" lang="ko">전문가 특강 및 자문</span></span>
+        <span class="cppl-lang-en">Sep 29, 2026</span><span class="cppl-lang-ko" lang="ko">2026.09.29.</span>
+      </div>
+      <h3><span class="cppl-lang-en">Plant Stress Signaling and Synthetic Biology for Green Biotechnology</span><span class="cppl-lang-ko" lang="ko">식물 스트레스 신호와 합성생물학 기반 그린바이오 기술</span></h3>
+      <p class="cppl-lang-en">An expert from the National Institute of Agricultural Sciences joined us for a lecture and research consultation on plant stress signaling and synthetic biology for green biotechnology.</p>
+      <p class="cppl-lang-ko" lang="ko">국립농업과학원 식물소재바이오공학과 전문가와 함께 식물 스트레스 신호와 합성생물학 기반 그린바이오 기술을 주제로 특강 및 연구 자문을 진행했습니다.</p>
+    </div>
+    <div class="cppl-news-gallery cppl-news-gallery-two">
+      <a href="{{ base_path }}/images/news/2026-09-29-plant-stress-lecture.jpg"><img src="{{ base_path }}/images/news/2026-09-29-plant-stress-lecture.jpg" width="1600" height="1200" alt="Expert lecture on plant stress signaling and synthetic biology" loading="lazy"></a>
+      <a href="{{ base_path }}/images/news/2026-09-29-plant-stress-consultation.jpg"><img src="{{ base_path }}/images/news/2026-09-29-plant-stress-consultation.jpg" width="1600" height="1200" alt="Research consultation with CPPL members following the expert lecture" loading="lazy"></a>
+    </div>
+  </article>
   <article id="news-2026-crop-science-conference" class="cppl-news-card cppl-news-card-gallery" style="scroll-margin-top:95px;">
     <div class="cppl-news-copy">
       <div class="cppl-news-meta">
@@ -84,6 +100,21 @@ author_profile: false
     </div>
   </article>
 
+
+  <article id="news-2026-spring-snack" class="cppl-news-card cppl-news-card-featured" style="scroll-margin-top:95px;">
+    <div class="cppl-news-photo" style="height:auto;min-height:0;">
+      <a href="{{ base_path }}/images/news/2026-spring-snack-break.jpg"><img src="{{ base_path }}/images/news/2026-spring-snack-break.jpg" width="1600" height="891" alt="CPPL members sharing snacks outdoors in spring 2026" loading="lazy" style="height:auto;min-height:0;max-height:none;object-fit:contain;"></a>
+    </div>
+    <div class="cppl-news-copy">
+      <div class="cppl-news-meta">
+        <span class="cppl-news-tag"><span class="cppl-lang-en">Lab Life</span><span class="cppl-lang-ko" lang="ko">연구실 일상</span></span>
+        <span class="cppl-lang-en">Spring 2026</span><span class="cppl-lang-ko" lang="ko">2026년 봄</span>
+      </div>
+      <h3><span class="cppl-lang-en">A Spring Snack Break</span><span class="cppl-lang-ko" lang="ko">2026 봄, 함께 먹는 간식</span></h3>
+      <p class="cppl-lang-en">We took a break to share snacks outdoors in spring 2026.</p>
+      <p class="cppl-lang-ko" lang="ko">봄날, 연구실 구성원들과 야외에서 간식을 나눠 먹었습니다.</p>
+    </div>
+  </article>
   <article class="cppl-news-card">
     <div class="cppl-news-photo">
       <img src="{{ base_path }}/images/members/jo-sohye.jpg" alt="Sohye Jo" loading="lazy">
@@ -136,3 +167,4 @@ author_profile: false
   {% endif %}
   {% include archive-single.html %}
 {% endfor %}
+
