@@ -24,9 +24,25 @@ author_profile: false
         <span class="cppl-news-tag"><span class="cppl-lang-en">Lab Life</span><span class="cppl-lang-ko" lang="ko">연구실 일상</span></span>
         <span class="cppl-lang-en">Nov 18, 2026</span><span class="cppl-lang-ko" lang="ko">2026.11.18.</span>
       </div>
-      <h3><span class="cppl-lang-en">Taesu Kim Visits CPPL During His First Military Leave</span><span class="cppl-lang-ko" lang="ko">김태수 학생, 첫 휴가 중 연구실 방문</span></h3>
-      <p class="cppl-lang-en">Taesu Kim visited CPPL during his first leave from military service on November 18, 2026. He joined lab members for a group photo.</p>
-      <p class="cppl-lang-ko" lang="ko">김태수 학생이 군 복무 중 첫 휴가를 맞아 연구실을 방문했습니다. 연구실 구성원들과 함께 사진을 남겼습니다.</p>
+      <h3><span class="cppl-lang-en">Private Taesu Kim Visits the Lab on His First Leave!</span><span class="cppl-lang-ko" lang="ko">김태수 이등병, 첫 휴가 중 연구실 방문!</span></h3>
+      <p class="cppl-lang-en">Private Taesu is back for his first leave—looking even more adorable in uniform! 😊</p>
+      <p class="cppl-lang-ko" lang="ko">군복 입고 돌아온 태수 이등병, 귀여움 상승! 😊</p>
+    </div>
+  </article>
+
+
+  <article id="news-jiseung-cnu-future-researcher" class="cppl-news-card" style="scroll-margin-top:95px;">
+    <div class="cppl-news-photo">
+      <img src="{{ base_path }}/images/members/yoo-jiseung.jpg" alt="Jiseung Yoo" loading="lazy">
+    </div>
+    <div class="cppl-news-copy">
+      <div class="cppl-news-meta">
+        <span class="cppl-news-tag"><span class="cppl-lang-en">Research Support</span><span class="cppl-lang-ko" lang="ko">연구지원</span></span>
+        <span class="cppl-lang-en">Nov 10, 2026</span><span class="cppl-lang-ko" lang="ko">2026.11.10.</span>
+      </div>
+      <h3><span class="cppl-lang-en">Jiseung Yoo Selected for CNU’s Future Researcher Support Program</span><span class="cppl-lang-ko" lang="ko">유지승 학생, CNU 미래연구자 성장동행 선정</span></h3>
+      <p class="cppl-lang-en">Jiseung Yoo was selected for CNU’s Future Researcher Support Program on November 10, 2026. Congratulations!</p>
+      <p class="cppl-lang-ko" lang="ko">유지승 학생이 2026년 11월 10일 CNU 미래연구자 성장동행에 선정되었습니다. 축하합니다!</p>
     </div>
   </article>
 
