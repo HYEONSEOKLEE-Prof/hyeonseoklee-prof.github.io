@@ -89,8 +89,8 @@ author_profile: false
         </a>
       </figure>
       <figure class="cppl-visual-figure">
-        <a href="{{ '/images/research/research-digital-field-experiment.webp' | relative_url }}" aria-label="Open the full-resolution rice field experiment photo">
-          <img class="cppl-research-inline-image" src="{{ '/images/research/research-digital-field-experiment.webp' | relative_url }}" loading="lazy" decoding="async" alt="Rice field experiment equipped with sensor frames for crop and environmental monitoring">
+        <a href="{{ '/images/research/research-digital-field-experiment-cropped.webp' | relative_url }}" aria-label="Open the full-resolution rice field experiment photo">
+          <img class="cppl-research-inline-image" src="{{ '/images/research/research-digital-field-experiment-cropped.webp' | relative_url }}" loading="lazy" decoding="async" alt="Rice field experiment equipped with sensor frames for crop and environmental monitoring">
         </a>
       </figure>
       <figure class="cppl-visual-figure cppl-visual-wide">
