@@ -13,10 +13,10 @@ author_profile: false
   <h2 id="research-philosophy-title">Understanding Crops, Guiding Future Research</h2>
   {% include cppl-philosophy-visuals.html %}
   <div class="cppl-philosophy-copy">
-    <p>We use crop ecophysiology to investigate unexplained crop responses and the limits of existing technologies, and to formulate new research questions and hypotheses.</p>
-    <p>We connect this understanding with AI, genomics, remote sensing, and crop models to improve prediction and diagnosis, test their applicability across environments, and address crop production challenges.</p>
+    <p>We investigate why crops respond to their environment and turn unexplained observations into research questions.</p>
+    <p>Evidence from physiological experiments informs our work in AI, genomics, remote sensing, and crop modeling. We use it to assess predictions and test models under field conditions.</p>
   </div>
-  <p class="cppl-philosophy-principle">Deep physiological understanding helps us connect disciplines and open new research directions.</p>
+  <p class="cppl-philosophy-principle">Field results help us revisit our hypotheses and improve our models.</p>
 </section>
 
 {% include cppl-research-framework.html %}
