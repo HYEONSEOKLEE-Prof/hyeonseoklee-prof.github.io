@@ -10,7 +10,8 @@ author_profile: false
 
 <section id="research-philosophy" class="cppl-page-intro cppl-research-intro cppl-research-philosophy" aria-labelledby="research-philosophy-title">
   <p class="cppl-philosophy-kicker">Research Philosophy</p>
-  <h2 id="research-philosophy-title">Understanding Crops, Shaping New Research</h2>
+  <h2 id="research-philosophy-title">Understanding Crops, Guiding Future Research</h2>
+  {% include cppl-philosophy-visuals.html %}
   <div class="cppl-philosophy-copy">
     <p>We use crop ecophysiology to investigate unexplained crop responses and the limits of existing technologies, and to formulate new research questions and hypotheses.</p>
     <p>We connect this understanding with AI, genomics, remote sensing, and crop models to improve prediction and diagnosis, test their applicability across environments, and address crop production challenges.</p>
