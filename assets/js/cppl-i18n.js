@@ -130,7 +130,7 @@
 
     "Our research, connected":"연결되는 CPPL 연구",
     "Combined heat–ozone responses":"고온·오존 복합 환경스트레스 반응",
-    "Digital crop monitoring: images, weather, and growth indicators":"영상·기상·생육지표를 연결하는 디지털 작황관제",
+    "Digital crop monitoring: images, weather, and growth indicators (image from the collaborating research team)":"영상·기상·생육지표를 연결하는 디지털 작황관제 (공동연구팀 자료 활용)",
     "Illustrative yield map — synthetic data, not an actual prediction.":"수량 분포 형식 예시 · 합성 자료이며 실제 예측 결과가 아닙니다.",
     "From understanding crops to better field decisions":"작물의 이해에서 현장 의사결정까지",
     "We connect physiological mechanisms, quantitative crop information, and predictive tools to develop climate-smart production technologies.":"생리·생태 기작과 정량적 생육정보, 예측도구를 연결하여 기후스마트 작물생산기술을 개발합니다.",
