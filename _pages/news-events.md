@@ -101,6 +101,48 @@ author_profile: false
   </article>
 
 
+  <article id="news-jeongmin-mini-research" class="cppl-news-card" style="scroll-margin-top:95px;">
+    <div class="cppl-news-photo">
+      <img src="{{ base_path }}/images/members/oh-jeongmin.jpg" alt="Jeongmin Oh" loading="lazy">
+    </div>
+    <div class="cppl-news-copy">
+      <div class="cppl-news-meta">
+        <span class="cppl-news-tag">
+          <span class="cppl-lang-en">Undergraduate Research</span>
+          <span class="cppl-lang-ko" lang="ko">학부연구</span>
+        </span>
+        <span class="cppl-lang-en">Sep 2026</span><span class="cppl-lang-ko" lang="ko">2026.09.</span>
+      </div>
+      <h3>
+        <span class="cppl-lang-en">Jeongmin Oh Selected for the 2026 Undergraduate Mini Research Project</span>
+        <span class="cppl-lang-ko" lang="ko">오정민 학생, 2026년도 학부생 미니 연구 프로젝트 선정</span>
+      </h3>
+      <p class="cppl-lang-en">Jeongmin Oh, an undergraduate researcher at CPPL, has been selected for the 2026 Undergraduate Mini Research Project Support Program. Congratulations, and we look forward to the research ahead.</p>
+      <p class="cppl-lang-ko" lang="ko">CPPL 학부연구생 오정민 학생이 2026년도 학부생 미니 연구 프로젝트 지원사업에 선정되었습니다. 선정을 축하하며 앞으로의 연구를 응원합니다.</p>
+    </div>
+  </article>
+
+  <article id="news-sohye-doctoral-scholarship" class="cppl-news-card" style="scroll-margin-top:95px;">
+    <div class="cppl-news-photo">
+      <img src="{{ base_path }}/images/members/jo-sohye.jpg" alt="Sohye Jo" loading="lazy">
+    </div>
+    <div class="cppl-news-copy">
+      <div class="cppl-news-meta">
+        <span class="cppl-news-tag">
+          <span class="cppl-lang-en">Scholarship</span>
+          <span class="cppl-lang-ko" lang="ko">장학금</span>
+        </span>
+        <span class="cppl-lang-en">Jun 2026</span><span class="cppl-lang-ko" lang="ko">2026.06.</span>
+      </div>
+      <h3>
+        <span class="cppl-lang-en">Sohye Jo Selected for the 2026 KOSAF Doctoral Excellence Scholarship</span>
+        <span class="cppl-lang-ko" lang="ko">조소혜 학생, 2026년 한국장학재단 박사우수장학금(이공계) 선정</span>
+      </h3>
+      <p class="cppl-lang-en">Sohye Jo, an incoming Ph.D. student at CPPL, has been selected for the 2026 Korea Student Aid Foundation Doctoral Excellence Scholarship in Science and Engineering. She also received a scholarship certificate and medal from the Deputy Prime Minister and Minister of Science and ICT. Congratulations on this outstanding achievement.</p>
+      <p class="cppl-lang-ko" lang="ko">CPPL 박사과정 신입생 조소혜 학생이 2026년 한국장학재단 박사우수장학금(이공계) 신규장학생으로 선정되었으며, 부총리 겸 과학기술정보통신부 장관 명의의 장학증서와 메달을 받았습니다. 진심으로 축하합니다.</p>
+    </div>
+  </article>
+
   <article id="news-2026-spring-snack" class="cppl-news-card cppl-news-card-featured" style="scroll-margin-top:95px;">
     <div class="cppl-news-photo" style="height:auto;min-height:0;">
       <a href="{{ base_path }}/images/news/2026-spring-snack-break.jpg"><img src="{{ base_path }}/images/news/2026-spring-snack-break.jpg" width="1600" height="891" alt="CPPL members sharing snacks outdoors in spring 2026" loading="lazy" style="height:auto;min-height:0;max-height:none;object-fit:contain;"></a>
@@ -113,47 +155,6 @@ author_profile: false
       <h3><span class="cppl-lang-en">A Spring Snack Break</span><span class="cppl-lang-ko" lang="ko">2026 봄, 함께 먹는 간식</span></h3>
       <p class="cppl-lang-en">We took a break to share snacks outdoors in spring 2026.</p>
       <p class="cppl-lang-ko" lang="ko">봄날, 연구실 구성원들과 야외에서 간식을 나눠 먹었습니다.</p>
-    </div>
-  </article>
-  <article class="cppl-news-card">
-    <div class="cppl-news-photo">
-      <img src="{{ base_path }}/images/members/jo-sohye.jpg" alt="Sohye Jo" loading="lazy">
-    </div>
-    <div class="cppl-news-copy">
-      <div class="cppl-news-meta">
-        <span class="cppl-news-tag">
-          <span class="cppl-lang-en">Scholarship</span>
-          <span class="cppl-lang-ko" lang="ko">장학금</span>
-        </span>
-        <span>2026</span>
-      </div>
-      <h3>
-        <span class="cppl-lang-en">Sohye Jo Selected for the 2026 KOSAF Doctoral Excellence Scholarship</span>
-        <span class="cppl-lang-ko" lang="ko">조소혜 학생, 2026년 한국장학재단 박사우수장학금(이공계) 선정</span>
-      </h3>
-      <p class="cppl-lang-en">Sohye Jo, an incoming Ph.D. student at CPPL, has been selected for the 2026 Korea Student Aid Foundation Doctoral Excellence Scholarship in Science and Engineering. She also received a scholarship certificate and medal from the Deputy Prime Minister and Minister of Science and ICT. Congratulations on this outstanding achievement.</p>
-      <p class="cppl-lang-ko" lang="ko">CPPL 박사과정 신입생 조소혜 학생이 2026년 한국장학재단 박사우수장학금(이공계) 신규장학생으로 선정되었으며, 부총리 겸 과학기술정보통신부 장관 명의의 장학증서와 메달을 받았습니다. 진심으로 축하합니다.</p>
-    </div>
-  </article>
-
-  <article class="cppl-news-card">
-    <div class="cppl-news-photo">
-      <img src="{{ base_path }}/images/members/oh-jeongmin.jpg" alt="Jeongmin Oh" loading="lazy">
-    </div>
-    <div class="cppl-news-copy">
-      <div class="cppl-news-meta">
-        <span class="cppl-news-tag">
-          <span class="cppl-lang-en">Undergraduate Research</span>
-          <span class="cppl-lang-ko" lang="ko">학부연구</span>
-        </span>
-        <span>2026</span>
-      </div>
-      <h3>
-        <span class="cppl-lang-en">Jeongmin Oh Selected for the 2026 Undergraduate Mini Research Project</span>
-        <span class="cppl-lang-ko" lang="ko">오정민 학생, 2026년도 학부생 미니 연구 프로젝트 선정</span>
-      </h3>
-      <p class="cppl-lang-en">Jeongmin Oh, an undergraduate researcher at CPPL, has been selected for the 2026 Undergraduate Mini Research Project Support Program. Congratulations, and we look forward to the research ahead.</p>
-      <p class="cppl-lang-ko" lang="ko">CPPL 학부연구생 오정민 학생이 2026년도 학부생 미니 연구 프로젝트 지원사업에 선정되었습니다. 선정을 축하하며 앞으로의 연구를 응원합니다.</p>
     </div>
   </article>
 </div>
