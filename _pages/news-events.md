@@ -30,6 +30,22 @@ author_profile: false
     </div>
   </article>
 
+
+  <article id="news-jiseung-cnu-future-researcher" class="cppl-news-card" style="scroll-margin-top:95px;">
+    <div class="cppl-news-photo">
+      <img src="{{ base_path }}/images/members/yoo-jiseung.jpg" alt="Jiseung Yoo" loading="lazy">
+    </div>
+    <div class="cppl-news-copy">
+      <div class="cppl-news-meta">
+        <span class="cppl-news-tag"><span class="cppl-lang-en">Research Support</span><span class="cppl-lang-ko" lang="ko">연구지원</span></span>
+        <span class="cppl-lang-en">Nov 10, 2026</span><span class="cppl-lang-ko" lang="ko">2026.11.10.</span>
+      </div>
+      <h3><span class="cppl-lang-en">Jiseung Yoo Selected for CNU’s Future Researcher Support Program</span><span class="cppl-lang-ko" lang="ko">유지승 학생, CNU 미래연구자 성장동행 선정</span></h3>
+      <p class="cppl-lang-en">Jiseung Yoo was selected for CNU’s Future Researcher Support Program on November 10, 2026. Congratulations!</p>
+      <p class="cppl-lang-ko" lang="ko">유지승 학생이 2026년 11월 10일 CNU 미래연구자 성장동행에 선정되었습니다. 축하합니다!</p>
+    </div>
+  </article>
+
   <article class="cppl-news-card cppl-news-card-featured">
     <div class="cppl-news-photo cppl-news-photo-pair">
       <img src="{{ base_path }}/images/news/2026-crop-science-award-ceremony.jpg" alt="Sohye Jo receiving the Best Presentation Award" loading="eager">
