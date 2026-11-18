@@ -14,7 +14,7 @@ author_profile: false
   {% include cppl-philosophy-visuals.html %}
   <div class="cppl-philosophy-copy">
     <p>We investigate why crops respond to their environment and turn unexplained observations into research questions.</p>
-    <p>Evidence from physiological experiments informs our work in AI, genomics, remote sensing, and crop modeling. We use it to assess predictions and test models under field conditions.</p>
+    <p>Evidence from physiological experiments informs our work in AI, transcriptomics, remote sensing, and crop modeling. We use it to assess predictions and test models under field conditions.</p>
   </div>
   <p class="cppl-philosophy-principle">Field results help us revisit our hypotheses and improve our models.</p>
 </section>
