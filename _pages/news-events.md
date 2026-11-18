@@ -15,6 +15,21 @@ author_profile: false
 </h2>
 
 <div class="cppl-news-grid">
+  <article id="news-taesu-first-leave" class="cppl-news-card cppl-news-card-featured" style="scroll-margin-top:95px;">
+    <div class="cppl-news-photo" style="height:auto;min-height:0;">
+      <a href="{{ base_path }}/images/news/2026-11-18-taesu-first-leave.jpg"><img src="{{ base_path }}/images/news/2026-11-18-taesu-first-leave.jpg" width="866" height="625" alt="Taesu Kim visiting CPPL during his first military leave, with lab members" loading="eager" style="height:auto;min-height:0;max-height:none;object-fit:contain;"></a>
+    </div>
+    <div class="cppl-news-copy">
+      <div class="cppl-news-meta">
+        <span class="cppl-news-tag"><span class="cppl-lang-en">Lab Life</span><span class="cppl-lang-ko" lang="ko">연구실 일상</span></span>
+        <span class="cppl-lang-en">Nov 18, 2026</span><span class="cppl-lang-ko" lang="ko">2026.11.18.</span>
+      </div>
+      <h3><span class="cppl-lang-en">Taesu Kim Visits CPPL During His First Military Leave</span><span class="cppl-lang-ko" lang="ko">김태수 학생, 첫 휴가 중 연구실 방문</span></h3>
+      <p class="cppl-lang-en">Taesu Kim visited CPPL during his first leave from military service on November 18, 2026. He joined lab members for a group photo.</p>
+      <p class="cppl-lang-ko" lang="ko">김태수 학생이 군 복무 중 첫 휴가를 맞아 연구실을 방문했습니다. 연구실 구성원들과 함께 사진을 남겼습니다.</p>
+    </div>
+  </article>
+
   <article class="cppl-news-card cppl-news-card-featured">
     <div class="cppl-news-photo cppl-news-photo-pair">
       <img src="{{ base_path }}/images/news/2026-crop-science-award-ceremony.jpg" alt="Sohye Jo receiving the Best Presentation Award" loading="eager">
