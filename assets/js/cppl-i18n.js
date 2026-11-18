@@ -321,6 +321,7 @@
       button.setAttribute("aria-pressed", lang === "ko" ? "true" : "false");
     });
 
+    window.dispatchEvent(new Event("resize"));
     try { window.localStorage.setItem(STORAGE_KEY, lang); } catch (error) {}
   }
 
