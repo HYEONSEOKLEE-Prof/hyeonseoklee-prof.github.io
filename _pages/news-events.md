@@ -46,6 +46,22 @@ author_profile: false
     </div>
   </article>
 
+  <article id="news-2026-crop-science-conference" class="cppl-news-card cppl-news-card-gallery" style="scroll-margin-top:95px;">
+    <div class="cppl-news-copy">
+      <div class="cppl-news-meta">
+        <span class="cppl-news-tag"><span class="cppl-lang-en">Conference</span><span class="cppl-lang-ko" lang="ko">학술대회</span></span>
+        <span class="cppl-lang-en">Sep 9–11, 2026</span><span class="cppl-lang-ko" lang="ko">2026.09.09.–11.</span>
+      </div>
+      <h3><span class="cppl-lang-en">CPPL Attends the 2026 Korean Society of Crop Science Conference</span><span class="cppl-lang-ko" lang="ko">한국작물학회 2026 학술대회 참석</span></h3>
+      <p class="cppl-lang-en">CPPL members attended the 2026 Korean Society of Crop Science Conference from September 9 to 11. Here are a few moments together during the conference trip.</p>
+      <p class="cppl-lang-ko" lang="ko">CPPL 구성원들이 2026년 9월 9일부터 11일까지 한국작물학회 학술대회에 참석했습니다. 학회 일정 중 함께한 모습들을 사진으로 전합니다.</p>
+    </div>
+    <div class="cppl-news-gallery">
+      <a href="{{ base_path }}/images/news/2026-09-crop-science-conference-group.jpg"><img src="{{ base_path }}/images/news/2026-09-crop-science-conference-group.jpg" width="1600" height="1200" alt="CPPL members together outdoors during the conference trip" loading="lazy"></a>
+      <a href="{{ base_path }}/images/news/2026-09-crop-science-conference-cafe.jpg"><img src="{{ base_path }}/images/news/2026-09-crop-science-conference-cafe.jpg" width="1600" height="1200" alt="CPPL members together at a cafe during the conference trip" loading="lazy"></a>
+      <a href="{{ base_path }}/images/news/2026-09-crop-science-conference-evening.jpg"><img src="{{ base_path }}/images/news/2026-09-crop-science-conference-evening.jpg" width="1600" height="2133" alt="Group gathering in the evening during the conference trip" loading="lazy"></a>
+    </div>
+  </article>
   <article class="cppl-news-card cppl-news-card-featured">
     <div class="cppl-news-photo cppl-news-photo-pair">
       <img src="{{ base_path }}/images/news/2026-crop-science-award-ceremony.jpg" alt="Sohye Jo receiving the Best Presentation Award" loading="eager">
