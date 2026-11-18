@@ -24,9 +24,9 @@ author_profile: false
         <span class="cppl-news-tag"><span class="cppl-lang-en">Lab Life</span><span class="cppl-lang-ko" lang="ko">연구실 일상</span></span>
         <span class="cppl-lang-en">Nov 18, 2026</span><span class="cppl-lang-ko" lang="ko">2026.11.18.</span>
       </div>
-      <h3><span class="cppl-lang-en">Taesu Kim Visits CPPL During His First Military Leave</span><span class="cppl-lang-ko" lang="ko">김태수 학생, 첫 휴가 중 연구실 방문</span></h3>
-      <p class="cppl-lang-en">Taesu Kim visited CPPL during his first leave from military service on November 18, 2026. He joined lab members for a group photo.</p>
-      <p class="cppl-lang-ko" lang="ko">김태수 학생이 군 복무 중 첫 휴가를 맞아 연구실을 방문했습니다. 연구실 구성원들과 함께 사진을 남겼습니다.</p>
+      <h3><span class="cppl-lang-en">Private Taesu Kim Visits the Lab on His First Leave!</span><span class="cppl-lang-ko" lang="ko">김태수 이등병, 첫 휴가 중 연구실 방문!</span></h3>
+      <p class="cppl-lang-en">Private Taesu is back for his first leave—looking even more adorable in uniform! 😊</p>
+      <p class="cppl-lang-ko" lang="ko">군복 입고 돌아온 태수 이등병, 귀여움 상승! 😊</p>
     </div>
   </article>
 
