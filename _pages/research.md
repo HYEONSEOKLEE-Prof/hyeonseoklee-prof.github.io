@@ -8,11 +8,15 @@ author_profile: false
 <div class="cppl-shell cppl-research-page">
 <h1 class="page__title">Research</h1>
 
-<div class="cppl-page-intro cppl-research-intro">
-  <div class="cppl-eyebrow">Research at CPPL</div>
-  <h2>From Crop Ecophysiology to Predictive and Deployable AgTech</h2>
-  <p>We connect crop physiology with phenomics, crop modeling, remote sensing, and deployable production technologies.</p>
-</div>
+<section id="research-philosophy" class="cppl-page-intro cppl-research-intro cppl-research-philosophy" aria-labelledby="research-philosophy-title">
+  <p class="cppl-philosophy-kicker">Research Philosophy</p>
+  <h2 id="research-philosophy-title">Understanding Crops, Shaping New Research</h2>
+  <div class="cppl-philosophy-copy">
+    <p>We use crop ecophysiology to investigate unexplained crop responses and the limits of existing technologies, and to formulate new research questions and hypotheses.</p>
+    <p>We connect this understanding with AI, genomics, remote sensing, and crop models to improve prediction and diagnosis, test their applicability across environments, and address crop production challenges.</p>
+  </div>
+  <p class="cppl-philosophy-principle">Deep physiological understanding helps us connect disciplines and open new research directions.</p>
+</section>
 
 {% include cppl-research-framework.html %}
 

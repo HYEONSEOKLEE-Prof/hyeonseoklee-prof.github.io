@@ -36,6 +36,13 @@
     "Graduate and undergraduate research opportunities":"대학원 및 학부 연구 참여 기회",
 
     "Research at CPPL":"CPPL 연구",
+    "We find new research directions through understanding crops.":"작물의 이해에서 새로운 연구의 방향을 찾습니다.",
+    "Our research philosophy →":"연구철학 자세히 보기 →",
+    "Research Philosophy":"연구철학",
+    "Understanding Crops, Shaping New Research":"작물의 이해에서 새로운 연구의 방향을 찾습니다",
+    "We use crop ecophysiology to investigate unexplained crop responses and the limits of existing technologies, and to formulate new research questions and hypotheses.":"작물생리생태학적 이해를 바탕으로 설명되지 않은 작물 반응과 기존 기술의 한계를 살피고, 새로운 연구 질문과 가설을 제시합니다.",
+    "We connect this understanding with AI, genomics, remote sensing, and crop models to improve prediction and diagnosis, test their applicability across environments, and address crop production challenges.":"이를 AI·유전체·원격탐사·작물모형과 연결하여 예측과 진단 기술을 개선하고, 다양한 환경에서 검증하며 작물생산 문제의 해결로 이어갑니다.",
+    "Deep physiological understanding helps us connect disciplines and open new research directions.":"깊이 있는 생리적 이해를 바탕으로, 다른 분야를 연결하고 새로운 연구를 개척합니다.",
     "From Crop Ecophysiology to Predictive and Deployable AgTech":"작물생리·생태에서 예측·현장적용형 농업기술까지",
     "We connect crop physiology with phenomics, crop modeling, remote sensing, and deployable production technologies.":"작물생리·생태를 표현체 분석, 작물모형, 원격탐사 및 현장 적용형 생산기술과 연결합니다.",
     "Research Vision":"연구 비전",
