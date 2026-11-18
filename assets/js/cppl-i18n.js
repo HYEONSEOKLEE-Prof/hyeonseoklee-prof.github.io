@@ -40,6 +40,24 @@
     "Our research philosophy →":"연구철학 자세히 보기 →",
     "Research Philosophy":"연구철학",
     "Understanding Crops, Guiding Future Research":"작물의 이해에서 새로운 연구의 방향을 찾습니다",
+    "Physiological understanding connects our research":"생리적 이해를 중심으로 연구를 연결합니다",
+    "Physiological understanding":"생리적 이해",
+    "Development and environmental responses":"발육과 환경반응",
+    "Explain predictions":"예측의 근거 해석",
+    "Test mechanisms":"반응 기작 검증",
+    "Interpret crop signals":"관측지표의 의미 해석",
+    "Represent crop responses":"작물 반응을 모형에 반영",
+    "Questions about crop responses guide the methods we use and the experiments we design.":"작물 반응에 관한 질문에서 출발해, 연구 방법을 고르고 실험을 설계합니다.",
+    "View the diagram at full size →":"모식도 크게 보기 →",
+    "Observe":"현상 관찰",
+    "Ask why":"원인에 대한 질문",
+    "Test a hypothesis":"가설 검증",
+    "Check in the field":"현장에서 확인",
+    "An example: delayed heading under low light":"사례: 저일조 조건에서의 출수 지연",
+    "Carbon status, light signaling, and temperature effects are possible explanations to test. The diagram does not identify a proven cause.":"탄소 상태·광신호·온도 효과는 검증할 가설입니다. 이 그림은 특정 원인을 확정하지 않습니다.",
+    "We investigate why crops respond to their environment and turn unexplained observations into research questions.":"작물이 환경에 반응하는 이유를 밝히고, 아직 설명하지 못한 현상을 연구 질문으로 삼습니다.",
+    "Evidence from physiological experiments informs our work in AI, genomics, remote sensing, and crop modeling. We use it to assess predictions and test models under field conditions.":"생리 실험에서 얻은 근거를 AI·유전체·원격탐사·작물모형과 연결합니다. 이를 바탕으로 예측의 근거와 한계를 살피고, 실제 재배환경에서 모형을 검증합니다.",
+    "Field results help us revisit our hypotheses and improve our models.":"현장에서 얻은 결과로 가설을 다시 검토하고 모형을 개선합니다.",
     "How physiological understanding guides research":"생리적 이해가 새로운 연구로 이어지는 과정",
     "Observe crop responses":"작물 반응 관찰",
     "Changes in heading, growth, and yield under environmental variation":"환경 변화에 따른 출수·생육·수량의 변화",
@@ -289,6 +307,12 @@
     });
 
     var menuButton = document.querySelector(".greedy-nav > button");
+    document.querySelectorAll("[data-localized-href]").forEach(function (link) {
+      link.setAttribute("href", link.getAttribute("data-href-" + lang));
+    });
+    document.querySelectorAll("[data-localized-src]").forEach(function (image) {
+      image.setAttribute("src", image.getAttribute("data-src-" + lang));
+    });
     if (menuButton) menuButton.setAttribute("aria-label", lang === "ko" ? "메뉴 열기" : "Open navigation menu");
 
     document.querySelectorAll(".cppl-lang-toggle").forEach(function (button) {
