@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10313d">
+<meta name="description" content="영농형 태양광 차광 조건에서 야간조파에 따른 출수 지연, 생육기간 연장 및 누적 자연광 확보를 통한 수량 보전 가능성을 검증하는 생리기작 기반 연구 가설.">
+<title>CPPL | 생리기작 기반 발상의 전환 · 영농형 태양광 야간조파 연구</title>
+<style>
+:root{--deep:#0d2731;--navy:#133744;--forest:#1a5349;--mint:#7cd7bc;--lime:#d9e8a5;--gold:#e8bd73;--ink:#203946;--muted:#617984;--line:#dce8e4;--paper:#fff;--soft:#f4f8f5;--warning:#a66b36;--shadow:0 18px 55px rgba(11,48,55,.09)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:#f6f9f7;color:var(--ink);font:15px/1.72 Pretendard,"Noto Sans KR","Apple SD Gothic Neo",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;word-break:keep-all}
+a{color:inherit;text-decoration:none} button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid #50bda8;outline-offset:3px}
+.wrap{max-width:1300px;margin:0 auto;padding:0 34px}
+.topbar{position:sticky;top:0;z-index:100;background:rgba(250,253,250,.95);backdrop-filter:blur(16px);border-bottom:1px solid #dce9e4}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;font-size:13px;font-weight:850}.brand-icon{width:40px;height:40px;display:grid;place-items:center;background:#173b46;color:#baecda;border-radius:12px;font-weight:900}.brand small{display:block;font-size:10px;font-weight:600;color:#8a9fa2;line-height:1.35}
+.links{display:flex;gap:22px;color:#55747a;font-size:12px;font-weight:800}.links a:hover{color:#147e6b}
+.page-num{font-size:10px;color:#4e7c77;font-weight:900;letter-spacing:.15em;white-space:nowrap}
+.hero{position:relative;overflow:hidden;color:#f7fffc;background:radial-gradient(circle at 80% -20%,#286052,#153a44 48%,#0d2834 100%);isolation:isolate}
+.hero:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(221,255,245,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(221,255,245,.03) 1px,transparent 1px);background-size:76px 76px;mask-image:linear-gradient(90deg,transparent,black 45%);z-index:-1}
+.hero-inner{padding:67px 0 60px;display:grid;grid-template-columns:.92fr 1.08fr;gap:46px;align-items:center}
+.eyebrow,.section-kicker{display:inline-flex;align-items:center;gap:11px;letter-spacing:.19em;font-size:11px;font-weight:900;text-transform:uppercase;color:#9be0cb}.eyebrow:before{content:"";height:1px;width:29px;background:#70d6b6;box-shadow:0 0 16px #76d8b5}
+.hero h1{font-size:clamp(38px,3.65vw,57px);line-height:1.25;letter-spacing:-.055em;font-weight:850;margin:23px 0 20px;max-width:620px}
+.hero h1 em{font-style:normal;color:var(--lime)}
+.hero p{margin:0 0 25px;line-height:1.88;font-size:15px;color:#d5e5df;max-width:580px}
+.hero p b{color:#fff}
+.hero-pair{display:grid;grid-template-columns:1fr 36px 1fr;gap:11px;align-items:stretch;margin-top:8px}
+.hero-pair>div{border:1px solid rgba(210,245,232,.16);background:rgba(255,255,255,.055);border-radius:19px;padding:16px 17px}
+.hero-pair .next{background:rgba(133,222,187,.13);border-color:rgba(140,238,196,.24)}
+.hero-pair small{display:block;font-size:10px;letter-spacing:.12em;font-weight:900;color:#a9cec9;margin-bottom:6px}
+.hero-pair b{display:block;font-size:15px;line-height:1.42;color:#fff}
+.hero-pair .switch-arrow{align-self:center;justify-self:center;font-size:25px;font-weight:800;color:#a5e6cb}
+.hero-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:19px}.hero-tags span{border:1px solid rgba(215,251,235,.16);color:#d6eee6;font-size:11px;font-weight:700;letter-spacing:.01em;border-radius:999px;background:rgba(255,255,255,.06);padding:7px 10px}
+.hero-anchor{display:inline-flex;align-items:center;gap:14px;font-weight:850;font-size:13px;margin-top:26px;color:#e8f4ec;border:1px solid rgba(203,239,225,.32);border-radius:999px;padding:12px 19px;transition:background .2s,transform .2s}.hero-anchor:hover{background:rgba(255,255,255,.06);transform:translateY(-2px)}
+.stage{border-radius:30px;padding:16px;background:rgba(230,253,246,.07);border:1px solid rgba(216,252,238,.19);box-shadow:0 28px 62px rgba(1,20,31,.22);position:relative;overflow:hidden}
+.stage:before{content:"";position:absolute;inset:-60px auto auto -70px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,rgba(170,255,217,.14),transparent 70%);pointer-events:none}
+.stage-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:5px 7px 13px}.stage-head span{font-size:10px;letter-spacing:.14em;font-weight:900;color:#b6ddd2}.stage-head b{font-size:12px;color:#f5fff9;letter-spacing:.01em}
+.canvasbox{height:375px;border-radius:22px;background:#102c37;overflow:hidden;position:relative;border:1px solid rgba(255,255,255,.10)}
+#fieldScene{width:100%;height:100%;display:block}
+.stage-label{position:absolute;left:15px;top:15px;display:flex;align-items:center;gap:8px;padding:8px 11px;border-radius:999px;background:rgba(12,39,47,.68);border:1px solid rgba(236,255,249,.24);backdrop-filter:blur(7px);font-size:11px;font-weight:900;color:#fff}
+.stage-label i{display:block;width:7px;height:7px;background:#65d9b5;border-radius:50%;box-shadow:0 0 0 4px rgba(101,217,181,.16)}
+.stage-legend{position:absolute;right:15px;bottom:15px;font-size:10px;color:#e8fcf8;border-radius:10px;padding:7px 10px;background:rgba(13,36,47,.7);border:1px solid rgba(255,255,255,.15);backdrop-filter:blur(6px)}
+.scene-modes{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+.scene-modes button{background:rgba(255,255,255,.08);border:1px solid rgba(231,251,242,.17);color:#c8e3dc;border-radius:14px;padding:11px 6px;font-size:12px;font-weight:850;transition:background .2s,color .2s,transform .2s}
+.scene-modes button:hover{transform:translateY(-2px)}.scene-modes button.active{background:linear-gradient(120deg,#b6e9d4,#e2edb5);color:#183b40;border-color:transparent}
+.stage-bottom{font-size:11px;color:#bcd7ce;line-height:1.6;margin:11px 7px 0}
+.hero-foot{position:relative;z-index:2;border-top:1px solid rgba(235,250,242,.12);background:rgba(8,26,35,.15)}.hero-foot .wrap{display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;padding-top:16px;padding-bottom:16px}.hero-foot span{font-size:11px;font-weight:750;color:#c7e5d8}.hero-foot b{color:#e9f4ae;font-weight:900;margin-right:8px}
+.section{padding:83px 0}.section.soft{background:#fff}.section-heading{display:flex;justify-content:space-between;gap:28px;align-items:end;margin-bottom:26px}.section-heading>div{max-width:740px}.section-id{font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:900;color:#39857c}.section-heading h2{font-size:clamp(29px,3vw,40px);letter-spacing:-.045em;line-height:1.3;margin:11px 0 11px;color:#173842}.section-heading p{margin:0;font-size:14px;line-height:1.82;color:#627b7e;max-width:690px}.heading-aside{font-size:11px;font-weight:800;letter-spacing:.08em;color:#748b8c;padding:10px 0;white-space:nowrap}
+.contrast{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.contrast-card{padding:26px 28px;border:1px solid #dce8e3;border-radius:26px;background:#f9fbf8;box-shadow:var(--shadow);position:relative;overflow:hidden;min-height:300px}
+.contrast-card:before{content:"";position:absolute;width:210px;height:210px;border-radius:50%;right:-72px;top:-72px;background:radial-gradient(circle,#edf6e3,transparent 68%)}
+.contrast-card.future{background:linear-gradient(135deg,#103441,#20584c);color:#fff;border-color:#275b50}
+.contrast-card.future:before{background:radial-gradient(circle,rgba(140,231,185,.18),transparent 70%)}
+.contrast-card .small{display:block;letter-spacing:.16em;font-size:10px;font-weight:900;color:#709088;margin-bottom:12px}.contrast-card.future .small{color:#addfcc}
+.contrast-card h3{font-size:25px;margin:0 0 10px;letter-spacing:-.03em;line-height:1.4;max-width:480px}.contrast-card p{max-width:500px;margin:0;color:#657e7b;line-height:1.8;font-size:13px}.contrast-card.future p{color:#d5e8dc}
+.contrast-symbol{margin:21px 0 14px;display:grid;grid-template-columns:1fr 32px 1fr;align-items:center;gap:10px;max-width:440px}.contrast-symbol>div{padding:14px 9px;text-align:center;background:rgba(22,92,80,.05);border:1px solid #d5e6de;border-radius:15px;font-size:13px;font-weight:900;color:#2d6957}.contrast-symbol>b{text-align:center;color:#86a9a1}.contrast-card.future .contrast-symbol>div{background:rgba(255,255,255,.09);border-color:rgba(217,255,232,.16);color:#dff5e5}.contrast-card.future .contrast-symbol>b{color:#92e5c7}
+.contrast-bottom{display:flex;gap:8px;flex-wrap:wrap}.contrast-bottom span{border:1px solid #d6e7e0;background:#eff6f1;border-radius:999px;font-size:11px;font-weight:800;padding:6px 9px;color:#477467}.future .contrast-bottom span{background:rgba(255,255,255,.08);color:#cde9dc;border-color:rgba(255,255,255,.16)}
+.science-alert{display:grid;grid-template-columns:38px 1fr;gap:14px;margin-top:22px;padding:18px 22px;border-radius:19px;background:#fff8ed;border:1px solid #eedfcb}
+.alert-icon{height:38px;width:38px;border-radius:12px;display:grid;place-items:center;background:#f9e8cb;color:#95601c;font-weight:900;font-size:19px}.science-alert b{display:block;font-size:14px;color:#77501d;margin:1px 0 3px}.science-alert p{margin:0;font-size:12px;line-height:1.82;color:#8a6941}
+.lab{background:linear-gradient(180deg,#f1f6f3,#edf5f1)}.lab-panel{display:grid;grid-template-columns:360px 1fr;gap:22px}
+.controls,.outcomes{background:#fff;border:1px solid #d8e6de;border-radius:27px;box-shadow:var(--shadow);padding:24px}
+.control-title{display:flex;justify-content:space-between;align-items:center;gap:10px;border-bottom:1px solid #e1ebe4;padding-bottom:13px;margin-bottom:17px}.control-title b{font-size:16px}.control-title span{font-size:10px;letter-spacing:.1em;color:#5a8c80;font-weight:900}
+.control{margin-bottom:18px}.control:last-child{margin-bottom:0}.control-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-bottom:7px}.control-head label{font-size:12px;font-weight:800;color:#45675f}.control-head output{font-size:14px;font-weight:900;color:#165946}.control input[type=range]{width:100%;height:7px;accent-color:#168974;cursor:pointer}.range-ends{display:flex;justify-content:space-between;margin-top:1px;font-size:10px;color:#9caba6}.lab-assumption{margin-top:17px;border-radius:15px;padding:14px 15px;background:#f4f8f5;font-size:11px;line-height:1.72;color:#71877c;border:1px solid #e2ece6}.lab-assumption b{color:#446f5c}
+.live-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px}
+.live-stat{background:#f7faf8;border:1px solid #e1ebe6;padding:15px 14px;border-radius:17px;min-height:111px}.live-stat small{display:block;font-size:10px;font-weight:900;letter-spacing:.06em;line-height:1.5;color:#7b9289}.live-stat strong{font-size:26px;letter-spacing:-.05em;line-height:1.2;color:#1b5145;display:block;margin:8px 0 4px;white-space:nowrap}.live-stat em{font-size:10px;font-style:normal;color:#879b91}
+.live-stat.gold{background:#fffaf0;border-color:#f0e5cf}.live-stat.gold strong{color:#9b6828}
+.live-plot-head{display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap;gap:8px;margin-top:19px;margin-bottom:11px}.live-plot-head b{font-size:14px}.live-plot-head span{font-size:10px;color:#789087}
+.dli-bars{display:grid;gap:13px}.dli-row{display:grid;grid-template-columns:146px 1fr 72px;gap:12px;align-items:center}.dli-row label{font-size:11px;font-weight:750;color:#5e7770}.dli-track{height:17px;border-radius:999px;background:#ebf0eb;overflow:hidden;position:relative;border:1px solid #e2e9e2}.dli-fill{height:100%;width:60%;border-radius:999px;background:linear-gradient(90deg,#568f67,#afd28f);transition:width .4s cubic-bezier(.2,.8,.2,1)}.dli-fill.shade{background:linear-gradient(90deg,#6b8d83,#8cb4a4)}.dli-fill.night{background:linear-gradient(90deg,#3f9b83,#a8dac2)}.dli-row output{text-align:right;font-size:12px;font-weight:900;color:#37625a}.dli-row .dli-delta{font-size:10px;color:#6e9585}
+.dli-note{display:flex;align-items:flex-start;gap:10px;margin-top:18px;padding:14px 16px;border-radius:15px;background:#f4f8f6;border:1px solid #e1ebe5;font-size:12px;line-height:1.65;color:#607970}.dli-note i{flex:0 0 8px;height:8px;border-radius:50%;background:#55bba0;margin-top:7px;box-shadow:0 0 0 5px #e0f2e9}
+.daily-chart{width:100%;height:168px;display:block;border:1px solid #e1ece6;border-radius:18px;margin-top:14px;background:#f9fcfa}.plot-legend{display:flex;gap:17px;flex-wrap:wrap;color:#7a9187;font-size:10px;margin-top:8px}.plot-legend span{display:flex;gap:6px;align-items:center}.key{width:14px;height:3px;border-radius:5px;background:#a5c5a2}.key.shaded{background:#4f9d7a}.key.night{background:#e5bb69}
+.method{background:#fff}.mechanism{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.mechanism-card{background:#f7faf8;border:1px solid #dce8e3;border-radius:25px;padding:25px 23px 22px;box-shadow:0 14px 40px rgba(19,55,53,.045);position:relative;overflow:hidden}
+.mechanism-card .no{font-size:12px;letter-spacing:.13em;color:#6aa990;font-weight:900}.mechanism-card h3{font-size:20px;line-height:1.4;margin:9px 0 11px;letter-spacing:-.024em}.mechanism-card p{margin:0;font-size:12px;color:#688078;line-height:1.8;min-height:63px}.mechanism-art{height:145px;border-radius:18px;margin-top:18px;position:relative;overflow:hidden;background:linear-gradient(180deg,#e9f5eb,#dbebe5);border:1px solid #d5e8df;display:grid;place-items:center}
+.art-sun{position:absolute;top:22px;left:31px;width:46px;height:46px;background:#eed58b;border-radius:50%;box-shadow:0 0 0 14px #eed58b2b,0 0 0 34px #eed58b1a;animation:halo 4s ease-in-out infinite}
+.art-curve{position:absolute;inset:0;display:grid;place-items:center}.art-curve svg{width:85%;height:115px}.art-curve path.wave{stroke-dasharray:300;stroke-dashoffset:300;animation:lineWrite 6s ease-in-out infinite}
+.art-signal{display:grid;place-items:center;width:90px;height:90px;border-radius:50%;border:2px dashed #54a68c;box-shadow:0 0 0 15px #4fa78718,0 0 0 29px #4fa7870d;animation:spin 14s linear infinite}
+.art-signal span{width:16px;height:16px;border-radius:50%;background:#4b9e87;box-shadow:0 0 0 10px #70c6aa40}
+.art-pheno{display:flex;align-items:end;gap:10px;width:86%;height:105px;justify-content:center}.art-pheno i{width:18%;border-radius:12px 12px 2px 2px;background:linear-gradient(180deg,#a7d28d,#599f70);animation:barSway 3.4s ease-in-out infinite}.art-pheno i:nth-child(1){height:44%}.art-pheno i:nth-child(2){height:60%;animation-delay:.25s}.art-pheno i:nth-child(3){height:76%;animation-delay:.5s}.art-pheno i:nth-child(4){height:90%;animation-delay:.75s}
+.mechanism-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}.mechanism-tags span{font-size:10px;font-weight:750;color:#2f755f;background:#e9f4eb;border:1px solid #d8e9dd;border-radius:999px;padding:5px 8px}
+.proposal{padding:78px 0;background:linear-gradient(135deg,#10333e,#1c554c);color:#fff}
+.proposal .section-heading h2{color:#fff}.proposal .section-id{color:#93dcc5}.proposal .section-heading p{color:#bcd9ce}
+.trial-layout{display:grid;grid-template-columns:1.12fr .88fr;gap:21px;align-items:stretch}.treatments{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.treatment{position:relative;padding:17px 17px 16px;border-radius:18px;background:rgba(255,255,255,.07);border:1px solid rgba(220,250,234,.14);min-height:142px;transition:transform .24s,background .24s,border-color .24s}.treatment:hover{transform:translateY(-3px);background:rgba(255,255,255,.12);border-color:rgba(178,243,208,.24)}
+.treatment span{display:block;font-size:10px;font-weight:900;color:#94dbc4;letter-spacing:.15em;margin-bottom:8px}.treatment strong{display:block;color:#fff;font-size:16px;margin-bottom:7px}.treatment p{font-size:11px;line-height:1.7;margin:0;color:#bfded4}
+.trial-graph{border:1px solid rgba(213,245,232,.16);background:rgba(255,255,255,.06);border-radius:22px;padding:23px 24px}.trial-graph .small{font-size:10px;letter-spacing:.16em;font-weight:900;color:#a9dfcd}.trial-graph h3{font-size:21px;letter-spacing:-.02em;margin:8px 0 15px}.trial-flow{display:grid;gap:10px}
+.trial-row{display:grid;grid-template-columns:30px 1fr;align-items:center;gap:10px;padding:12px 14px;border-radius:13px;background:rgba(255,255,255,.06);border:1px solid rgba(215,246,228,.1)}.trial-row b{display:grid;place-items:center;width:30px;height:30px;border-radius:10px;background:rgba(122,218,179,.16);color:#afe8d0;font-size:12px}.trial-row span{font-size:12px;color:#e3f5ef;font-weight:700;line-height:1.55}
+.trial-caveat{margin-top:14px;border-top:1px solid rgba(232,255,241,.15);padding-top:12px;color:#bdd6ce;font-size:11px;line-height:1.7}
+.evidence{background:#f7faf8;padding:76px 0 72px}.evidence-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.evidence-card{background:#fff;border:1px solid #dce8e1;border-radius:22px;padding:25px;box-shadow:0 16px 42px rgba(12,48,52,.05)}.evidence-card small{display:block;letter-spacing:.13em;font-size:10px;font-weight:900;color:#5e8d7f;margin-bottom:10px}.evidence-card h3{font-size:20px;line-height:1.45;letter-spacing:-.02em;margin:0 0 12px}.evidence-card p{font-size:12px;line-height:1.87;color:#687e78;margin:0}.evidence-card a{font-size:11px;color:#177863;text-decoration:underline;text-underline-offset:3px;font-weight:850;display:inline-block;margin-top:12px}
+.conclusion{padding:46px 0;background:#10313a;color:#eaf8f2;text-align:center}.conclusion .eyebrow{justify-content:center;font-size:10px}.conclusion h2{font-size:clamp(27px,3vw,38px);line-height:1.35;letter-spacing:-.04em;margin:17px auto 14px;max-width:920px}.conclusion h2 em{font-style:normal;color:#d6e89c}.conclusion p{margin:0 auto;max-width:790px;font-size:13px;color:#bcd7cc;line-height:1.88}
+.footer{padding:25px 0;border-top:1px solid #d8e4de;background:#fff}.footer .wrap{display:flex;justify-content:space-between;gap:18px;align-items:center}.footer b{color:#274c47;font-size:12px}.footer p{font-size:10px;color:#8a9b95;line-height:1.7;margin:0;max-width:850px}
+@keyframes halo{0%,100%{box-shadow:0 0 0 13px #eed58b2b,0 0 0 27px #eed58b1a}50%{box-shadow:0 0 0 20px #eed58b22,0 0 0 39px #eed58b11}}
+@keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+@keyframes barSway{0%,100%{transform:scaleY(.95);transform-origin:bottom}50%{transform:scaleY(1.05);transform-origin:bottom}}
+@keyframes lineWrite{0%{stroke-dashoffset:300}45%,65%{stroke-dashoffset:0}100%{stroke-dashoffset:-300}}
+@media(max-width:1180px){.hero-inner{grid-template-columns:1fr;gap:35px;padding-top:58px}.hero p{max-width:none}.lab-panel{grid-template-columns:320px 1fr}.live-grid{grid-template-columns:repeat(2,1fr)}.canvasbox{height:385px}}
+@media(max-width:880px){.links{display:none}.section{padding:60px 0}.section-heading{display:block}.heading-aside{white-space:normal;margin-top:8px}.contrast{grid-template-columns:1fr}.lab-panel{grid-template-columns:1fr}.trial-layout{grid-template-columns:1fr}.mechanism{grid-template-columns:1fr}.mechanism-card p{min-height:unset}.mechanism-art{height:136px}.evidence-grid{grid-template-columns:1fr}.footer .wrap{display:block}.footer p{margin-top:8px}}
+@media(max-width:600px){.wrap{padding:0 18px}.nav{height:64px}.brand{font-size:11px}.brand small{font-size:9px}.page-num{font-size:9px}.hero-inner{padding-top:48px;padding-bottom:45px}.hero h1{font-size:35px;margin:16px 0 16px}.hero p{font-size:13px}.hero-pair{grid-template-columns:1fr;gap:8px}.hero-pair .switch-arrow{display:none}.hero-pair>div{padding:13px}.hero-tags span{font-size:10px}.stage{padding:10px;border-radius:19px}.stage-head b{font-size:10px}.canvasbox{height:282px;border-radius:13px}.scene-modes button{font-size:10px;padding:9px 2px;border-radius:10px}.stage-bottom{font-size:10px}.hero-foot .wrap{gap:10px;justify-content:flex-start}.hero-foot span{font-size:10px}.section-heading h2{font-size:28px}.section-heading p{font-size:13px}.contrast-card{padding:21px;border-radius:18px;min-height:unset}.contrast-card h3{font-size:21px}.contrast-symbol{grid-template-columns:1fr 22px 1fr;gap:7px}.contrast-symbol>div{font-size:11px}.science-alert{padding:15px}.controls,.outcomes{padding:19px;border-radius:20px}.live-grid{gap:8px}.live-stat{padding:12px 11px;min-height:96px}.live-stat strong{font-size:22px}.dli-row{grid-template-columns:105px 1fr 56px;gap:7px}.dli-row label,.dli-row output{font-size:10px}.dli-track{height:14px}.daily-chart{height:145px}.trial-layout,.treatments{grid-template-columns:1fr}.trial-graph{padding:20px}.evidence-card{padding:20px}.conclusion{padding:42px 0}.footer .wrap{gap:8px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+
+/* Strong visual emphasis: photoperiod-mediated longer light-exposure period */
+.season-section{background:linear-gradient(180deg,#eaf4ef 0%,#f6faf7 100%);padding:82px 0 89px;border-top:1px solid #d3e7dc;border-bottom:1px solid #d3e7dc}
+.season-section .section-heading{margin-bottom:26px}
+.causal-chain{display:grid;grid-template-columns:1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;align-items:center;gap:8px;margin:0 0 24px}
+.causal-node{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:114px;padding:13px 8px;border:1px solid #d5e6dc;border-radius:19px;background:#fff;text-align:center;box-shadow:0 9px 23px rgba(20,66,51,.04);position:relative;overflow:hidden}
+.causal-node span{font-size:9px;letter-spacing:.12em;color:#649482;font-weight:900;margin-bottom:7px}
+.causal-node b{font-size:16px;color:#205a48;line-height:1.35;letter-spacing:-.025em}
+.causal-node small{font-size:10px;line-height:1.65;color:#6c847b;margin-top:6px}
+.causal-node.highlight{background:linear-gradient(165deg,#133e38,#235f4a);border-color:#26634d;box-shadow:0 14px 30px rgba(22,82,63,.15)}
+.causal-node.highlight span{color:#aae0c9}.causal-node.highlight b{color:#e3f3a9}.causal-node.highlight small{color:#d1eadb}
+.causal-arrow{font-size:23px;color:#5a977e;text-align:center;animation:seasonArrow 2.6s ease-in-out infinite}
+.causal-arrow:nth-of-type(4){animation-delay:.4s}.causal-arrow:nth-of-type(6){animation-delay:.8s}.causal-arrow:nth-of-type(8){animation-delay:1.2s}
+.season-layout{display:grid;grid-template-columns:minmax(285px,340px) minmax(0,1fr);gap:19px;align-items:start}
+.season-controls,.season-results{background:white;border:1px solid #d4e5db;box-shadow:0 20px 48px rgba(18,62,47,.07);border-radius:25px;padding:23px}
+.season-controls .control-title span{font-size:10px}
+.season-assumptions{padding:14px;border-radius:15px;background:#f1f7f2;border:1px solid #deece0;font-size:11px;line-height:1.85;color:#59766a;margin-top:14px}
+.season-assumptions b{color:#295f47}
+.season-explain{display:grid;grid-template-columns:31px 1fr;gap:10px;align-items:start;background:linear-gradient(145deg,#183d38,#255949);border-radius:17px;margin-top:14px;padding:15px;color:white}
+.season-explain .spark-icon{width:29px;height:29px;display:grid;place-items:center;background:rgba(255,255,255,.13);color:#daf2a4;border-radius:10px;font-size:19px}
+.season-explain b{font-size:13px;color:#eff8d0}.season-explain p{font-size:12px;color:#d6eee1;line-height:1.75;margin:5px 0 0}
+.season-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.season-metrics>div{min-width:0;border-radius:16px;background:#f6faf7;border:1px solid #e2ebe3;padding:14px 12px;min-height:105px}
+.season-metrics>div.season-emphasis{background:linear-gradient(145deg,#1e5b4a,#286c52);border-color:#2c7058}
+.season-metrics small{display:block;font-size:10px;font-weight:800;color:#6d8b7e;margin-bottom:6px;line-height:1.5}
+.season-metrics strong{display:block;color:#1a5a45;font-size:clamp(19px,2.1vw,27px);line-height:1.23;letter-spacing:-.025em;font-variant-numeric:tabular-nums}
+.season-metrics em{display:block;font-style:normal;font-size:10px;line-height:1.5;color:#738b7f;margin-top:7px}
+.season-metrics .season-emphasis small{color:#cbe6da}.season-metrics .season-emphasis strong{color:#e8f5a8}.season-metrics .season-emphasis em{color:#cce7d8}
+.season-visual-header{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:20px 0 8px}.season-visual-header b{font-size:14px;color:#295b4a}
+.season-visual-header button{border:1px solid #d7e8df;background:#f2f8f4;color:#296b51;padding:7px 11px;border-radius:10px;font-size:11px;font-weight:850;transition:background .2s}
+.season-visual-header button:hover{background:#e8f4eb}
+.season-chart{width:100%;height:260px;display:block;border-radius:16px;background:linear-gradient(180deg,#fbfdfa,#f4f9f5);border:1px solid #e2ebe2}
+.season-legend{display:flex;gap:16px;flex-wrap:wrap;align-items:center;padding-top:11px}
+.season-legend span{font-size:11px;font-weight:750;color:#607a6b;display:inline-flex;align-items:center;gap:7px}
+.season-legend i{width:18px;height:4px;background:#aac4a4;border-radius:99px;display:inline-block}
+.season-legend .line-open{background:#95ad9a}.season-legend .line-shade{background:#d49b61}.season-legend .line-night{background:#3f9881}
+.season-legend .extension-mark i{width:12px;height:12px;border-radius:3px;background:#f0dfaa;border:1px solid #ebce8b}
+.timeline-title{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:23px;margin-bottom:12px;padding-top:16px;border-top:1px solid #e3ece4}.timeline-title b{font-size:13px;color:#315e4d}.timeline-title span{font-size:10px;color:#829789}
+.timeline-row{display:grid;grid-template-columns:118px minmax(0,1fr) 55px;gap:10px;align-items:center;margin-bottom:12px}
+.timeline-row>b{font-size:11px;color:#496b5e;line-height:1.5}.timeline-row output{text-align:right;font-size:12px;color:#5e766c;font-weight:850;font-variant-numeric:tabular-nums}
+.timeline-lane{position:relative;width:100%;height:22px;background:#f0f4ed;border-radius:9px;overflow:visible;border:1px solid #e7efe6}
+.timeline-fill,.timeline-extra{position:absolute;left:0;top:0;height:100%;border-radius:8px;width:79.3%;background:#a7c7af;transition:width .35s ease}
+.timeline-fill.open{background:#acc8ad}.timeline-fill.shade{background:#ddb88a}.timeline-fill.night{background:#4e9f83}
+.timeline-extra{left:79.3%;background:repeating-linear-gradient(45deg,#e4d597 0 7px,#f7e6b0 7px 14px);width:0%;border-radius:0 8px 8px 0}
+.timeline-heading{position:absolute;width:3px;background:#2b614f;top:-5px;bottom:-4px;left:54.7%;box-shadow:0 0 0 2px rgba(255,255,255,.84);border-radius:99px}
+.timeline-heading.night-head{background:#d1a451}
+.timeline-axis{display:flex;align-items:center;justify-content:space-between;margin:7px 57px 0 128px;color:#93a49a;font-size:10px;line-height:1.6}
+.season-caveat{background:#f3f8f3;border:1px solid #dfebe0;color:#607c6c;padding:13px 15px;border-radius:14px;font-size:11px;line-height:1.85;margin:16px 0 0}
+.season-caveat b{color:#245c49}
+@keyframes seasonArrow{0%,100%{opacity:.4;transform:translateX(0)}50%{opacity:1;transform:translateX(3px)}}
+@media(max-width:1200px){.causal-chain{grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.causal-arrow{display:none}.season-layout{grid-template-columns:300px minmax(0,1fr)}.season-metrics{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:900px){.season-layout{grid-template-columns:1fr}.season-chart{height:265px}}
+@media(max-width:650px){.season-section{padding:58px 0}.causal-chain{grid-template-columns:1fr 1fr;gap:9px}.causal-node{min-height:93px}.causal-node b{font-size:14px}.causal-node small{font-size:9px}.causal-node.highlight{grid-column:span 1}.season-controls,.season-results{padding:17px;border-radius:19px}.season-metrics{gap:8px}.season-metrics>div{padding:12px 10px;min-height:94px}.season-metrics strong{font-size:20px}.season-chart{height:225px}.timeline-row{grid-template-columns:90px minmax(0,1fr) 43px;gap:6px}.timeline-axis{margin-left:99px;margin-right:43px;font-size:8px}.timeline-title span{font-size:9px}.season-legend{gap:10px}.season-legend span{font-size:10px}}
+@media(max-width:650px){.timeline-axis span:nth-child(2),.timeline-axis span:nth-child(3){display:none}}
+@media(prefers-reduced-motion:reduce){.causal-arrow{animation:none!important}}
+
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap nav">
+<a href="#top" class="brand"><span class="brand-icon">CP</span><span>CPPL <small>Crop Physiology &amp; Production Laboratory</small></span></a>
+<nav class="links" aria-label="문서 탐색"><a href="#concept">발상의 전환</a><a href="#season">생육기간·누적광량</a><a href="#calculator">광량·비용</a><a href="#mechanism">생리기작</a><a href="#trial">검증 설계</a></nav>
+<div class="page-num">RESEARCH IDEA · 04</div>
+</div></header>
+<main>
+<section class="hero" id="top"><div class="wrap hero-inner">
+<div class="hero-copy">
+<span class="eyebrow">PHYSIOLOGY-DRIVEN INNOVATION</span>
+<h1>생리기작의 이해를 통한<br><em>재배기술 발상의 전환</em></h1>
+<p><b>영농형 태양광</b>은 전력 생산과 농업생산을 결합하지만, 모듈 하부의 광환경 변화는 작물의 생육과 수량에 영향을 줄 수 있습니다. 이에 대응해 직접적인 LED 보광 대신, <b>야간조파로 출수를 지연시켜 생육기간을 연장하고 추가 자연광을 누적하는 전략</b>을 연구가설로 제시합니다.</p>
+<div class="hero-pair"><div><small>CONVENTIONAL APPROACH</small><b>부족한 빛의 양을<br>LED로 보충</b></div><span class="switch-arrow">→</span><div class="next"><small>NEW PHYSIOLOGICAL QUESTION</small><b>야간조파 → 출수 지연 →<br>생육기간 연장 → 누적광량 확보</b></div></div>
+<div class="hero-tags"><span>영농형 태양광</span><span>야간조파 · Night break</span><span>Hd3a · 출수 지연</span><span>생육기간 연장</span><span>누적 자연광</span><span>수량 보전 가설</span></div>
+<a href="#season" class="hero-anchor">생육기간·누적광량 가설 <span aria-hidden="true">↓</span></a>
+</div>
+<div class="stage" aria-label="영농형태양광과 야간조파 개념 애니메이션">
+<div class="stage-head"><span>AGROPHOTOVOLTAIC FIELD · CONCEPT VISUALIZATION</span><b id="stageStatus">주간 · 영농형 태양광</b></div>
+<div class="canvasbox"><canvas id="fieldScene" aria-label="차광 및 야간조파 처리에 따라 하늘과 광조건이 변하는 개념 시각화"></canvas><span class="stage-label"><i></i><span id="sceneLabel">차광 환경 · 주간</span></span><span class="stage-legend">개념 애니메이션 · 실측 아님</span></div>
+<div class="scene-modes" role="group" aria-label="시각화 장면 선택">
+<button type="button" data-scene="open">무차광 · 주간</button><button type="button" data-scene="shade" class="active">영농형 태양광</button><button type="button" data-scene="night">야간조파 · 야간</button>
+</div>
+<p class="stage-bottom" id="stageNote">광 모듈에 의한 차광은 벼 군락의 주간 수광량을 감소시킬 수 있습니다.</p>
+</div>
+</div><div class="hero-foot"><div class="wrap"><span><b>문제</b> 차광에 따른 생육·수량 감소</span><span><b>가설</b> 출수 지연으로 자연광 수광기간 확대</span><span><b>검증</b> 누적광량 · 출수·성숙기 · 건물중 · 수량 · 경제성</span></div></div></section>
+<section class="section soft" id="concept"><div class="wrap">
+<div class="section-heading"><div><span class="section-id">01 / SHIFT IN RESEARCH QUESTION</span><h2>광량 직접 보충에서 수광기간 확보로</h2><p>고광량 LED 보광과 야간조파는 <b>자연광을 활용하는 방식</b>이 근본적으로 다릅니다.</p></div><div class="heading-aside">INSIGHT → TESTABLE HYPOTHESIS</div></div>
+<div class="contrast">
+<article class="contrast-card"><span class="small">DIRECT LIGHT SUPPLEMENTATION</span><h3>고광량 LED 보광</h3><p>손실된 광합성 유효광량(PAR)을 인공광으로 직접 보충하는 전략입니다. 포장 면적이 넓으면 충분한 광량 확보에 필요한 전력과 설비비가 커질 수 있습니다.</p><div class="contrast-symbol"><div>차광으로<br>감소한 DLI</div><b>＋</b><div>LED 광자<br>직접 공급</div></div><div class="contrast-bottom"><span>광자 공급량</span><span>전력소비</span><span>시설비</span></div></article>
+<article class="contrast-card future"><span class="small">LOW-ENERGY PHYSIOLOGICAL INTERVENTION</span><h3>야간조파를 통한<br>누적 자연광 확보 가설</h3><p>약한 야간 광신호로 <b>출수 시기와 생육기간을 조절</b>하고, 연장된 기간에 받는 <b>주간 자연광의 누적량</b>을 늘려 차광 손실을 보완할 가능성을 검증합니다.</p><div class="contrast-symbol"><div>저강도<br>야간 광신호</div><b>→</b><div>생육기간 연장<br>추가 자연광</div></div><div class="contrast-bottom"><span>Hd3a · 감광성</span><span>출수 지연</span><span>누적 PAR</span><span>수량 보전 검증</span></div></article>
+</div>
+<div class="science-alert"><div class="alert-icon">!</div><div><b>핵심은 야간 광자 공급이 아닌, 생육기간 연장에 따른 주간 자연광 누적 가능성입니다.</b><p>야간조파가 출수를 늦춰도 최종 성숙일이 그만큼 늦어지는지, 추가 기간의 실제 흡수광량·건물생산량이 증가하는지, 등숙기의 저온 위험을 피할 수 있는지는 별도 검증이 필요합니다. 선행연구에서는 야간조명으로 <b>출수 지연과 수량 감소</b>가 나타난 사례도 있습니다.</p></div></div>
+</div></section>
+
+<section class="season-section" id="season"><div class="wrap">
+  <div class="section-heading"><div><span class="section-id">02 / PHENOLOGY-MEDIATED RADIATION GAIN</span><h2>출수 지연 → 생육기간 연장 → 누적 자연광 증가</h2><p>야간조파는 <b>하루의 주간 DLI를 직접 회복하는 기술이 아니라</b>, 출수 및 성숙시기를 조절하여 <b>자연광을 활용할 수 있는 총기간</b>을 늘리는 접근입니다.</p></div><div class="heading-aside">INTERACTIVE · HYPOTHESIS TEST</div></div>
+  <div class="causal-chain" aria-label="야간조파의 누적광량 증가 연구가설">
+    <div class="causal-node"><span>01 · LIGHT SIGNAL</span><b>야간조파</b><small>짧은 암기 중 광처리</small></div><div class="causal-arrow" aria-hidden="true">→</div>
+    <div class="causal-node"><span>02 · PHENOLOGY</span><b>출수 지연</b><small>Hd3a·감광반응 조절</small></div><div class="causal-arrow" aria-hidden="true">→</div>
+    <div class="causal-node"><span>03 · DURATION</span><b>생육기간 연장</b><small>자연광 노출일수 증가 가정</small></div><div class="causal-arrow" aria-hidden="true">→</div>
+    <div class="causal-node highlight"><span>04 · RADIATION</span><b>누적 PAR 증가</b><small>추가 자연광 확보 가능성</small></div><div class="causal-arrow" aria-hidden="true">→</div>
+    <div class="causal-node"><span>05 · OUTCOME</span><b>수량 보전 검증</b><small>건물중·영화수·등숙률</small></div>
+  </div>
+  <div class="season-layout">
+    <div class="season-controls">
+      <div class="control-title"><b>생육기간 연장 가상 시나리오</b><span>실험 결과가 아닌 가정</span></div>
+      <div class="control"><div class="control-head"><label for="seasonShade">태양광 모듈 차광률</label><output id="seasonShadeValue">25%</output></div><input id="seasonShade" type="range" min="0" max="45" step="1" value="25"><div class="range-ends"><span>0%</span><span>45%</span></div></div>
+      <div class="control"><div class="control-head"><label for="headingDelay">야간조파 유도 출수 지연 (가정)</label><output id="headingDelayValue">14일</output></div><input id="headingDelay" type="range" min="0" max="28" step="1" value="14"><div class="range-ends"><span>0일</span><span>28일</span></div></div>
+      <div class="control"><div class="control-head"><label for="extensionRatio">성숙기 연장 반영률 (가정)</label><output id="extensionRatioValue">85%</output></div><input id="extensionRatio" type="range" min="0" max="100" step="5" value="85"><div class="range-ends"><span>0% · 성숙기 불변</span><span>100% · 지연 일수 반영</span></div></div>
+      <div class="season-assumptions"><b>시연 조건</b> · 기준 출수 82 DAT / 성숙 119 DAT<br>같은 기상 연도, 고정 차광률, 생육기간 연장을 가정한 <b>군락 상단 입사 자연광 누적량</b> 비교. 실제 흡수 PAR·수량 추정값은 아닙니다.</div>
+      <div class="season-explain"><span class="spark-icon">✦</span><div><b>핵심 질문</b><p>출수를 늦추는 효과가 <b>생육기간과 자연광 누적량 증가</b>로 이어지고, 그만큼 <b>차광에 따른 건물생산·수량 감소를 완화</b>할 수 있는가?</p></div></div>
+    </div>
+    <div class="season-results">
+      <div class="season-metrics"><div><small>출수기 · 야간조파</small><strong id="headingResult">96 DAT</strong><em id="headingCompare">기준 +14일</em></div><div><small>성숙기 · 야간조파</small><strong id="maturityResult">131 DAT</strong><em id="maturityCompare">기준 +12일</em></div><div class="season-emphasis"><small>추가 누적 자연광 PAR</small><strong id="seasonExtraPar">+0</strong><em>mol m⁻² · 차광 조건 대비</em></div><div><small>차광 누적손실 완화율</small><strong id="seasonRecovery">0%</strong><em>가상 수광량 기준</em></div></div>
+      <div class="season-visual-header"><b>생육 전 기간 누적 자연광</b><button type="button" id="replaySeason" aria-label="누적광량 그래프 애니메이션 다시 실행">↻ 누적 과정 재생</button></div>
+      <canvas id="seasonCanvas" class="season-chart" aria-label="무차광, 차광 및 야간조파에 따른 누적 주간 자연광 차이를 표시하는 가상 그래프"></canvas>
+      <div class="season-legend"><span><i class="line-open"></i>무차광</span><span><i class="line-shade"></i>차광</span><span><i class="line-night"></i>차광 + 야간조파</span><span class="extension-mark"><i></i>추가 수광기간</span></div>
+      <div class="timeline-title"><b>출수·성숙 시기</b><span>동일 이앙일 · 시연용 시간축</span></div>
+      <div class="timeline-row"><b>무차광</b><div class="timeline-lane"><span class="timeline-fill open" id="tlOpen"></span><span class="timeline-heading" id="headOpen"></span></div><output>119일</output></div>
+      <div class="timeline-row"><b>차광</b><div class="timeline-lane"><span class="timeline-fill shade" id="tlShade"></span><span class="timeline-heading" id="headShade"></span></div><output>119일</output></div>
+      <div class="timeline-row"><b>차광 + 야간조파</b><div class="timeline-lane"><span class="timeline-fill night" id="tlNight"></span><span class="timeline-extra" id="tlExtra"></span><span class="timeline-heading night-head" id="headNight"></span></div><output id="tlMaturity">131일</output></div>
+      <div class="timeline-axis"><span>이앙</span><span>출수 기준 82일</span><span>성숙 기준 119일</span><span>최대 150일</span></div>
+      <p class="season-caveat"><b>해석:</b> 보라색 곡선의 추가 구간은 야간조파가 성숙기를 실제로 연장했다는 가정에서만 발생합니다. <b>누적 입사광 증가 ≠ 흡수광 증가 ≠ 수량 증가</b>이므로 LAI, intercepted PAR, 광합성, 생육기간의 실제 연장 및 등숙환경을 별도로 검정해야 합니다.</p>
+    </div>
+  </div>
+</div></section>
+<section class="section lab" id="calculator"><div class="wrap">
+<div class="section-heading"><div><span class="section-id">03 / NIGHT-BREAK LIGHT &amp; COST</span><h2>저비용 광주기 신호와 직접 보광 효과의 구분</h2><p><b>야간조파의 직접 추가광량과 전력비</b>를 계산합니다. 수량 보전 가설의 주 경로는 이 적은 광량이 아닌 <b>생육기간 연장에 따른 추가 주간 자연광</b>입니다.</p></div><div class="heading-aside">INTERACTIVE · ASSUMPTION-BASED</div></div>
+<div class="lab-panel"><div class="controls"><div class="control-title"><b>가상 광처리 설계</b><span>10a = 1,000 m²</span></div>
+<div class="control"><div class="control-head"><label for="shadeRatio">차광률</label><output id="shadeValue" for="shadeRatio">25%</output></div><input id="shadeRatio" type="range" min="0" max="45" value="25" step="1"><div class="range-ends"><span>0%</span><span>45%</span></div></div>
+<div class="control"><div class="control-head"><label for="ppfd">야간 처리 PPFD</label><output id="ppfdValue" for="ppfd">12 μmol m⁻² s⁻¹</output></div><input id="ppfd" type="range" min="1" max="100" value="12" step="1"><div class="range-ends"><span>1</span><span>100 μmol m⁻² s⁻¹</span></div></div>
+<div class="control"><div class="control-head"><label for="duration">1회 처리시간</label><output id="durationValue" for="duration">60분</output></div><input id="duration" type="range" min="10" max="180" value="60" step="10"><div class="range-ends"><span>10분</span><span>180분</span></div></div>
+<div class="control"><div class="control-head"><label for="days">총 처리 횟수</label><output id="daysValue" for="days">30회</output></div><input id="days" type="range" min="1" max="120" value="30" step="1"><div class="range-ends"><span>1회</span><span>120회</span></div></div>
+<div class="lab-assumption"><b>계산 가정</b><br>무차광 DLI 20 mol m⁻² d⁻¹ · 광원 효율 2.8 μmol J⁻¹ · 군락 도달률 65% · 전력단가 150원 kWh⁻¹. 감가상각·설치·유지비 제외.<br><b>1,000원은 ‘하룻밤 1회/10a’ 수준의 예시</b>이며 시즌 전체 비용을 뜻하지 않습니다.</div></div>
+<div class="outcomes"><div class="control-title"><b>광량·경제성 계산</b><span>PHYSICAL INPUT ONLY</span></div>
+<div class="live-grid"><div class="live-stat"><small>차광으로 감소한 DLI</small><strong id="lostDli">5.00</strong><em>mol m⁻² d⁻¹</em></div><div class="live-stat"><small>야간조파 추가 DLI</small><strong id="addedDli">0.043</strong><em>mol m⁻² d⁻¹</em></div><div class="live-stat"><small>광량 감소분 보전 비율</small><strong id="recovery">0.86%</strong><em>추가 광자 / 손실 광자</em></div><div class="live-stat gold"><small>10a · 1회 전기료</small><strong id="eventCost">989원</strong><em id="seasonCost">30회 ≈ 29,670원</em></div></div>
+<div class="live-plot-head"><b>하루 누적광량(DLI) 비교</b><span>직접 광량 보전 효과는 규모로 판단</span></div>
+<div class="dli-bars"><div class="dli-row"><label>무차광 · 기준</label><div class="dli-track"><div class="dli-fill" style="width:100%"></div></div><output id="baseDli">20.00</output></div><div class="dli-row"><label>차광 · 무처리</label><div class="dli-track"><div class="dli-fill shade" id="shadeBar" style="width:75%"></div></div><output id="shadeDli">15.00</output></div><div class="dli-row"><label>차광 + 야간조파</label><div class="dli-track"><div class="dli-fill night" id="nightBar" style="width:75.2%"></div></div><output id="nightDli">15.04</output></div></div>
+<canvas id="lightChart" class="daily-chart" aria-label="하루 동안 자연광과 야간조파의 시간별 광량 개념도"></canvas>
+<div class="plot-legend"><span><i class="key"></i>기준 일중 광량</span><span><i class="key shaded"></i>차광 후 광량</span><span><i class="key night"></i>야간조파</span></div>
+<div class="dli-note"><i></i><div><b>핵심:</b> 이 표에서 야간조파에 의한 직접 DLI 증가는 매우 작습니다. 연구가설은 <b>야간 광신호 → 출수·성숙기 변화 → 생육기간 연장 → 주간 자연광의 추가 누적</b>이며, 바로 위 누적광량 시연이 이 경로를 설명합니다.</div></div>
+</div></div></div></section>
+<section class="section method" id="mechanism"><div class="wrap"><div class="section-heading"><div><span class="section-id">04 / PHYSIOLOGICAL BASIS</span><h2>발달신호 조절과 추가 자연광 이용의 연결</h2><p>야간조파에 따른 출수 지연을 <b>생육기간·군락 수광량·건물생산량·수량</b>으로 연결해 검증합니다.</p></div></div>
+<div class="mechanism"><article class="mechanism-card"><span class="no">01 / QUANTITY</span><h3>자연광의 누적 수광량</h3><p>생육기간이 연장될 때 <b>전 기간의 누적 입사·흡수 PAR</b> 및 총 동화량이 얼마나 달라지는지 평가합니다.</p><div class="mechanism-art"><span class="art-sun"></span><div class="art-curve"><svg viewBox="0 0 300 120" aria-hidden="true"><path d="M10 105 L290 105" stroke="#9fbcaa" stroke-width="2"/><path class="wave" d="M10 100 C55 100 65 77 105 55 S180 14 216 49 S260 92 290 94" fill="none" stroke="#479a71" stroke-width="5" stroke-linecap="round"/></svg></div></div><div class="mechanism-tags"><span>PPFD</span><span>DLI</span><span>광합성</span></div></article>
+<article class="mechanism-card"><span class="no">02 / SIGNALING</span><h3>광주기 신호·출수 지연</h3><p>암기 중 광신호가 <b>Hd3a·유수분화</b>에 미치는 영향과, 출수·최종 성숙까지의 연장 일수를 구분합니다.</p><div class="mechanism-art"><div class="art-signal"><span></span></div><span style="position:absolute;bottom:12px;font-size:10px;color:#327b65;font-weight:900;letter-spacing:.12em">NIGHT-BREAK · PHOTOPERIOD</span></div><div class="mechanism-tags"><span>Phytochrome</span><span>Hd3a / RFT1</span><span>BVP · PSP · PPP</span></div></article>
+<article class="mechanism-card"><span class="no">03 / AGRONOMIC RESPONSE</span><h3>누적광량의 수량 전환</h3><p>늘어난 수광기간이 <b>잎 면적·건물중·영화수</b> 증가로 이어지는지, 등숙률·천립중·수량에 불리한 효과가 없는지 평가합니다.</p><div class="mechanism-art"><div class="art-pheno"><i></i><i></i><i></i><i></i></div><span style="position:absolute;bottom:10px;font-size:10px;color:#36785f;font-weight:900;letter-spacing:.1em">DEVELOPMENT → YIELD</span></div><div class="mechanism-tags"><span>출수기</span><span>Source–sink</span><span>수량구성요소</span></div></article></div></div></section>
+<section class="proposal" id="trial"><div class="wrap"><div class="section-heading"><div><span class="section-id">05 / EXPERIMENTAL VERIFICATION</span><h2>누적 자연광 확보 가설의 단계별 검증</h2><p>출수 지연 자체보다 <b>최종 성숙시기·누적 흡수 PAR·건물생산량·수량</b>을 함께 평가하고, 저온·등숙 지연 등 위험도 확인합니다.</p></div></div>
+<div class="trial-layout"><div class="treatments"><article class="treatment"><span>CONTROL 01</span><strong>무차광 · 관행재배</strong><p>기준 광환경 및 수량 수준 확보</p></article><article class="treatment"><span>CONTROL 02</span><strong>차광 · 무광처리</strong><p>영농형 태양광 조건의 차광 효과 분리</p></article><article class="treatment"><span>TREATMENT 03</span><strong>차광 + 야간조파</strong><p>광도 · 광질 · 시각 · 지속시간 최적화</p></article><article class="treatment"><span>CONTROL 04</span><strong>무차광 + 야간조파</strong><p>차광 × 야간조파 상호작용 분리</p></article><article class="treatment"><span>COMPARATOR 05</span><strong>차광 + LED 보광</strong><p>직접 광량 보충의 비용·수량 효과 비교</p></article></div>
+<div class="trial-graph"><span class="small">EVIDENCE CHAIN</span><h3>현상 → 기작 → 현장 검증</h3><div class="trial-flow"><div class="trial-row"><b>01</b><span>광주기 신호 : 광도·광질·시각·Hd3a / 출수지연 일수</span></div><div class="trial-row"><b>02</b><span>생육기간 : 출수기·성숙기·영양생장 및 등숙기간</span></div><div class="trial-row"><b>03</b><span>누적 수광 : 일별 PAR·차광률·LAI·흡수 PAR·광합성</span></div><div class="trial-row"><b>04</b><span>생산성 : 건물중·영화수·등숙률·천립중·정곡수량</span></div><div class="trial-row"><b>05</b><span>제약·경제성 : 등숙기 저온·도복·작기·시즌 전기료</span></div></div><div class="trial-caveat">실험 설계상 출수 지연이 곧바로 생육기간 연장 또는 수량 증가를 의미하지는 않습니다. 실측 누적 흡수광량과 건물생산량을 계량하고, 후기 기온 하강·등숙 부진·재배기간 제약까지 평가해야 합니다.</div></div>
+</div></div></section>
+<section class="evidence" id="evidence"><div class="wrap"><div class="section-heading"><div><span class="section-id">06 / SCIENTIFIC POSITIONING</span><h2>선행근거와 학술적 검증 조건</h2><p>야간조파의 존재 자체는 새로운 개념이 아닙니다. 중요한 것은 <b>영농형 태양광 차광 환경에서 적용 가능한 광처리 조건과 반응 기작을 제시하고 독립 실증하는 것</b>입니다.</p></div></div>
+<div class="evidence-grid"><article class="evidence-card"><small>PRIOR EVIDENCE · KOREA, 2003</small><h3>야간조파는 출수 시기를 변화시킬 수 있음</h3><p>국내 벼 연구에서 암기 중 간헐적 광처리(50–60 lux, 3시간 간격 10분)로 두 품종의 출수가 각각 9일, 26일 지연되었다고 보고되었습니다. 출수 지연의 근거는 존재하지만, 누적 수광량과 수량 증가를 입증한 결과는 아닙니다.</p><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09693522" target="_blank" rel="noopener">Kim et al. (2003) · 원문 정보</a></article>
+<article class="evidence-card"><small>PRIOR EVIDENCE · KOREA, 2002</small><h3>야간조명과 수량의 관계는 단순한 증가가 아님</h3><p>벼 품종별 야간조명 반응 연구에서 10–20 lux 조건의 출수 지연과 수량 감소가 보고되었습니다. 따라서 광량 보충, 광주기 교란, 생산성 변화는 각각 독립적으로 확인해야 합니다.</p><a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000892686" target="_blank" rel="noopener">Kim et al. (2002) · KCI</a></article>
+<article class="evidence-card"><small>MECHANISTIC EVIDENCE · 2005</small><h3>야간조파 → Hd3a 억제 → 출수 지연</h3><p>벼에서 암기 중 짧은 광조사는 <i>phyB</i> 의존적으로 <i>Hd3a</i> 발현을 억제하고 출수를 지연했습니다. 이 반응은 <b>추가 자연광 확보 가설의 첫 단계</b>를 뒷받침하지만 수량 보전 효과를 보증하지는 않습니다.</p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1315372/" target="_blank" rel="noopener">Ishikawa et al. (2005) · The Plant Cell</a></article>
+<article class="evidence-card"><small>HIGH-IMPACT STUDY DESIGN</small><h3>기작과 농업적 효과를 연결하는 통합 검증</h3><p>국제학술지 수준의 연구로 발전시키려면 기존의 야간조파 연구와 구별되는 차광 조건의 현상, 분자·생리 기작, 독립 포장 재현성, 비용 대비 수량효과를 연결해야 합니다. 구체적인 저널 수준은 연구결과와 신규성에 따라 결정됩니다.</p><a href="https://www.sciencedirect.com/science/article/pii/S0959652626006219" target="_blank" rel="noopener">Kuwabara et al. (2026) · 동적 광환경과 벼 수량</a></article></div>
+</div></section>
+<section class="conclusion"><div class="wrap"><span class="eyebrow">RESEARCH PERSPECTIVE</span><h2>낮은 광에너지로 출수·생육기간을 조절하여<br><em>추가 자연광을 확보할 수 있는가?</em></h2><p>저강도 야간조파의 출수 지연 효과가 <b>실제 성숙기 연장·누적 흡수 PAR·건물생산량</b>의 증가로 이어지는지 검증하고, 동시에 등숙기 환경 위험과 수량 보전의 순효과를 평가합니다. 학술적 가치는 <b>광주기 신호–수광기간–탄소동화–수량</b>의 연결고리를 규명하는 데 있습니다.</p></div></section>
+</main>
+<footer class="footer"><div class="wrap"><b>CPPL · AGRIVOLTAICS × PHYSIOLOGY</b><p>애니메이션·생육기간·누적광량·전력비는 연구가설 설명용 시연값이며, 실제 출수 지연·생육기간 증가·수량 보전 결과가 아닙니다. 야간조파의 효과는 광도·광질·처리시각·품종·생육단계에 따라 달라질 수 있습니다.</p></div></footer>
+<script>
+(()=>{'use strict';
+const $=id=>document.getElementById(id);
+const clamp=(n,a,b)=>Math.min(b,Math.max(a,n));
+const nf=new Intl.NumberFormat('ko-KR',{maximumFractionDigits:0});
+const modeButtons=[...document.querySelectorAll('[data-scene]')];
+let scene='shade',tick=0,raf=0,reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const cv=$('fieldScene'),ctx=cv.getContext('2d');
+function setScene(m){scene=m;modeButtons.forEach(b=>{const a=b.dataset.scene===m;b.classList.toggle('active',a);b.setAttribute('aria-pressed',String(a))});const names={open:['무차광 · 주간','무차광 · 수광환경'],shade:['주간 · 영농형 태양광','모듈 하부 · 차광환경'],night:['야간 · 조파 광처리','야간조파 · 광주기 신호']};$('stageStatus').textContent=names[m][0];$('sceneLabel').textContent=names[m][1];$('stageNote').textContent={open:'태양광 모듈이 없는 기준 재배환경의 주간 수광 상태입니다.',shade:'광 모듈에 의한 차광은 벼 군락의 주간 수광량을 감소시킬 수 있습니다.',night:'야간조파가 출수를 지연시키면 추가 생육기간에 자연광을 더 받을 수 있다는 가설을 검증합니다.' }[m];drawScene();}
+modeButtons.forEach(b=>b.addEventListener('click',()=>setScene(b.dataset.scene)));
+function poly(points,fill,stroke,width=1){ctx.beginPath();ctx.moveTo(points[0][0],points[0][1]);for(let i=1;i<points.length;i++)ctx.lineTo(...points[i]);ctx.closePath();if(fill){ctx.fillStyle=fill;ctx.fill()}if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=width;ctx.stroke()}}
+function line(a,b,stroke,width=1){ctx.beginPath();ctx.moveTo(...a);ctx.lineTo(...b);ctx.strokeStyle=stroke;ctx.lineWidth=width;ctx.stroke()}
+function ellipse(x,y,rx,ry,col){ctx.beginPath();ctx.ellipse(x,y,rx,ry,0,0,Math.PI*2);ctx.fillStyle=col;ctx.fill()}
+function drawScene(){const dpr=window.devicePixelRatio||1,w=Math.max(1,cv.clientWidth),h=Math.max(1,cv.clientHeight);let pw=Math.round(w*dpr),ph=Math.round(h*dpr);if(cv.width!==pw||cv.height!==ph){cv.width=pw;cv.height=ph;}ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,w,h);
+const night=scene==='night',panels=scene!=='open';
+let sky=ctx.createLinearGradient(0,0,0,h);if(night){sky.addColorStop(0,'#0b192e');sky.addColorStop(.65,'#1d3452');sky.addColorStop(1,'#455a63')}else{sky.addColorStop(0,'#7ca7bd');sky.addColorStop(.55,'#c9ded6');sky.addColorStop(1,'#e8e9c7')}ctx.fillStyle=sky;ctx.fillRect(0,0,w,h);
+if(night){for(let i=0;i<38;i++){const sx=(i*173.5+19)%w,sy=(i*61.3+26)%(h*.54),r=.8+(i%4)*.27;ellipse(sx,sy,r,r,'rgba(255,255,235,'+(.28+.2*(1+Math.sin(tick*.04+i))/2)+')')}ellipse(w*.83,h*.16,19,19,'#d8e4e7');ellipse(w*.86,h*.138,19,19,'#1b3452')}
+else{ellipse(w*.82,h*.16,33,33,'#f6e4a6');for(let i=1;i<4;i++){ctx.strokeStyle='rgba(249,235,186,'+(0.20/i)+')';ctx.lineWidth=2;ctx.beginPath();ctx.arc(w*.82,h*.16,35+i*16,0,Math.PI*2);ctx.stroke()}}
+poly([[0,h*.58],[w*.22,h*.54],[w*.67,h*.57],[w,h*.51],[w,h],[0,h]],night?'#263b33':'#79956d');
+const ground=ctx.createLinearGradient(0,h*.56,0,h);ground.addColorStop(0,night?'#294e3e':'#547e4d');ground.addColorStop(1,night?'#163d32':'#2d6337');poly([[w*.18,h*.6],[w*.78,h*.59],[w+40,h],[-40,h]],ground);
+for(let k=-6;k<12;k++){let x0=w*.18+k*w*.072,x1=w*.5+k*w*.14;line([x0,h*.62],[x1,h],night?'rgba(67,116,87,.32)':'rgba(215,225,154,.30)',2)}
+for(let y=0;y<6;y++){let v=h*(.61+Math.pow(y/6,1.6)*.36);line([w*.12,v],[w*.87,v],night?'rgba(69,130,96,.20)':'rgba(188,208,133,.19)',1)}
+// Row-wise rice plants, horizon to foreground, with swaying leaves.
+for(let row=0;row<5;row++){let z=(row+.8)/5.8,yy=h*(.62+z*z*.37),spacing=11+z*34,s=7+z*29;for(let col=-2;col<18;col++){let x=(col+.3)*spacing+(row%2)*spacing/2+(w*.18)*(1-z*.5);let sway=Math.sin(tick*.027+col*.8+row*.6)*(1+z*2);if(x<-35||x>w+35)continue;line([x,yy],[x+sway,yy-s],night?'#417b55':'#6ca45d',Math.max(1,z*3));for(let j=0;j<4;j++){let side=j%2?1:-1,dy=s*(.22+j*.12),tipx=x+side*s*(.55+j*.07)+sway;ctx.beginPath();ctx.moveTo(x,yy-dy);ctx.quadraticCurveTo(x+side*s*.28,yy-dy-s*.14,tipx,yy-dy-s*.28);ctx.quadraticCurveTo(x+side*s*.20,yy-dy+s*.04,x,yy-dy);ctx.fillStyle=night?(j%2?'#3b8054':'#2c684c'):(j%2?'#82b56a':'#68a65e');ctx.fill()}}}
+if(panels){const L=w*.11,R=w*.90,y=h*.25,slant=h*.06,depth=h*.21;
+// solar deck with perspective segmentation
+poly([[L,y+slant],[R,y],[R-w*.06,y+depth],[L-w*.045,y+depth+slant]],night?'#1e3347':'#3d5c69','#8ea6ae',3);
+for(let i=1;i<7;i++){let t=i/7,x=L+(R-L)*t;line([x,y+slant*(1-t)],[x-w*.05,y+depth+slant*(1-t)],night?'#46627c':'#8bacb6',1.4)}
+for(let i=1;i<3;i++){let t=i/3;line([L-w*.045*t,y+slant+depth*t],[R-w*.06*t,y+depth*t],night?'#4b667c':'#799ba7',1.4)}
+for(let i=0;i<5;i++){let t=i/4,x=L+(R-L)*t*.96-w*.04;if(i===0||i===2||i===4){line([x,h*.45],[x+10,h*.76],night?'#627a78':'#6e8381',5);ellipse(x+10,h*.76,9,3,'rgba(0,0,0,.16)')}}
+// Shade projected to ground
+poly([[w*.15,h*.62],[w*.76,h*.6],[w*.93,h*.85],[w*.24,h*.90]],night?'rgba(2,8,15,.2)':'rgba(19,43,41,.24)');
+if(night){let beam=ctx.createLinearGradient(0,y+depth,0,h);beam.addColorStop(0,'rgba(151,231,200,.25)');beam.addColorStop(1,'rgba(151,231,200,0)');for(let i=0;i<5;i++){const xx=L+(i+.5)*(R-L)/5;poly([[xx,y+depth*.91],[xx+12,y+depth*.91],[xx+73,h*.91],[xx-65,h*.91]],beam);let alpha=.45+.2*Math.sin(tick*.07+i*.6);ellipse(xx+6,y+depth*.91,8,3,'rgba(151,251,194,'+alpha+')')}for(let i=0;i<28;i++){let px=L+(i*67.3)%(R-L),py=h*.48+(i*17.1)%(h*.34);ellipse(px,py,1.1+Math.sin(tick*.04+i)*.45,1.1,'rgba(190,249,212,.5)')}}
+}
+const vign=ctx.createRadialGradient(w*.5,h*.47,w*.12,w*.5,h*.47,w*.85);vign.addColorStop(0,'rgba(0,0,0,0)');vign.addColorStop(1,'rgba(1,20,29,.20)');ctx.fillStyle=vign;ctx.fillRect(0,0,w,h);
+}
+function loop(){tick++;drawScene();if(!reduceMotion)raf=requestAnimationFrame(loop)}
+window.addEventListener('resize',drawScene);setScene('shade');if(!reduceMotion)raf=requestAnimationFrame(loop);
+const inputs=['shadeRatio','ppfd','duration','days'].map($);const lightCanvas=$('lightChart'),lx=lightCanvas.getContext('2d');
+function calculate(){const shade=+$('shadeRatio').value,ppfd=+$('ppfd').value,min=+$('duration').value,days=+$('days').value,base=20,shaded=base*(1-shade/100),lost=base-shaded,extra=ppfd*min*60/1e6,total=shaded+extra;const cost=ppfd*1000/(2.8*.65)/1000*(min/60)*150;const recovery=lost>0?100*extra/lost:0;
+$('shadeValue').textContent=shade+'%';$('ppfdValue').textContent=ppfd+' μmol m⁻² s⁻¹';$('durationValue').textContent=min+'분';$('daysValue').textContent=days+'회';
+$('lostDli').textContent=lost.toFixed(2);$('addedDli').textContent=extra.toFixed(3);$('recovery').textContent=(lost?recovery.toFixed(2):'—')+(lost?'%':'');$('eventCost').textContent=nf.format(Math.round(cost))+'원';$('seasonCost').textContent=days+'회 ≈ '+nf.format(Math.round(cost*days))+'원';
+$('baseDli').textContent=base.toFixed(2);$('shadeDli').textContent=shaded.toFixed(2);$('nightDli').textContent=total.toFixed(2);$('shadeBar').style.width=clamp(100*shaded/base,0,100)+'%';$('nightBar').style.width=clamp(100*total/base,0,100)+'%';
+drawLightChart(shade,ppfd,min);}
+function drawLightChart(shade,ppfd,min){const c=lightCanvas,w=Math.max(1,c.clientWidth),h=Math.max(1,c.clientHeight),dpr=window.devicePixelRatio||1;if(c.width!==Math.round(w*dpr)||c.height!==Math.round(h*dpr)){c.width=Math.round(w*dpr);c.height=Math.round(h*dpr)}lx.setTransform(dpr,0,0,dpr,0,0);lx.clearRect(0,0,w,h);const pad={l:36,r:20,t:18,b:26};const pw=w-pad.l-pad.r,ph=h-pad.t-pad.b;
+for(let i=0;i<=4;i++){let yy=pad.t+ph*i/4;lx.beginPath();lx.moveTo(pad.l,yy);lx.lineTo(w-pad.r,yy);lx.lineWidth=1;lx.strokeStyle='#e0ebe5';lx.stroke()}
+for(let i=0;i<=6;i++){let x=pad.l+pw*i/6;lx.font='10px sans-serif';lx.fillStyle='#82968d';lx.textAlign='center';lx.fillText(i*4+'h',x,h-8)}
+const mapX=t=>pad.l+pw*t/24;const mapY=v=>pad.t+ph*(1-clamp(v/1400,0,1));
+const daylight=t=>t>=5.5&&t<=19?1150*Math.sin(Math.PI*(t-5.5)/(19-5.5)):0;
+function drawCurve(mult,col,fill){lx.beginPath();for(let t=0;t<=24.05;t+=.1){let v=daylight(t)*mult,x=mapX(t),y=mapY(v);if(t===0)lx.moveTo(x,y);else lx.lineTo(x,y)}if(fill){lx.lineTo(mapX(24),mapY(0));lx.lineTo(mapX(0),mapY(0));lx.closePath();lx.fillStyle=fill;lx.fill()}lx.strokeStyle=col;lx.lineWidth=2.8;lx.stroke()}
+drawCurve(1,'#a0c39b','rgba(133,182,121,.05)');drawCurve(1-shade/100,'#459679','rgba(64,152,116,.12)');
+// A conceptual pulse at 23h (just for visualisation, independent of actual scheduling).
+let left=mapX(23-min/120),right=mapX(23+min/120);let peak=mapY(ppfd*4);lx.fillStyle='rgba(222,170,75,.27)';lx.fillRect(left,peak,right-left,mapY(0)-peak);lx.strokeStyle='#c99745';lx.lineWidth=2.3;lx.beginPath();lx.moveTo(left,mapY(0));lx.lineTo(left,peak);lx.lineTo(right,peak);lx.lineTo(right,mapY(0));lx.stroke();
+lx.fillStyle='#7b9185';lx.font='10px sans-serif';lx.textAlign='left';lx.fillText('주간 광량 · 야간조파(확대 표시)',pad.l,12);
+}
+inputs.forEach(el=>el.addEventListener('input',calculate));calculate();
+
+// Hypothesis demonstration: daylight accumulated across prolonged crop calendar.
+// Every value below is synthetic. Daylight DLI at canopy top (not absorbed PAR).
+const seasonCanvas=$('seasonCanvas'),seasonCtx=seasonCanvas.getContext('2d');
+let seasonProgress=1,seasonAnimation=0;
+const seasonInputs=['seasonShade','headingDelay','extensionRatio'].map($);
+const seasonBaseHeading=82, seasonBaseMature=119, seasonMaxDay=150;
+function seasonDli(d){
+    // Illustrative seasonal shape: seasonal maximum then declining late-season radiation.
+    return Math.max(7, 20+3.6*Math.sin(Math.PI*d/145)-.075*Math.max(0,d-80));
+}
+function sumSeasonDays(n,shadePercent){
+    let sum=0;for(let d=1;d<=n;d++)sum+=seasonDli(d)*(1-shadePercent/100);return sum;
+}
+function getSeasonScenario(){
+  const shade=Number($('seasonShade').value), delay=Number($('headingDelay').value), ratio=Number($('extensionRatio').value)/100;
+  const extend=Math.round(delay*ratio), end=seasonBaseMature+extend;
+  const base=sumSeasonDays(seasonBaseMature,0), shaded=sumSeasonDays(seasonBaseMature,shade), night=sumSeasonDays(end,shade);
+  const gained=night-shaded, loss=base-shaded, recovery=loss>0?100*gained/loss:0;
+  return {shade,delay,ratio,extend,end,base,shaded,night,gained,loss,recovery};
+}
+function setTimelineBars(sc){
+    const width=d=>Math.max(0,Math.min(100,100*d/seasonMaxDay))+'%';
+    $('tlOpen').style.width=width(seasonBaseMature);$('tlShade').style.width=width(seasonBaseMature);
+    $('tlNight').style.width=width(seasonBaseMature);
+    $('tlExtra').style.left=width(seasonBaseMature);
+    $('tlExtra').style.width=Math.max(0,100*sc.extend/seasonMaxDay)+'%';
+    $('headOpen').style.left=width(seasonBaseHeading);$('headShade').style.left=width(seasonBaseHeading);$('headNight').style.left=width(seasonBaseHeading+sc.delay);
+}
+function drawSeasonGraph(sc){
+    const c=seasonCanvas,w=Math.max(2,c.clientWidth),h=Math.max(2,c.clientHeight),ratio=window.devicePixelRatio||1;
+    if(c.width!==Math.round(w*ratio)||c.height!==Math.round(h*ratio)){c.width=Math.round(w*ratio);c.height=Math.round(h*ratio);}
+    const ctx=seasonCtx;ctx.setTransform(ratio,0,0,ratio,0,0);ctx.clearRect(0,0,w,h);
+    const pad={l:w<500?43:54,r:18,t:20,b:34}, pw=w-pad.l-pad.r,ph=h-pad.t-pad.b;
+    const maxY=Math.ceil((sc.base*1.08)/500)*500;
+    const X=day=>pad.l+pw*day/seasonMaxDay;
+    const Y=val=>pad.t+ph*(1-val/maxY);
+    ctx.font='10px sans-serif';ctx.textAlign='right';
+    for(let k=0;k<=4;k++){
+      const val=maxY*k/4,y=Y(val);ctx.lineWidth=1;ctx.strokeStyle='#e0e9e3';ctx.beginPath();ctx.moveTo(pad.l,y);ctx.lineTo(w-pad.r,y);ctx.stroke();ctx.fillStyle='#82988c';ctx.fillText(String(Math.round(val)),pad.l-7,y+3);
+    }
+    ctx.textAlign='center';ctx.fillStyle='#8da194';for(let d=0;d<=150;d+=30){ctx.fillText(String(d),X(d),h-13)}
+    ctx.fillStyle='#8ba091';ctx.textAlign='left';ctx.fillText('누적 PAR · mol m⁻²',pad.l,12);
+    // Delayed maturity provides a longer natural-sunlight accumulation window.
+    if(sc.extend>0){ctx.fillStyle='rgba(238,210,128,.22)';ctx.fillRect(X(seasonBaseMature),pad.t,X(sc.end)-X(seasonBaseMature),ph);ctx.fillStyle='#a58944';ctx.textAlign='center';ctx.font='10px sans-serif';ctx.fillText('추가 수광기간',X(seasonBaseMature)+(X(sc.end)-X(seasonBaseMature))/2,pad.t+13)}
+    const series=[{name:'open',end:seasonBaseMature,shade:0,color:'#9ebba4'},{name:'shade',end:seasonBaseMature,shade:sc.shade,color:'#d2a56a'},{name:'night',end:sc.end,shade:sc.shade,color:'#287e68'}];
+    ctx.setLineDash([5,5]);ctx.strokeStyle='#b4cbbb';ctx.beginPath();ctx.moveTo(X(seasonBaseMature),pad.t);ctx.lineTo(X(seasonBaseMature),Y(0));ctx.stroke();ctx.setLineDash([]);
+    for(const seriesSpec of series){let cum=0;const maxDay=Math.min(seriesSpec.end,Math.floor(seasonMaxDay*seasonProgress));ctx.beginPath();ctx.moveTo(X(0),Y(0));for(let day=1;day<=maxDay;day++){cum+=seasonDli(day)*(1-seriesSpec.shade/100);ctx.lineTo(X(day),Y(cum))}ctx.lineWidth=seriesSpec.name==='night'?3.5:2.7;ctx.strokeStyle=seriesSpec.color;ctx.lineCap='round';ctx.lineJoin='round';ctx.stroke();if(maxDay===seriesSpec.end){ctx.beginPath();ctx.arc(X(seriesSpec.end),Y(cum),seriesSpec.name==='night'?4.3:3.6,0,Math.PI*2);ctx.fillStyle=seriesSpec.color;ctx.fill();}}
+    // Trailing day indicator across graph during animation.
+    if(seasonProgress<1){const current=Math.floor(seasonMaxDay*seasonProgress);ctx.strokeStyle='rgba(50,125,102,.30)';ctx.setLineDash([3,5]);ctx.beginPath();ctx.moveTo(X(current),pad.t);ctx.lineTo(X(current),Y(0));ctx.stroke();ctx.setLineDash([])}
+}
+function updateSeason(){const sc=getSeasonScenario();$('seasonShadeValue').textContent=sc.shade+'%';$('headingDelayValue').textContent=sc.delay+'일';$('extensionRatioValue').textContent=Math.round(sc.ratio*100)+'%';$('headingResult').textContent=(seasonBaseHeading+sc.delay)+' DAT';$('headingCompare').textContent='기준 +'+sc.delay+'일';$('maturityResult').textContent=sc.end+' DAT';$('maturityCompare').textContent='기준 +'+sc.extend+'일';$('seasonExtraPar').textContent='+'+nf.format(Math.round(sc.gained));$('seasonRecovery').textContent=sc.loss>0?sc.recovery.toFixed(0)+'%':'해당 없음';$('tlMaturity').textContent=sc.end+'일';setTimelineBars(sc);drawSeasonGraph(sc)}
+function replaySeason(){cancelAnimationFrame(seasonAnimation);seasonProgress=0;const start=performance.now();function frame(now){seasonProgress=Math.min(1,(now-start)/2400);updateSeason();if(seasonProgress<1)seasonAnimation=requestAnimationFrame(frame);}seasonAnimation=requestAnimationFrame(frame);}
+seasonInputs.forEach(input=>input.addEventListener('input',()=>{if(input.id==='seasonShade'){$('shadeRatio').value=input.value;calculate();}updateSeason();}));
+$('replaySeason').addEventListener('click',replaySeason);
+$('shadeRatio').addEventListener('input',()=>{$('seasonShade').value=$('shadeRatio').value;updateSeason()});
+window.addEventListener('resize',()=>updateSeason());
+updateSeason();replaySeason();
+
+})();
+</script>
+</body>
+</html>
